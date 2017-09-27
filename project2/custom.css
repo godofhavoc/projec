@@ -1,0 +1,119 @@
+
+
+*{
+border:	1px solid red;
+}
+
+.clearfix: after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.your-package-details{
+	  width:15.868055555555555vw;
+     height: 1.597222222222222vh;
+     font-family: BentonSans;
+     font-size: 1.6666666666666665vw;
+    text-align: left;
+     color: #000000;
+     margin-top: 12.75vh;
+     margin-left:8.229166666666666vw ;
+}
+
+.Rectangle-1407{
+	width:51.63194444444444vw;
+	height:17.25vh;
+	margin-left: 8.57638888888889vw;
+	margin-top:2.05vh;
+}
+
+.package-name{
+	width:6.736111111111111vw;
+	height:1.15vh;
+	margin-left:2.0833333333333335vw;
+	margin-top: 2.65vh;
+	display:inline-block;
+	font-size:0.8333333333333333vw;
+	text-align: left;
+}
+
+.Mystique-Meghalaya{
+	width:9.305555555555555vw;
+	height: 1.35vh;
+	margin-left:11.25vw;
+	display:inline-block;
+	font-size:0.8333333333333333vw; 
+}
+
+.ITINERARY {
+width: 4.513888888888888vw;
+margin-left:2.0833333333333335vw;
+height:1.15vh;
+display:inline-block;
+height: 1.35vh;
+font-size:0.8333333333333333vw;
+font-weight: 500;
+margin-top: 6.2vh;
+
+}
+
+.Nainital-2N > ul{
+
+	margin-left:11.25vw;
+	width: 36.041666666666664vw;
+}
+
+.Nainital-2N > ul > li{
+	list-style: none;
+	float:none;
+	display: inline-block;
+	font-size:0.8333333333333333vw; 
+}
+
+.Nainital-2N{
+	height: 1.35vh;
+	display:inline-block; 
+	margin:0px;
+	/*margin-top: 6.2vh;*/
+}
+
+.travel{
+	width:5.729166666666667vw;
+	height:1.15vh;
+font-size:0.8333333333333333vw;
+margin-left:2.0833333333333335vw;
+margin-top: 6.2vh; 
+display:inline-block; 
+}
+
+.dates{
+display:inline-block; 
+margin-left:19.6875vh;
+font-size:0.8333333333333333vw;
+
+}
+
+.traveller{
+	width:5.416666666666667vw;
+	height:1.15vh;
+	font-size:0.8333333333333333vw;
+margin-left:2.0833333333333335vw;
+margin-top: 6.2vh; 
+display:inline-block; 
+}
+
+.people{
+display:inline-block; 
+margin-left:19.6875vh;
+font-size:0.8333333333333333vw;
+}
+
+.Traveller-details{
+     width:12.1875vw;
+	 margin-left: 8.229166666666666vw;
+	 height: 1.597222222222222vh;
+     font-family: BentonSans;
+     font-size: 1.6666666666666665vw;
+     margin-top: 4.4vh;
+}
