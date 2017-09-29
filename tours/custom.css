@@ -1,0 +1,941 @@
+.rectangle-container{
+  display:inline-block; 
+}
+
+.rectangle1{
+  
+  width:6.4vw;
+  height: 0.5333333333333333vw;
+  background-color: #ffffff;
+  margin-left:3.7333333333333334vw;
+  margin-top:3.7333333333333334vw;
+  background-color: #7e7e7e;
+  
+}
+.rectangle2{
+  margin-top:1.6vw;
+   width:6.4vw;
+   height: 0.5333333333333333vw;
+   margin-left:3.7333333333333334vw;
+  background-color: #7e7e7e; 
+}
+
+.search{
+    display: inline-block;
+    width: 6.4vw ;
+    height:6.4vw ;
+    margin-left: 77.8vw;
+    margin-top: 3.2vw;
+     color: #7e7e7e; 
+}
+
+.search img{
+  width:100%;
+  height: 100%;
+}
+
+
+.image-container{
+  background-image:url("./assests/dubai.jpg");
+  width:92vw;
+  height:146.66666666666666vw;
+  margin-top:  4.533333333333333vw;
+  margin-left: 3.5vw;
+  margin-right: 4vw;
+  background-size:cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.header-title{
+  font-size: 10.666666666666666vw;
+  position: absolute;
+   font-weight: 500;
+    color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    top: 41vh;
+    left: 36vw;
+}
+
+.tours{
+   font-size: 36.3px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+    margin-left: 56px;
+    margin-top: 3vh;
+    display: inline-block;
+    color: #000000;
+    font-weight: 500;
+}
+
+.tours-element{
+ font-size: 36.3px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+   margin-left: 109px;
+    margin-top: 3vh;
+     display: inline-block;
+      color: #000000;
+        font-weight: 500;
+}
+
+.first-line{
+  width:92vw;
+ margin-top: 2.3952095808383236vh;
+  margin-left: 3.5vw;
+ height: 0.14970059880239522vh;
+  background-color: #7e7e7e;
+}
+
+
+
+
+
+.customizable-title{
+    height: 0.43412608531521324vh;
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+     margin-top: 121px;
+}
+
+
+.Customisable-Tours {
+    width: 100vw;
+}
+
+
+.Customisable-Tours-title {
+    /*width: 84vw;*/
+    font-size: 6.4vw;
+    height: 6.133333333333334vw;
+    text-align: center;
+}
+
+.customizable-image {
+    width: 89.6vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 46.666666666666664vw;
+    position: relative;
+    /*margin-left: 5.333333333333333vw;*/
+   margin-top: 14.933333vw;
+   text-align: center;
+}
+
+.customizable-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.trip-plan{
+    position: absolute;
+    font-size: 28px;
+    height: 2.933333333333333vw;
+    font-weight: 500;
+    /* text-align: left; */
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    top: 2.466667vw;
+    /* left: 633px; */
+    right: 23px;
+}
+
+.pic-text {
+   font-size: 47px;
+    /*position: absolute;*/
+      margin-top: -268px;
+    left: 23.6vw;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.pic-text2 {
+    font-size: 39px;
+    /*position: absolute;*/
+   /* top: 25.066666666666666vw;*/
+   margin-top: 12px;
+    left: 29.333333333333332vw;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.star-box {
+    display: inline-block;
+    height: 8vw;
+   margin-top: -2vh;
+    left: 8.666667vw;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 2px;
+     border-radius: 2px;
+     background-color: #ffffff;
+     z-index: 1;
+}
+
+.star-holder{
+     display: inline-block;
+    padding-left: 25px;
+    vertical-align: top;
+    padding-top: 18px;
+   padding-bottom: 13.8px;
+    padding-right: 8.2px;
+    border: solid 1px #f5b303;
+
+}
+
+.star-holder2{
+  display: inline-block;
+    padding-left: 25px;
+    vertical-align: top;
+    padding-top: 18px;
+   padding-bottom: 13.8px;
+    padding-right: 8.2px;
+    /*border: solid 1px #f5b303;*/
+}
+
+.star-holder3{
+     display: inline-block;
+    padding-left: 25px;
+    vertical-align: top;
+    padding-top: 18px;
+   padding-bottom: 13.8px;
+    padding-right: 8.2px;
+}
+
+.star{
+background-image: url("./assests/star.png");
+background-size: cover;
+display: inline-block;
+width:4vw;
+height: 3.7333333333333334vw;
+}
+
+
+
+.price3000{
+  margin-left: 3.733333vw;
+    display: inline-block;
+    font-size: 33px;
+    /* margin-top: 2.6666666666666665vw; */
+    padding-right: 25px;
+    vertical-align: top;
+    padding-top: 16px;
+}
+
+.rectangle2 {
+    position: relative;
+    width: 89.6vw;
+    height: 50.733333vw;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: #ffffff;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.gold{
+  font-size: 3.2vw;
+  height: 5.333333333333333vw;
+  margin-top: 8.8vw;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: left;
+  color: #000000;
+    margin-left: 6vw;
+  display: inline-block;
+}
+
+.gold span{
+   color: #f5b303;
+}
+
+.borders{
+   display: inline-block;
+  width: 0.5333333333333333vw;
+  margin-top: 8.8vw;
+  height: 3.2vw;
+  border: solid 1px #b0b0b0;
+ margin-left: 1.666667vw;
+}
+
+.sydney{
+  font-size: 3.2vw;
+  height: 5.333333333333333vw;
+  margin-top: 8.8vw;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: left;
+  color: #000000;
+   /*margin-left: 2vw;*/
+      margin-left: 2vw;
+  display: inline-block;
+}
+
+.sydney span{
+   color: #f5b303;
+}
+
+.perth{
+  font-size: 3.2vw;
+  height: 5.333333333333333vw;
+  margin-top: 8.8vw;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: left;
+  color: #000000;
+  /*margin-left: 2vw;*/
+     margin-left: 3vw;
+  display: inline-block;
+}
+
+.perth span{
+   color: #f5b303;
+}
+
+.mel{
+  font-size: 3.2vw;
+  height: 5.333333333333333vw;
+  margin-top: 1.3333333333333333vw;
+  font-weight: 500;
+  line-height: 1.67;
+  text-align: left;
+  color: #000000;
+    margin-left: 6vw;
+  
+}
+
+.mel span{
+   color: #f5b303;
+}
+
+.rectangle-image{
+   width:6vw;
+   height:3vh;
+   background-size: cover;
+  margin-left: 6vw;
+    margin-top: 1.5vh;
+  background-image: url("./assests/aeroplane.png");
+  display: inline-block;
+
+}
+
+
+.two-flights{
+ display: inline-block;
+  margin-top: 2vh;
+  font-size: 4vw;
+  margin-left: 1vw;
+
+}
+
+.rectangle-image2{
+  width:6vw;
+   height:3vh;
+   background-size: cover;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  background-image: url("./assests/car.png");
+  display: inline-block;
+}
+
+.rectangle-image3{
+  width:6vw;
+   height:3vh;
+   background-size: cover;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  background-image: url("./assests/hotel2.png");
+  display: inline-block;
+}
+
+.rectangle-image4{
+  width:6vw;
+   height:3vh;
+   background-size: cover;
+   margin-left: 7vw;
+    margin-top: 2vh;
+  background-image: url("./assests/breakfast.png");
+  display: inline-block;
+}
+
+
+.rectangle-image5{
+  width:6vw;
+   height:3vh;
+   background-size: cover;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  background-image: url("./assests/paratrooper.png");
+  display: inline-block;
+}
+
+.blue-button-container{
+        width: 395px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.button-text{
+    font-family: BentonSans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.67;
+    color: #ffffff;
+    padding: 21px 27px 21px 27px;
+    border-radius: 2px;
+    background-color: #12b1bf;
+    margin-top: 138px;
+}
+
+
+.diff{
+    width: 53.333333333333336vw;
+    height: 0.03775009437523594vh;
+    margin-top: 24vw;
+    margin-left: 23.2vw;
+    border: solid 0.6px #dddddd;
+  }
+
+.diff{
+    width: 53.333333333333336vw;
+    height: 0.03775009437523594vh;
+   margin-top: 111px;
+    margin-left: 23.2vw;
+    border: solid 0.6px #dddddd;
+}
+
+  .popular-title{
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 4.132503vh;
+  }
+
+  .dubai-image{
+    background-image: url("./assests/dubai.jpg");
+    margin-top: 10.666666666666666vh;
+    margin-left:5.333333333333333vw;
+    background-size:cover;
+  background-repeat:no-repeat;
+  }
+
+  .dubai-text{
+    font-size: 5.333333333333333vw;
+    text-align: left;
+    padding-top: 258.9px;
+     padding-bottom: 258.9px;
+     text-align: center;
+     color: #ffffff;        
+  }
+
+   .bali-image{
+     background-image: url("./assests/dubai.jpg");
+    margin-top: 12px;
+    margin-left:5.333333333333333vw;
+    background-size:cover;
+  background-repeat:no-repeat;
+  }
+
+.bali-text{
+   font-size: 5.333333333333333vw;
+    text-align: left;
+    padding-top: 258.9px;
+     padding-bottom: 258.9px;
+     text-align: center;
+     color: #ffffff;     
+}
+
+.arrow-rectangle{
+    background-image: url(./assests/back.png);
+    width: 9vw;
+    height: 9vh;
+    position: absolute;
+    margin-top: -38vh;
+    left: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-rectangle2{
+   background-image: url(./assests/next.png);
+    width: 9vw;
+    height: 9vh;
+    position: absolute;
+    margin-top: -38vh;
+    left: 90vw;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.maldives-image{
+    background-image: url("./assests/dubai.jpg");
+      margin-top: 10.666666666666666vh;
+    margin-left:5.333333333333333vw;
+    background-size:cover;
+  background-repeat:no-repeat;
+
+  }
+
+   .maldives-text{
+   font-size: 5.333333333333333vw;
+    text-align: left;
+    padding-top: 258.9px;
+     padding-bottom: 258.9px;
+     text-align: center;
+     color: #ffffff;          
+}
+
+
+.malaysia-image{
+   background-image: url("./assests/dubai.jpg");
+      margin-top:12px;
+    margin-left:5.333333333333333vw;
+    background-size:cover;
+  background-repeat:no-repeat;
+
+  }
+
+   .malaysia-text{
+    font-size: 5.333333333333333vw;
+    text-align: left;
+    padding-top: 258.9px;
+     padding-bottom: 258.9px;
+     text-align: center;
+     color: #ffffff;          
+      
+}
+
+
+.experience-title{
+    height: 4.434126vh;
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 4.132503vh;
+  }
+
+  .top-experience-container{
+    margin-top: 16vw;
+  }
+
+  .hemis-wrapper{
+    margin-top: 1.933333vw;
+  }
+
+.image{
+    width: 17.866666666666667vw;
+    height: 17.866666666666667vw;
+    display: inline-block;
+    margin-top: 12.8vw;
+    margin-left: 8.533333333333333vw;
+  }
+
+.image img{
+  width:100%;
+  height:100%;
+}
+
+.text-container{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13vw;
+    width:40vw;
+}
+
+.title{
+    font-size: 4.8vw;
+    margin-left: 4.533333333333333vw;
+    /*vertical-align: top;*/
+    margin-top: 0.866667vh;
+}
+
+.small-description{
+    width:60vw;
+    font-size: 3vw;
+    font-family: BentonSans-Book;
+    margin-left: 4.533333333333333vw;
+    margin-top: 1vh;
+     opacity: 0.5;
+}
+
+.exp-line{
+  width:92.26666666666667vw;
+  height: 0.03775009437523594vh;
+  margin-left:3.7333333333333334vw;
+  border: solid 0.6px #dddddd;
+  margin-top: 8.266666666666667vw;
+
+}
+
+.tips-title{
+    height: 4.434126vh;
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 7.132503vh;
+  }
+
+  .tip-suggestion-container{
+    margin-top: 16vw;
+  }
+
+  .hemis-wrapper{
+    margin-top: 1.933333vw;
+  }
+
+.newimage{
+    width: 21.333333333333332vw;
+    height: 30.933333333333334vw;
+    display: inline-block;
+    margin-top: 12.8vw;
+    margin-left: 3.7333333333333334vw;
+  }
+
+.newimage img{
+  width:100%;
+  height:100%;
+}
+
+.text-container{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13vw;
+    width:40vw;
+}
+
+.newtitle{
+  width: 64vw;
+    font-size: 4.8vw;
+    margin-left: 4.533333333333333vw;
+    /*vertical-align: top;*/
+    /*margin-top: 0.866667vh;*/
+}
+
+.newsmall-description{
+    width:60vw;
+    font-size: 4vw;
+    font-family: BentonSans-Book;
+    margin-left: 4.533333333333333vw;
+    margin-top: 1vh;
+     opacity: 0.5;
+     font-family: BentonSans-Book;
+}
+
+.exp-line{
+  width:92.26666666666667vw;
+  height: 0.03775009437523594vh;
+  margin-left:3.7333333333333334vw;
+  border: solid 0.6px #dddddd;
+  margin-top: 8.266666666666667vw;
+
+}
+
+.more-experience{
+width:42.666666666666664vw;
+height:9.066666666666666vw;
+ border-radius: 2px;
+  background-color: #12b1bf;
+  font-size: 3.2vw;
+  font-weight: 500;
+  line-height: 1.67;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 4.8vw;
+   margin-left: 28.533333333333335vw;
+   margin-top: 10.666666666666666vw;
+}
+
+.month {
+margin-top:11.466666666666667vw;
+ height:9.333333333333334vw;
+
+}
+
+.weather-title{
+    height: 4.434126vh;
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 7.132503vh;
+  }
+
+.blank-month{
+    display: inline-block;
+    width: 1.6vw;
+    height: 9.333333333333334vw;
+    border-radius: 3.3px;
+    background-color: rgba(232, 232, 232, 0.5);
+}
+
+.filed-month{
+     display: inline-block;
+    width: 15.733333333333333vw;
+    height: 9.333333333333334vw;
+    border-radius: 3.3px;
+    background-color: #12b1bf;
+    font-size: 4.533333333333333vw;
+    margin-left: 2.6666666666666665vw;
+    padding-left:35px;
+    padding-bottom: 1.6vw;
+    padding-top: 13px;
+    vertical-align: top;
+    font-family: BentonSans-Book;
+}
+
+.blank-monthlast{
+    display: inline-block;
+    width: 1.6vw;
+    height: 9.333333333333334vw;
+    border-radius: 3.3px;
+    background-color: rgba(232, 232, 232, 0.5);
+    margin-left: 23px;
+}
+
+.Best-time-image{
+ height: 14vh;
+  margin-top:  18.4vw;
+}
+
+.Best-time-image img{
+  width:100%;
+  height:100%;
+}
+
+.Temperuture-image{
+ height: 14vh;
+  margin-top:  18.4vw;
+}
+
+.Temperuture-image img{
+  width:100%;
+  height:100%;
+}
+
+
+.weather-image{
+ height: 14vh;
+  margin-top:  18.4vw;
+}
+
+.weather-image img{
+  width:100%;
+  height:100%;
+}
+
+.humidity-image{
+  height: 14vh;
+  margin-top: 18.4vw;
+}
+
+.humidity-image img{
+  width:100%;
+  height:100%;
+}
+
+
+.time-weather-text1 {
+  margin-top: 40px;
+   font-family: BentonSans;
+   font-size: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.time-weather-text2{
+    font-family: BentonSans;
+   font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+
+
+
+/*.duration1{
+  width:45vw;
+  display: inline-block;
+  float:left;
+}
+
+.duration2{
+  width:45vw;
+  display: inline-block;
+  float:left;
+}*/
+
+
+/*.Best-time{
+font-size:4.8vw;
+margin-left:15.466666666666667vw;
+ /*display: inline-block;*/
+ /*margin-top: 10.666666666666666vw;
+}
+
+.MAY-JUN{
+  font-size: 5.333333333333333vw;
+  margin-left: 13.866666666666667vw;
+  margin-top:  5.333333333333333vw;
+  display: inline-block;
+
+}
+
+.temp{
+ font-size:4.8vw;
+ margin-left: 10.466667vw;
+ margin-top: 10.666666666666666vw;
+}
+
+.temp-no{
+  font-size: 5.333333333333333vw;
+      margin-left: 16.666667vw;
+  margin-top:  5.333333333333333vw;
+}*/
+
+.Blogs-container{
+
+  overflow-x: scroll;
+  width:100vw;
+   white-space: nowrap;
+   overflow-y: hidden;
+   height: 67vh;
+}
+.Blogs-and-articles{
+  display: inline-block;
+   white-space: normal;
+}
+
+.Blogs-and-articles-title{
+    height: 0.43412608531521324vh;
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+       margin-top: 60px;
+}
+
+.blog-mountain{
+ background-image: url("./assests/mountain2.jpg");
+ width:80.8vw;
+ height: 48vw;
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-left: 5.066666666666666vw;
+ margin-top: 10.666666666666666vw;
+}
+
+.rectangle-blog{
+  width:80.8vw;
+ height: 48vw;
+ margin-left: 5.066666666666666vw;
+ background-color: #ffffff;
+  box-shadow: 1px 1px 16px 0 rgba(194, 194, 194, 0.5);
+}
+
+.las-vegas{
+ font-size:5.333333333333333vw;
+  margin-left: 4.533333333333333vw;
+ padding-top: 4.066667vw;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+}
+ 
+ .rect-text{
+  width: 69.933333vw;
+  margin-top: 2.933333333333333vw;
+  font-size:  4.266666666666667vw;
+  margin-left: 4.533333333333333vw;
+   opacity: 0.4;
+   color: #000000;
+ }
+
+.text1{
+  font-size:5.866666666666666vw;
+   letter-spacing: 1.1px;
+  text-align: center;
+  color: #12b1bf;
+ margin-top: 60.3px;
+}
+
+.text{
+  font-size: 3.466666666666667vw;
+   font-weight: bold;
+  margin-top: 38.2px;
+   margin-bottom: 24.2px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #000000;
+}
+
+.private-limited{
+    opacity: 0.5;
+    font-family: BentonSans;
+    font-size: 41px;
+    font-weight: bold;
+    line-height: 1.43;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #000000;
+    margin-top: 49px;
+    margin-bottom: 98px;
+
+}
+
+.facebook{
+    display: inline-block;
+    /*margin-top: 21.933333vw;*/
+   margin-left: 36.9px;
+    margin-bottom: 36.7px;
+     width: 80px;
+    height: 73.2px;
+}
+
+.facebook img{
+  width:100%;
+  height:100%;
+}
+
+.instagram{
+    display: inline-block;
+    /*margin-top: 21.933333vw;*/
+   margin-left:66.6px;
+    margin-bottom: 10vh;
+    width: 80px;
+    height: 73.2px;
+    background-repeat: no-repeat;
+}
+
+.instagram img{
+ width:100%;
+  height:100%;
+}
+
+
+
+.twitter{
+    display: inline-block;
+    /*margin-top: 21.933333vw;*/
+    margin-left:66.6px;
+    margin-bottom: 10vh;
+    width: 80px;
+    height: 73.2px;
+    background-repeat: no-repeat;
+}
+
+.twitter img{
+ width:100%;
+  height:100%;
+}

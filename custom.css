@@ -33,6 +33,7 @@
   background-color: #ffffff;
   margin-left:3.7333333333333334vw;
   margin-top:3.7333333333333334vw;
+  background-color: #ffffff;
   
 }
 .rectangle2{
@@ -1349,20 +1350,20 @@ background-image: url("./assests/multiple.png");
 
 
 .Blogs-container{
-  /*display:inline;*/
+
   overflow-x: scroll;
-  height:50vh;
+  width:100vw;
    white-space: nowrap;
-   /*transform: translateY(-50%);*/
-   position: relative;
+   overflow-y: hidden;
+   height: 67vh;
 }
 .Blogs-and-articles{
   display: inline-block;
-  box-sizing: border-box;
+   white-space: normal;
 }
 
 .Blogs-and-articles-title{
-  height: 0.43412608531521324vh;
+    height: 0.43412608531521324vh;
     text-align: center;
     font-size: 6.4vw;
     color: #000000;
