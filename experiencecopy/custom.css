@@ -1,0 +1,147 @@
+.container{
+	width:auto;
+}
+
+.main-wrapper{
+	 background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-title{
+	font-size: 3.7333333333333334vw;
+	margin-top: 5.066666666666666vw;
+	font-weight: 500;
+  text-align:center;
+  color: #000000;
+    opacity: 0.7;
+}
+
+.details-wrapper{
+	width: 91.46666666666667vw;
+    /* height: 126.13333333333334vw; */
+    margin-top: 5.866666666666666vw;
+    padding-bottom: 5.066666666666666vw;
+    margin-left: 4.8vw;
+    border-radius: 3px;
+    /* background-color: rgba(53, 189, 201, 0.02); */
+    background-color: white;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+}
+
+.date-time-wrapper{
+	margin-top: 4.533333333333333vw;
+	margin-left:2.6666666666666665vw;
+}
+
+.time{
+  font-size: 3.2vw;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #000000;
+}
+
+.date{
+font-size: 2.6666666666666665vw;
+ opacity: 0.5;
+  text-align: left;
+  color: #000000;
+}
+
+.place{
+	font-size: 3.7333333333333334vw;
+	 font-weight: 500;
+  /*text-align: left;*/
+  color: #000000;
+}
+
+.airport{
+	font-size:  3.2vw;
+	width:49.06666666666667vw;
+}
+
+.place-airport-wrapper{
+	margin-top: 4.533333333333333vw;
+	margin-left:2.933333333333333vw;
+	display: inline-block;
+}
+
+.flight-wrapper{
+	margin-top: 2.4vw;
+	margin-left:2.6666666666666665vw;
+}
+
+.emirates-image{
+width:11.2vw;
+height:8vw;
+}
+
+.image-responsive{
+	width:100%;
+	height:100%;
+}
+
+.flight-no{
+  font-size: 2.1vw;;
+}
+
+.emirates-description{
+	    margin-top: 4.533333333333333vw;
+    margin-left: 2.933333333333333vw;
+}
+
+.duration-wrapper{
+	display: inline-block;
+
+}
+
+.type-wrapper{
+	display: inline-block;
+	margin-left: 8.8vw;
+}
+
+.luggage-wrapper{
+display: inline-block;
+margin-left: 8.8vw;
+
+}
+
+.text1{
+	font-size:  2.6666666666666665vw;
+	 opacity: 0.3;
+	 font-weight: 500;
+     color: #000000;
+         padding-top: 1.2vw;
+}
+
+.text2{
+	font-size:  2.6666666666666665vw;
+	 color: #000000;
+	  font-weight: 500;
+	  opacity: 0.5;
+}
+
+.price-wrapper{
+	display: inline-block;
+	font-size: 3.7333333333333334vw;
+	margin-top: 4.533333333333333vw;
+	vertical-align: top;
+	font-weight: 500;
+	color: #12b1bf;
+	text-align: right;
+}
+
+.gap-line{
+	width: 68.8vw;
+	height: 0.5333333333333333vw;
+	border: solid 1px rgba(48, 56, 70, 0.2);
+	margin-top: 5.066666666666666vw;
+	margin-left: 2.933333333333333vw;
+}
+
+.layover{
+	font-size: 3.2vw;
+	 opacity: 0.5;
+	  color: #000000;
+	  margin-top: 3.466666666666667vw;
+	  margin-left: 2.933333333333333vw;
+}

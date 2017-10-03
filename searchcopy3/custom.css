@@ -1,0 +1,69 @@
+.container{
+    width: auto;
+}
+
+.hero-title{
+	font-size: 4.266666666666667vw;
+	margin-top: 5.066666666666666vw;
+	font-weight: 500;
+  text-align: left;
+  color: #000000;
+   opacity: 0.3;
+}
+
+
+.separation-line{
+	margin-top: 5.066666666666666vw;
+	width:100vw;
+  height:0.26666666666666666vw;
+  background-color: rgba(126, 126, 126, 0.3);
+}
+
+.sub-title{
+	    font-size: 3.2vw;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-top: 5.333333333333333vw;
+    text-align: left;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 5.066666666666666vw;
+}
+
+.text{
+	width:90.13333333333334vw;
+	font-size:  5.333333333333333vw;
+	margin-top: 11.733333333333333vw;
+	margin-bottom:  7.733333333333333vw;
+	margin-left:  5.066666666666666vw;
+	 opacity: 0.5;
+	  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #000000;
+}
+
+.text span{
+	color: #35bdc9;
+	 font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.submit{
+	width: 53.06666666666667vw;
+	height:13.866666666666667vw;
+	font-size:  5.333333333333333vw;
+	 background-color: #35bdc9;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding-top: 2.933333333333333vw;
+  padding-bottom: 2.933333333333333vw;
+   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 23.466666666666665vw;
+  margin-top: 7.733333333333333vw;
+}

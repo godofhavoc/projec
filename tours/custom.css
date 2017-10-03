@@ -52,15 +52,17 @@
     font-weight: 500;
     color: #ffffff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    padding-top: 615px;
+    padding-top:68.26666666666667vw;
 }
 
 .tours {
-    font-size: 36.3px;
+    /*font-size: 36.3px;*/
+    font-size: 3.466666666666667vw;
     font-weight: 500;
     text-align: left;
     color: #000000;
-    margin-left: 56px;
+    /*margin-left: 56px;*/
+    margin-left:5.066666666666666vw;
     margin-top: 3vh;
     display: inline-block;
     color: #000000;
@@ -68,11 +70,13 @@
 }
 
 .tours-element {
-    font-size: 36.3px;
+   /* font-size: 36.3px;*/
+   font-size: 3.466666666666667vw;
     font-weight: 500;
     text-align: left;
     color: #000000;
-    margin-left: 109px;
+    /*margin-left: 109px;*/
+    margin-left: 11.8vw;
     margin-top: 3vh;
     display: inline-block;
     color: #000000;
@@ -80,7 +84,7 @@
 }
 
 .header-line {
-    width: 92vw;
+    width: 98vw;
     margin-top: 2.3952095808383236vh;
     margin-left: 3.5vw;
     height: 0.14970059880239522vh;
@@ -127,24 +131,27 @@
 }
 
 .trip-plan {
-    font-size: 28px;
+    /*font-size: 28px;*/
+    font-size: 3.2vw;
     font-weight: 500;
     color: #ffffff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-top: -407px;
     text-align: right;
-    margin-right: 99px;
+   margin-right: 75px;
 }
 
 .pic-text {
-    font-size: 47px;
+    /*font-size: 47px;*/
+    font-size: 5.333333333333333vw;
     color: #ffffff;
     font-weight: 500;
     margin-top: 85px;
 }
 
 .pic-text2 {
-    font-size: 39px;
+    /*font-size: 39px;*/
+    font-size: 3.7333333333333334vw;
     margin-top: 12px;
     color: #ffffff;
     font-weight: 500;
@@ -204,8 +211,10 @@
 .price3000 {
     margin-left: 3.733333vw;
     display: inline-block;
-    font-size: 33px;
-    padding-right: 25px;
+    /*font-size: 33px;*/
+    font-size: 3.2vw;
+    /*padding-right: 25px;*/
+    padding-right: 4.533333333333333vw;
     vertical-align: top;
     padding-top: 16px;
 }
@@ -361,7 +370,13 @@
 
 .button-text {
     font-family: BentonSans;
-    font-size: 32px;
+    /*font-size: 32px;*/
+    font-size: 3.2vw;
+    /* margin-left: 66.6px; */
+    /*margin-left: 13.6vw;*/
+    margin-bottom: 10.666666666666666vw;
+    height: 9.066666666666666vw;
+    width: 42.666666666666664vw;
     font-weight: 500;
     line-height: 1.67;
     color: #ffffff;
@@ -395,8 +410,8 @@
     margin-top: 4.132503vh;
 }
 
-.dubai-image {
-    background-image: url(./assests/dubai.jpg);
+.leh-image {
+    background-image: url(./assests/leh.jpg);
     margin-top: 10.666666666666666vh;
     margin-left: 5.333333vw;
     background-size: cover;
@@ -412,8 +427,8 @@
     color: #ffffff;
 }
 
-.bali-image {
-    background-image: url(./assests/dubai.jpg);
+.pangong-image {
+    background-image: url(./assests/pangong.jpg);
     margin-top: 12px;
     margin-left: 5.333333333333333vw;
     background-size: cover;
@@ -447,16 +462,16 @@
 }
 
 
-.maldives-image {
-    background-image: url(./assests/dubai.jpg);
+.nubra-valley-image {
+    background-image: url(./assests/nubra-valley.jpg);
     margin-top: 10.666666666666666vh;
     margin-right: 6.33vw;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.malaysia-image {
-    background-image: url(./assests/dubai.jpg);
+.diksit-image {
+    background-image: url(./assests/diksit.jpg);
     margin-top: 12px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -495,9 +510,12 @@
 }
 
 .title {
-    font-size: 4.8vw;
+        font-size: 4.8vw;
     margin-left: 4.533333333333333vw;
     margin-top: 0.866667vh;
+    font-weight: 500;
+    /* text-align: left; */
+    color: #000000;
 }
 
 .small-description {
@@ -507,6 +525,7 @@
     margin-left: 4.533333333333333vw;
     margin-top: 1vh;
     opacity: 0.5;
+    color: #000000;
 }
 
 .exp-line {
@@ -552,6 +571,10 @@
     width: 64vw;
     font-size: 4.8vw;
     margin-left: 4.533333333333333vw;
+    font-weight: 500;
+    line-height: 1.56;
+    /* text-align: left; */
+    color: #000000;
 }
 
 .newsmall-description {
@@ -562,6 +585,8 @@
     margin-top: 1vh;
     opacity: 0.5;
     font-family: BentonSans-Book;
+    line-height: 1.43;
+    color: #000000;
 }
 
 .exp-line {
@@ -613,10 +638,26 @@
     width: 15.733333333333333vw;
     height: 9.333333333333334vw;
     border-radius: 3.3px;
+    background-color: rgba(232, 232, 232, 0.5);
+    color: #000000;
+    font-size: 4.533333333333333vw;
+    margin-left: 2.6666666666666665vw;
+    padding-bottom: 1.6vw;
+    padding-top: 13px;
+    vertical-align: top;
+    font-family: BentonSans-Book;
+    text-align: center;
+}
+
+.filed-month-highlight {
+    display: inline-block;
+    width: 15.733333333333333vw;
+    height: 9.333333333333334vw;
+    border-radius: 3.3px;
     background-color: #12b1bf;
     font-size: 4.533333333333333vw;
     margin-left: 2.6666666666666665vw;
-    padding-left: 35px;
+    text-align: center;
     padding-bottom: 1.6vw;
     padding-top: 13px;
     vertical-align: top;
@@ -655,14 +696,16 @@
 .time-weather-text1 {
     margin-top: 40px;
     font-family: BentonSans;
-    font-size: 42px;
+    /*font-size: 42px;*/
+    font-size: 4.8vw;
     text-align: center;
     color: #000000;
 }
 
 .time-weather-text2 {
     font-family: BentonSans;
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: 5.333333333333333vw;
     font-weight: 500;
     text-align: center;
     color: #000000;
@@ -760,10 +803,9 @@
 
 .facebook {
     display: inline-block;
-    margin-left: 36.9px;
     margin-bottom: 10vh;
-    width: 80px;
-    height: 73.2px;
+    height: 6.933333333333334vw;
+    width: 6.466667vw;
 }
 
 .image-responsive{
@@ -773,18 +815,16 @@
 
 .instagram {
     display: inline-block;
-    margin-left: 66.6px;
     margin-bottom: 10vh;
-    width: 80px;
-    height: 73.2px;
-    background-repeat: no-repeat;
+    margin-left: 13.6vw;
+    height: 6.933333333333334vw;
+    width: 6.466667vw;
 }
 
 .twitter {
     display: inline-block;
-    margin-left: 66.6px;
+    margin-left: 13.6vw;
     margin-bottom: 10vh;
-    width: 80px;
-    height: 73.2px;
-    background-repeat: no-repeat;
+    height: 6.933333333333334vw;
+    width: 6.466667vw;
 }
