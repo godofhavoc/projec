@@ -1,39 +1,20 @@
-/*.rectangle-container{
-  display:inline-block; 
+
+.dropdown-container{
+  display: inline-block;
+    width: 9.4vw;
+    height: 6.4vw;
+    margin-top: 5.2vw;
+    margin-left: 3vw;   
 }
 
-.rectangle1{
-  
-  width:6.4vw;
-  height: 0.5333333333333333vw;
-  background-color: #ffffff;
-  margin-left:3.7333333333333334vw;
-  margin-top:3.7333333333333334vw;
-  background-color: #7e7e7e;
-  
-}
-.rectangle2{
-  margin-top:1.6vw;
-   width:6.4vw;
-   height: 0.5333333333333333vw;
-   margin-left:3.7333333333333334vw;
-  background-color: #7e7e7e; 
-}*/
-
-
-/*.search{
+.search{
     display: inline-block;
-    width: 6.4vw ;
-    height:6.4vw ;
-    margin-left: 77.8vw;
-    margin-top: 3.2vw;
-     color: #7e7e7e; 
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-left: 74.8vw;
+    margin-top: 5.2vw;
+    color: #7e7e7e;
 }
-
-.search img{
-  width:100%;
-  height: 100%;
-}*/
 
 .image-container {
     background-image: url("./assests/dubai.jpg");
@@ -130,6 +111,14 @@
     height: 100%;
 }
 
+.itinerary{
+        margin-top: -63vw;
+    width: 6vw;
+    display: inline-block;
+    margin-left: 17vw;
+}
+
+
 .trip-plan {
     /*font-size: 28px;*/
     font-size: 3.2vw;
@@ -138,7 +127,7 @@
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-top: -407px;
     text-align: right;
-   margin-right: 75px;
+    margin-right: 75px;
 }
 
 .pic-text {
@@ -214,9 +203,15 @@
     /*font-size: 33px;*/
     font-size: 3.2vw;
     /*padding-right: 25px;*/
-    padding-right: 4.533333333333333vw;
+    /*padding-right: 4.533333333333333vw;*/
     vertical-align: top;
     padding-top: 16px;
+}
+
+.roundi{
+    display: inline-block;
+    width: 4vw;
+    padding-right: 1vw;
 }
 
 .rectangle2 {
@@ -734,7 +729,7 @@
 }
 
 .blog-mountain {
-    background-image: url("./assests/mountain2.jpg");
+    background-image: url("./assests/alchi.jpg");
     width: 80.8vw;
     height: 48vw;
     background-size: cover;

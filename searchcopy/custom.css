@@ -11,6 +11,19 @@
    opacity: 0.3;
 }
 
+.hero-search{
+	width: 4.266666666666667vw;
+    height: 4.266666666666667vw;
+    margin-top: 5.8vw;
+    margin-left: 6vw;
+}
+
+.hero-cross{
+	width: 4vw;
+    height: 4vw;
+    margin-top: 5.8vw;
+}
+
 .separation-line{
 	margin-top: 5.066666666666666vw;
 	/*margin-bottom: 622px;*/
