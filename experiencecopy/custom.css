@@ -4,6 +4,7 @@
 
 .main-wrapper{
 	 background-color: rgba(0, 0, 0, 0.3);
+   height: 161vw;
 }
 
 .hero-title{
@@ -30,7 +31,7 @@
 
 .flights-place-time-detail{
     height: 43.46666666666667vw;
-    border-right: 4px solid black;
+    border-right: solid 1px rgba(48, 56, 70, 0.2);
 }
 
 .date-time-wrapper{
@@ -152,42 +153,78 @@ margin-left: 8.8vw;
 	  margin-left: 1.933333vw;
 }
 
-.dummy-wrapper{
-	width: 91.46666666666667vw;
-	margin-left: 6.8vw;
-	border-left: 5px solid yellow;
-}
-
-.dummy-date-time-wrapper{
-
-}
-
 .change-flight-button{
 	width: 42.93333333333333vw;
     font-size: 3.7333333333333334vw;
-    background-color:#12b1bf;
+    background-color: #12b1bf;
     font-weight: 500;
     text-align: center;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6.933333333333334vw;
+    margin-top: 8.933333vw;
     margin-bottom: 4vw;
     padding-top: 4.533333333333333vw;
     padding-bottom: 4.533333333333333vw;
 }
 
 .back-button{
-	width: 42.93333333333333vw;
+	  width: 42.93333333333333vw;
     font-size: 3.7333333333333334vw;
-    background-color:#6f6f6f;
+    background-color: #6f6f6f;
     font-weight: 500;
     text-align: center;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6.933333333333334vw;
+    margin-top: 8.933333vw;
     margin-bottom: 4vw;
     padding-top: 4.533333333333333vw;
     padding-bottom: 4.533333333333333vw;
+}
+
+.box3{
+    height: 12vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    /*background-color: #ffffff;*/
+    /*box-shadow: 0 0 4px 0 #b2b2b2;*/
+    position: absolute;
+    top: 148vw;
+    border-left: 6px solid #f5b303;
+    border-top: 1px solid black;
+}
+
+
+
+  .actual-time {
+    margin-top: 4.533333333333333vw;
+    font-size: 2.6666666666666665vw;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.Leisure {
+    font-size: 3.466666666666667vw;
+   margin-top: 4vw;
+    color: #000000;
+    display: inline-block;
+}
+
+.add-button {
+    width: 12.8vw;
+    height: 4.266666666666667vw;
+    font-size: 2.6666666666666665vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #12b1bf;
+    border: solid 1px #12b1bf;
+    display: inline-block;
+    margin-left: 57vw;
+    vertical-align: top;
+    margin-top: -4vw;
 }

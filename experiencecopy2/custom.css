@@ -1,0 +1,399 @@
+.container{
+	width:auto;
+}
+
+.image-responsive{
+	width:100%;
+	height: 100%;
+}
+
+.hero-title{
+	font-size: 3.7333333333333334vw;
+	margin-top: 5.066666666666666vw;
+	font-weight: 500;
+ text-align: -webkit-center;
+  color: #000000;
+    opacity: 0.7;
+}
+
+.background-seperate-line{
+	border-right: solid 1px #979797;
+        height: 183vw;
+    width: 17vw;
+    position: relative;
+}
+
+.box{
+    width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 13.06vw;
+    border-left:6px solid yellow;
+}
+
+.time-wrapper{
+	text-align: -webkit-center;
+    /* border-right: 4px dashed black; */
+    border-right: dashed 5px rgba(48, 56, 70, 0.2);
+}
+
+.actual-time{
+	margin-top: 4.533333333333333vw;
+font-size: 2.6666666666666665vw;
+ font-weight: 500;
+  letter-spacing: 0.2px;
+   color: #000000;
+}
+
+.cross{
+	width: 5.933333vw;
+    height: 3.933333vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 27vw;
+    margin-top: -3vw;
+}
+
+
+
+.logo{
+	width:4vw;
+	display: inline-block;
+	height:4.266666666666667vw;
+	margin-top: 4.533333333333333vw;
+}
+
+.section1{
+	margin-top: 4vw;
+}
+
+.bom{
+	display: inline-block;
+	font-size: 3.7333333333333334vw;
+}
+
+.mumbai-india{
+	display: inline-block;
+font-size:3.466666666666667vw;
+margin-left: 8.533333333333333vw;
+ opacity: 0.5;
+  color: #000000;
+}
+
+.cross2{
+	width: 5.933333vw;
+    height: 3.933333vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 67vw;
+    margin-top: -8vw;
+}
+
+.section2{
+	margin-top: 3.8vw;
+	font-size: 2.6666666666666665vw;
+}
+
+.text-container{
+	margin-left: 0.933333vw;
+}
+
+.text{
+	display: inline-block;
+	width: 10vw;
+	border-right:2px solid black;
+	 opacity: 0.5;
+	 font-weight: 500;
+   text-align: left;
+  color: #000000;
+}
+
+.text1{
+	display: inline-block;
+	    width: 14vw;
+	border-right:2px solid black;
+	 opacity: 0.5;
+	 font-weight: 500;
+   text-align: left;
+  color: #000000;
+}
+
+.text2{
+display: inline-block;
+opacity: 0.5;
+	 font-weight: 500;
+  text-align: left;
+  color: #000000;
+}
+
+.section3{
+	margin-top: 2.8vw;
+}
+
+
+.dps{
+display: inline-block;
+	font-size: 3.7333333333333334vw;
+	font-weight: 500;
+  text-align: center;
+  color: #000000;
+}
+
+.Denpasar-Indonesia{
+display: inline-block;
+font-size:3.466666666666667vw;
+margin-left: 8.533333333333333vw;
+ opacity: 0.5;
+  color: #000000;
+}
+
+.section3-price{
+	display: inline-block;
+	font-size:  3.2vw;
+	margin-left: 10vw;
+	font-weight: 500;
+  text-align: right;
+  color: #000000;
+
+}
+
+.box1{
+	width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 43.0vw;
+    border-left: 6px solid #12b1bf;
+}
+
+.shared{
+	display: inline-block;
+	    width:10vw;
+	border-right:2px solid black;
+	 opacity: 0.5;
+	 font-weight: 500;
+   /*text-align: left;*/
+  color: #000000;
+}
+
+.box2-section3-price{
+	display: inline-block;
+	font-size:  3.2vw;
+	margin-left: 14vw;
+	font-weight: 500;
+  text-align: right;
+  color: #000000;
+
+}
+
+.box2{
+	width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 73vw;
+    border-left: 6px solid #7f7f7f;
+}
+
+.part1{
+	margin-top: 4vw;
+}
+
+.part2{
+	/*margin-top: 0.8vw;*/
+	font-size: 2.6666666666666665vw;
+}
+
+.review{
+	display: inline-block;
+  color: #006699;
+  letter-spacing: 0.3px;
+}
+
+.circle-image{
+display: inline-block;
+}
+
+.part3{
+	margin-top: 2.8vw;
+}
+.hotel{
+	font-size: 3.466666666666667vw;
+}
+
+.part3-price{
+	margin-left: 61vw;
+	font-size: 3.2vw;
+	font-weight: 500;
+    /*text-align: right;*/
+    color: #000000;
+}
+
+.box3{
+	width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 103vw;
+    border-left: 6px solid #f5b303;
+
+}
+
+.Leisure{
+font-size: 3.466666666666667vw;
+margin-top: 12vw;
+color: #000000;
+display: inline-block;
+}
+.add-button{
+	width: 12.8vw;
+    height: 4.266666666666667vw;
+    font-size: 2.6666666666666665vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #12b1bf;
+    border: solid 1px #12b1bf;
+    display: inline-block;
+    margin-left: 44vw;
+    vertical-align: top;
+    margin-top: 10vw;
+}
+
+.activities{
+	font-size: 2.6666666666666665vw;
+	margin-left: 54vw;
+}
+
+.box4{
+	width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 133vw;
+    border-left: 6px solid #12b1bf;
+}
+
+.box4-review{
+	display: inline-block;
+  color: #006699;
+  letter-spacing: 0.3px;
+}
+
+.box4-part3{
+ font-size: 2.6666666666666665vw;
+}
+
+.Shared-Transfer{
+	 width: 21vw;
+    display: inline-block;
+    border-right: 2px solid black;
+    opacity: 0.5;
+        margin-top: 1vw;
+}
+
+.dinner{
+display: inline-block;
+opacity: 0.5;
+}
+
+.pick-up{
+	margin-top: 4vw;
+	display: inline-block;
+}
+
+.box4-part4{
+font-size: 2.6666666666666665vw;
+}
+
+.box4-part4-price{
+	display: inline-block;
+	margin-left: 28vw;
+	font-size: 3.2vw;
+}
+
+.box5{
+	width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+        top: 163vw;
+    border-left: 6px solid #7f7f7f;
+}
+
+.box5-part4-price{
+	width: 12.8vw;
+    height: 4.266666666666667vw;
+    font-size: 2.6666666666666665vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #12b1bf;
+    border: solid 1px #12b1bf;
+    display: inline-block;
+    margin-left: 44vw;
+    vertical-align: top;
+    margin-top: 10vw;
+}
+.box5-part4{
+font-size: 2.6666666666666665vw;
+}
+
+.free{
+	display: inline-block;
+    width: 12.8vw;
+    height: 4.266666666666667vw;
+    font-size: 2.666667vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+     color: #0ab21b;
+    border-radius: 2px;
+    margin-left: 21vw;
+  background-color: #ffffff;
+  border: solid 1px #0ab21b;
+}
+
+.MODIFY-TOUR{
+	font-size: 3.7333333333333334vw;
+	 background-color: #f5b303;
+	 color: white;
+	 text-align: center;
+	 height: 12.266666666666667vw;
+	     padding-top: 4vw;
+	     margin-top: 21vw;
+	     margin-bottom:40vw;
+}
+.BOOK{
+	font-size: 3.7333333333333334vw;
+	background-color: #12b1bf;
+	 color: white;
+	 text-align: center;
+	 height: 12.266666666666667vw;
+	     padding-top: 4vw;
+	     margin-top: 21vw;
+	     margin-bottom:40vw;
+}
