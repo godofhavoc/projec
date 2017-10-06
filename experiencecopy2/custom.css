@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: BentonSans-Bold;
+    src: url(./assest/BentonSans-Bold.otf);
+}
+
+body{
+	font-family:BentonSans-Bold;
+}
+
 .container{
 	width:auto;
 }
@@ -8,11 +18,11 @@
 }
 
 .hero-title{
-	font-size: 3.7333333333333334vw;
-	margin-top: 5.066666666666666vw;
-	font-weight: 500;
- text-align: -webkit-center;
-  color: #000000;
+        width: 93.466667vw;
+    margin-left: 3.8vw;
+    font-size: 3.7333333333333334vw;
+    margin-top: 5.066666666666666vw;
+    font-weight: 500;
     opacity: 0.7;
 }
 
@@ -32,7 +42,7 @@
     box-shadow: 0 0 4px 0 #b2b2b2;
     position: absolute;
     top: 13.06vw;
-    border-left:6px solid yellow;
+    border-left:6px solid #f5b303;
 }
 
 .time-wrapper{
@@ -54,7 +64,7 @@ font-size: 2.6666666666666665vw;
     height: 3.933333vw;
     display: inline-block;
     vertical-align: top;
-    margin-left: 27vw;
+    margin-left: 28vw;
     margin-top: -3vw;
 }
 
@@ -104,22 +114,22 @@ margin-left: 8.533333333333333vw;
 
 .text{
 	display: inline-block;
-	width: 10vw;
-	border-right:2px solid black;
-	 opacity: 0.5;
-	 font-weight: 500;
-   text-align: left;
-  color: #000000;
+    width: 10vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
 }
 
 .text1{
 	display: inline-block;
-	    width: 14vw;
-	border-right:2px solid black;
-	 opacity: 0.5;
-	 font-weight: 500;
-   text-align: left;
-  color: #000000;
+    width: 13vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
 }
 
 .text2{
@@ -131,7 +141,7 @@ opacity: 0.5;
 }
 
 .section3{
-	margin-top: 2.8vw;
+	margin-top: 3.4vw;
 }
 
 
@@ -154,7 +164,7 @@ margin-left: 8.533333333333333vw;
 .section3-price{
 	display: inline-block;
 	font-size:  3.2vw;
-	margin-left: 10vw;
+	margin-left: 17vw;
 	font-weight: 500;
   text-align: right;
   color: #000000;
@@ -175,22 +185,20 @@ margin-left: 8.533333333333333vw;
 
 .shared{
 	display: inline-block;
-	    width:10vw;
-	border-right:2px solid black;
-	 opacity: 0.5;
-	 font-weight: 500;
-   /*text-align: left;*/
-  color: #000000;
+    width: 8.5vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    color: #000000;
 }
 
 .box2-section3-price{
 	display: inline-block;
 	font-size:  3.2vw;
-	margin-left: 14vw;
+	margin-left: 20vw;
 	font-weight: 500;
   text-align: right;
   color: #000000;
-
 }
 
 .box2{
@@ -210,7 +218,6 @@ margin-left: 8.533333333333333vw;
 }
 
 .part2{
-	/*margin-top: 0.8vw;*/
 	font-size: 2.6666666666666665vw;
 }
 
@@ -232,7 +239,7 @@ display: inline-block;
 }
 
 .part3-price{
-	margin-left: 61vw;
+	    margin-left: 63vw;
 	font-size: 3.2vw;
 	font-weight: 500;
     /*text-align: right;*/
@@ -260,24 +267,26 @@ display: inline-block;
 }
 .add-button{
 	width: 12.8vw;
-    height: 4.266666666666667vw;
-    font-size: 2.6666666666666665vw;
+    height: 4vw;
+    font-size: 2vw;
     font-weight: 500;
     letter-spacing: 0.3px;
     text-align: center;
     color: #ffffff;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #12b1bf;
     border: solid 1px #12b1bf;
     display: inline-block;
-    margin-left: 44vw;
+    margin-left: 46vw;
     vertical-align: top;
     margin-top: 10vw;
+    padding-top: 0.7vw;
 }
 
 .activities{
-	font-size: 2.6666666666666665vw;
-	margin-left: 54vw;
+	    font-size: 2.6666666666666665vw;
+    margin-left: 56vw;
+    margin-top: -1vw;
 }
 
 .box4{
@@ -303,7 +312,7 @@ display: inline-block;
 }
 
 .Shared-Transfer{
-	 width: 21vw;
+	    width: 18vw;
     display: inline-block;
     border-right: 2px solid black;
     opacity: 0.5;
@@ -316,8 +325,13 @@ opacity: 0.5;
 }
 
 .pick-up{
-	margin-top: 4vw;
+	margin-top: 3.5vw;
 	display: inline-block;
+}
+
+.Gold-Souk-pick-up{
+    margin-top: 8.5vw;
+    display: inline-block;
 }
 
 .box4-part4{
@@ -326,8 +340,9 @@ font-size: 2.6666666666666665vw;
 
 .box4-part4-price{
 	display: inline-block;
-	margin-left: 28vw;
+	margin-left: 32vw;
 	font-size: 3.2vw;
+     font-weight: 500;
 }
 
 .box5{
@@ -372,9 +387,11 @@ font-size: 2.6666666666666665vw;
     text-align: center;
      color: #0ab21b;
     border-radius: 2px;
-    margin-left: 21vw;
+    margin-left: 23vw;
   background-color: #ffffff;
   border: solid 1px #0ab21b;
+  margin-top: 6vw;
+    vertical-align: top;
 }
 
 .MODIFY-TOUR{

@@ -1,6 +1,15 @@
 .container{
 	width:auto;
 }
+@font-face {
+    font-family: BentonSans-Bold;
+    src: url(./assest/BentonSans-Bold.otf);
+}
+
+body{
+  font-family:BentonSans-Bold;
+}
+
 
 .hero-title{
 	font-size: 4.266666666666667vw;

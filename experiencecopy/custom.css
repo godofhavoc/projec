@@ -2,17 +2,26 @@
 	width:auto;
 }
 
+@font-face {
+    font-family: BentonSans-Bold;
+    src: url(./assest/BentonSans-Bold.otf);
+}
+
+body{
+  font-family:BentonSans-Bold;
+}
+
 .main-wrapper{
 	 background-color: rgba(0, 0, 0, 0.3);
    height: 161vw;
 }
 
 .hero-title{
-	font-size: 3.7333333333333334vw;
-	margin-top: 5.066666666666666vw;
-	font-weight: 500;
- text-align: -webkit-center;
-  color: #000000;
+        width: 93.466667vw;
+    margin-left: 3.8vw;
+    font-size: 3.7333333333333334vw;
+    margin-top: 5.066666666666666vw;
+    font-weight: 500;
     opacity: 0.7;
 }
 

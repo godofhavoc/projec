@@ -4,13 +4,68 @@
 <head>
     <link rel="stylesheet" href="custom.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+ 
+    <style>
+    .slide {
+        position: relative;
+        background-color: rgba(232, 232, 232, 0.5);
+        color: #000000;
+        /*opacity: 0.5;*/
+        border: 1px solid #ddd;
+        text-align: center;
+        min-height: 40px;
+        margin-top: 0;
+       margin-left: 2.3vw;
+    }
+
+    .slick-track {
+        height: 40px;
+    }
+
+    .slide h2{
+        text-align: center;
+    margin-top: 0;
+    padding-top: 18px;
+    font-size: 35px;
+     }
+
+     .entity h2{
+        font-size: 29px;
+     }
+     
+     /*.slick-slide {
+    height: 7vw !important;
+}*/
+        
+     .slide{
+        height: 7vw !important;
+     }
+
+     .slick-center{
+        background-color:#12b1bf;
+        color:white;
+     }
+     .slick-prev.slick-arrow{
+        display: none !important;
+     }
+     .slick-next.slick-arrow{
+        display: none !important;
+    }
+   
+    </style>
+  
+
 </head>
 
 <body>
     <section class="main-container">
     <div class="dropdown-container">
       <img src="./assests/Dropdown.svg" class="image-responsive">
-    </div><!end of dropdown-container-->
+    </div><!--end of dropdown-container-->
     
     <div class="search">
         <img src="./assests/search.svg" class="image-responsive">
@@ -23,13 +78,35 @@
             <!--end of header-title-->
         </div>
         <!--end of image container-->
-        <div class="after-image-text">
+
+       <section class="tours-list">
+        <div class="entity">
+            <h2>TOURS</h2>
+        </div>
+        <div class="entity">
+            <h2>PLACES</h2>
+        </div>
+        <div class="entity">
+            <h2>EXPERIENCE</h2>
+        </div>
+        <div class="entity">
+            <h2>TIPS</h2>
+        </div>
+        <div class="entity">
+            <h2>WEATHER</h2>
+        </div>
+        <div class="entity">
+            <h2>BLOGS</h2>
+        </div>
+    </section>
+
+        <!-- <div class="tours-list">
             <div class="tours">TOURS</div>
             <div class="tours-element">PLACES</div>
             <div class="tours-element">EXPERIENCE</div>
             <div class="tours-element">TIPS</div>
-        </div>
-        <!--end of after-image-text-->
+        </div> -->
+        <!--end of tours-list-->
         <div class="header-line"></div>
         <!--end of header-line-->
         <section class="customizable-tours">
@@ -474,7 +551,7 @@
             <div class="weather-title">
                 Time/Weather
             </div>
-            <div class="month">
+            <!-- <div class="month">
                 <div class="blank-month">
                 </div>
                 <div class="filed-month">
@@ -494,8 +571,32 @@
                 </div>
                 <div class="blank-monthlast">
                 </div>
-            </div>
+            </div> -->
             <!--end of month-->
+
+      <section class="month">
+        <div class="slide">
+            <h2>MAY</h2>
+        </div>
+        <div class="slide">
+            <h2>JUN</h2>
+        </div>
+        <div class="slide">
+            <h2>JUL</h2>
+        </div>
+        <div class="slide">
+            <h2>AUG</h2>
+        </div>
+        <div class="slide">
+            <h2>SEP</h2>
+        </div>
+        <div class="slide">
+            <h2>OCT</h2>
+        </div>
+    </section>
+
+
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6">
@@ -629,6 +730,26 @@
         </section>
     </section>
     <!--end of main container-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('.month').slick({
+            slidesToShow: 5,
+            infinite: true,
+            slidesToScroll: 3,
+            speed: 500,
+            centerMode: true,
+        });
+
+         $('.tours-list').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay:false,
+  autoplaySpeed: 2000,
+});
+
+
+    });
+    </script>
 </body>
 
 </html>
