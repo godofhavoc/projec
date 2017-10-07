@@ -162,7 +162,6 @@ body{
 
 
 .trip-plan {
-    /*font-size: 28px;*/
     font-size: 3.2vw;
     font-weight: 500;
     color: #ffffff;
@@ -173,7 +172,6 @@ body{
 }
 
 .pic-text {
-    /*font-size: 47px;*/
     font-size: 5.333333333333333vw;
     color: #ffffff;
     font-weight: 500;
@@ -181,7 +179,6 @@ body{
 }
 
 .pic-text2 {
-    /*font-size: 39px;*/
     font-size: 3.7333333333333334vw;
     margin-top: 12px;
     color: #ffffff;
@@ -242,10 +239,7 @@ body{
 .price3000 {
     margin-left: 3.733333vw;
     display: inline-block;
-    /*font-size: 33px;*/
     font-size: 3.2vw;
-    /*padding-right: 25px;*/
-    /*padding-right: 4.533333333333333vw;*/
     vertical-align: top;
     padding-top: 16px;
 }
@@ -407,10 +401,7 @@ body{
 
 .button-text {
     font-family: BentonSans;
-    /*font-size: 32px;*/
     font-size: 3.2vw;
-    /* margin-left: 66.6px; */
-    /*margin-left: 13.6vw;*/
     margin-bottom: 10.666666666666666vw;
     height: 9.066666666666666vw;
     width: 42.666666666666664vw;
@@ -447,37 +438,181 @@ body{
     margin-top: 4.132503vh;
 }
 
-.leh-image {
+/*.leh-image {
     background-image: url(./assests/leh.jpg);
     margin-top: 10.666666666666666vh;
     margin-left: 5.333333vw;
     background-size: cover;
     background-repeat: no-repeat;
-}
+}*/
 
 .Top-place-to-visit-text {
     font-size: 5.333333333333333vw;
+    position: absolute;
+    /*text-align: left;*/
+    top: 29vw;
+    left: 21vw;
+    /*padding-top: -77.1px;*/
+    /* padding-bottom: 258.9px; */
+    /*text-align: center;*/
+    color: #ffffff;
+
+
+    /*font-size: 5.333333333333333vw;
+    position: absolute;
     text-align: left;
     padding-top: 258.9px;
     padding-bottom: 258.9px;
     text-align: center;
+    color: #ffffff;*/
+}
+
+.Top-place-to-visit-text2 {
+    font-size: 5.333333333333333vw;
+    position: absolute;
+    /*text-align: left;*/
+    top: 89vw;
+    left: 16vw;
+    /*padding-top: -77.1px;*/
+    /* padding-bottom: 258.9px; */
+    /*text-align: center;*/
     color: #ffffff;
 }
 
-.pangong-image {
+
+.Top-place-to-visit-text3 {
+    font-size: 5.333333333333333vw;
+    position: absolute;
+    /*text-align: left;*/
+    top: 29vw;
+    left: 61vw;
+    /*padding-top: -77.1px;*/
+    /* padding-bottom: 258.9px; */
+    /*text-align: center;*/
+    color: #ffffff;
+}
+
+.Top-place-to-visit-text4 {
+    font-size: 5.333333333333333vw;
+    position: absolute;
+    /*text-align: left;*/
+    top: 89vw;
+    left: 69vw;
+    /*padding-top: -77.1px;*/
+    /* padding-bottom: 258.9px; */
+    /*text-align: center;*/
+    color: #ffffff;
+}
+
+.gallery-container{
+    width: 100%;
+    height: 132vw;
+    overflow: hidden;
+}
+
+
+.gallery {
+        position: relative;
+       margin-left: 0.2vw;
+        /*background-color: rgba(232, 232, 232, 0.5);*/
+        /*color: #000000;*/
+        /*opacity: 0.5;*/
+        /*border: 1px solid #ddd;*/
+        text-align: center;
+        /*min-height: 40px;*/
+        margin-top: 0;
+        /*margin-left: 26px;*/
+       width: 100vw !important;
+    height: 122vw !important;
+    margin-top: 8vw;
+    }
+
+    .slide-entity{
+        width:44.8vw !important;
+       height: 57.2vw !important;
+        margin-top: 3vw;
+       margin-left: 3vw;
+    }
+
+   /* .slide-entity1{
+        margin-top: 20px;
+        width:25vw !important;
+        height:30vw !important;
+    }*/
+
+   /* .slide img{
+        width: 100%;
+        height:100%;
+    }*/
+
+    .image-responsive{
+        width: 100%;
+        height:100%;
+    }
+
+    .slick-track {
+        height: 40px;
+    }
+
+     h2{
+        text-align: center;
+    margin-top: 0;
+    padding-top: 8px;
+     }
+     
+     .slick-center{
+        background-color:#12b1bf;
+        color:white;
+     }
+     .slick-prev.slick-arrow{
+        display: none !important;
+     }
+     .slick-next.slick-arrow{
+        display: none !important;
+    }
+
+  .block1{
+    display: inline-block;
+  }
+
+  .block2{
+    display: inline-block;
+  }
+
+    .gallery-container{
+        /*width:92vw;*/
+        /*margin-left: 9vw;*/
+        /*background-color: none;*/
+        /*border: none;*/
+        /*border:0px solid;*/
+        /*text-align: left;*/
+        width:100%;
+    }
+
+
+
+
+
+
+
+
+
+
+/*.pangong-image {
     background-image: url(./assests/pangong.jpg);
     margin-top: 12px;
     margin-left: 5.333333333333333vw;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+*/
 .arrow-rectangle {
     background-image: url(./assests/back.png);
     width: 9vw;
     height: 7vh;
     position: absolute;
-    margin-top: -3vh;
+    /*margin-top: -3vh;*/
+    top: 55vw;
     border-radius: 50%;
     background-color: white;
     background-repeat: no-repeat;
@@ -489,8 +624,9 @@ body{
     width: 9vw;
     height: 7vh;
     position: absolute;
-    margin-top: -3vh;
-    left: 40vw;
+    /*margin-top: -3vh;*/
+    top: 55vw;
+    left: 94vw;
     border-radius: 50%;
     background-color: white;
     z-index: 1;
@@ -499,7 +635,7 @@ body{
 }
 
 
-.nubra-valley-image {
+/*.nubra-valley-image {
     background-image: url(./assests/nubra-valley.jpg);
     margin-top: 10.666666666666666vh;
     margin-right: 6.33vw;
@@ -513,7 +649,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 6.33vw;
-}
+}*/
 
 .experience-title {
     height: 4.434126vh;
