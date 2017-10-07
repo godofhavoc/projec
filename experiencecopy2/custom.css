@@ -71,10 +71,32 @@ font-size: 2.6666666666666665vw;
 
 
 .logo{
-	width:4vw;
-	display: inline-block;
-	height:4.266666666666667vw;
-	margin-top: 4.533333333333333vw;
+	width: 5vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.logo2{
+    width: 6vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.logo3{
+    width: 9vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.logo4{
+    display: inline-block;
+   width: 5.6vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
 }
 
 .section1{
@@ -85,6 +107,17 @@ font-size: 2.6666666666666665vw;
 	display: inline-block;
 	font-size: 3.7333333333333334vw;
 }
+
+.star-image{
+    display: inline-block;
+    width: 8vw;
+    height: 3vw;
+    vertical-align: top;
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+
+}
+
 
 .mumbai-india{
 	display: inline-block;
@@ -161,14 +194,20 @@ margin-left: 8.533333333333333vw;
   color: #000000;
 }
 
+.ruppee{
+   width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 12vw;
+    vertical-align: top;
+    margin-top: -1vw;
+}
+
 .section3-price{
 	display: inline-block;
 	font-size:  3.2vw;
-	margin-left: 17vw;
 	font-weight: 500;
-  text-align: right;
   color: #000000;
-
 }
 
 .box1{
@@ -192,12 +231,21 @@ margin-left: 8.533333333333333vw;
     color: #000000;
 }
 
+.ruppee2{
+   width: 4vw;
+    display: inline-block;
+    height: 6vw;
+   margin-left: 16vw;
+    vertical-align: top;
+    margin-top: -1vw;
+}
+
 .box2-section3-price{
 	display: inline-block;
 	font-size:  3.2vw;
-	margin-left: 20vw;
+	/*margin-left: 20vw;*/
 	font-weight: 500;
-  text-align: right;
+  /*text-align: right;*/
   color: #000000;
 }
 
@@ -227,8 +275,12 @@ margin-left: 8.533333333333333vw;
   letter-spacing: 0.3px;
 }
 
+
+
 .circle-image{
 display: inline-block;
+    width: 11vw;
+    height: 2.5vw;
 }
 
 .part3{
@@ -238,8 +290,18 @@ display: inline-block;
 	font-size: 3.466666666666667vw;
 }
 
+.ruppee3{
+ width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 58vw;
+    vertical-align: top;
+    margin-top: -1.5vw;  
+}
+
 .part3-price{
-	    margin-left: 63vw;
+    display: inline-block;
+	    /*margin-left: 63vw;*/
 	font-size: 3.2vw;
 	font-weight: 500;
     /*text-align: right;*/
@@ -338,11 +400,22 @@ opacity: 0.5;
 font-size: 2.6666666666666665vw;
 }
 
+.ruppee4{
+    width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 58vw;
+    vertical-align: top;
+    margin-top: -5.5vw;
+}
+
 .box4-part4-price{
 	display: inline-block;
-	margin-left: 32vw;
-	font-size: 3.2vw;
-     font-weight: 500;
+    /* margin-left: 32vw; */
+    font-size: 3.2vw;
+    font-weight: 500;
+    vertical-align: top;
+    margin-top: -4vw;
 }
 
 .box5{

@@ -13,7 +13,7 @@ body{
 
 .main-wrapper{
 	 background-color: rgba(0, 0, 0, 0.3);
-   height: 161vw;
+   height: 168vw;
 }
 
 .hero-title{
@@ -82,13 +82,13 @@ font-size: 2.6666666666666665vw;
 }
 
 .flight-wrapper{
-	margin-top: 4.4vw;
-  margin-left: 0.6vw;
+	margin-top: 3.7vw;
+    margin-left: 0.6vw;
 }
 
 .emirates-image{
-width:11.2vw;
-height:8vw;
+   width: 11.2vw;
+    height: 10vw;
 }
 
 .image-responsive{
@@ -100,8 +100,15 @@ height:8vw;
   font-size: 2.1vw;;
 }
 
+.black-plane{
+  width: 6vw;
+    height: 6vw;
+    margin-left: 3vw;
+}
+
+
 .emirates-description{
-	  margin-top: 1.533333vw;
+	 margin-top: 2.533333vw;
     margin-left: 1.933333vw;
 }
 
@@ -135,6 +142,15 @@ margin-left: 8.8vw;
 	  font-weight: 500;
 	  opacity: 0.5;
 }
+
+.ruppe-icon{
+  display: inline-block;
+    width: 4vw;
+    height: 3.8vw;
+    vertical-align: top;
+    margin-top: 5vw;
+}
+
 
 .price-wrapper{
 	display: inline-block;
@@ -199,7 +215,7 @@ margin-left: 8.8vw;
     /*background-color: #ffffff;*/
     /*box-shadow: 0 0 4px 0 #b2b2b2;*/
     position: absolute;
-    top: 148vw;
+    top: 155vw;
     border-left: 6px solid #f5b303;
     border-top: 1px solid black;
 }
@@ -236,4 +252,11 @@ margin-left: 8.8vw;
     margin-left: 57vw;
     vertical-align: top;
     margin-top: -4vw;
+}
+
+.arrow-image{
+  width: 4vw;
+    height: 5vw;
+    /* text-align: right; */
+    margin-left: 66vw;
 }
