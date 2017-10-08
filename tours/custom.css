@@ -606,7 +606,7 @@ body{
     background-repeat: no-repeat;
 }
 */
-.arrow-rectangle {
+.gallery-left-arrow {
     background-image: url(./assests/back.png);
     width: 9vw;
     height: 7vh;
@@ -619,7 +619,7 @@ body{
     background-position: center;
 }
 
-.arrow-rectangle2 {
+.gallery-right-arrow {
     background-image: url(./assests/next.png);
     width: 9vw;
     height: 7vh;
