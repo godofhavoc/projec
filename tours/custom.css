@@ -47,24 +47,16 @@ body{
 
 .entity {
         position: relative;
-        /*background-color: rgba(232, 232, 232, 0.5);*/
         color: #000000;
-        /*opacity: 0.5;*/
-        /*border: 1px solid #ddd;*/
         text-align: left;
         min-height: 40px;
-        /*width:20px;*/
         margin-top: 0;
-        /*margin-left: 26px;*/
-        /*margin-left: 11.8vw;*/
         font-size: 3vw;
     }
 
  .tours-list{
         width:92vw;
         margin-left: 2vw;
-        /*background-color: none;*/
-        /*border: none;*/
         border:0px solid;
          margin-top: 1.5vh;
     }
@@ -77,35 +69,10 @@ body{
 }
 
   .entity h2{
-    /*width: 20vw !important;*/
     text-align: center;
   }
   
-/*.tours {
 
-    font-size: 3.466666666666667vw;
-    font-weight: 500;
-    text-align: left;
-    color: #000000;
-    margin-left:5.066666666666666vw;
-    margin-top: 3vh;
-    display: inline-block;
-    color: #000000;
-    font-weight: 500;
-}
-
-.tours-element {
-   font-size: 3.466666666666667vw;
-    font-weight: 500;
-    text-align: left;
-    color: #000000;
-    margin-left: 11.8vw;
-    margin-top: 3vh;
-    display: inline-block;
-    color: #000000;
-    font-weight: 500;
-}
-*/
 .header-line {
     width: 98vw;
     margin-top: 0.39521vh;
@@ -113,10 +80,6 @@ body{
     height: 0.14970059880239522vh;
     background-color: #7e7e7e;
 }
-
-
-
-
 
 .customizable-title {
     height: 0.43412608531521324vh;
@@ -157,7 +120,7 @@ body{
         margin-top: -63vw;
     width: 6vw;
     display: inline-block;
-    margin-left: 17vw;
+    margin-left: 21vw;
 }
 
 
@@ -189,7 +152,7 @@ body{
     display: inline-block;
     height: 8vw;
     margin-top: -2vh;
-    left: 9.2vw;
+    left: 9vw;
     position: absolute;
     background-color: #ffffff;
     border-radius: 2px;
@@ -204,26 +167,31 @@ body{
     vertical-align: top;
     padding-top: 18px;
     padding-bottom: 13.8px;
-    padding-right: 8.2px;
+    padding-right: 18.2px;
     border: solid 1px #f5b303;
 }
 
 .star-holder2 {
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 11px;
     vertical-align: top;
-    padding-top: 18px;
+    padding-top: 14px;
     padding-bottom: 13.8px;
     padding-right: 8.2px;
+    width: 20vw;
+    height: 8vw;
+    margin-left: 1vw;
 }
 
 .star-holder3 {
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 11px;
     vertical-align: top;
-    padding-top: 18px;
+    padding-top: 17px;
     padding-bottom: 13.8px;
     padding-right: 8.2px;
+    width: 25vw;
+    height: 7.7vw;
 }
 
 .star {
@@ -237,17 +205,18 @@ body{
 
 
 .price3000 {
-    margin-left: 3.733333vw;
+   margin-left: 1.733333vw;
     display: inline-block;
     font-size: 3.2vw;
     vertical-align: top;
     padding-top: 16px;
+        color: #000000;
 }
 
 .roundi{
     display: inline-block;
-    width: 4vw;
-    padding-right: 1vw;
+    width: 5vw;
+    padding-right: 2vw;
 }
 
 .rectangle2 {
@@ -400,7 +369,6 @@ body{
 }
 
 .button-text {
-    font-family: BentonSans;
     font-size: 3.2vw;
     margin-bottom: 10.666666666666666vw;
     height: 9.066666666666666vw;
@@ -438,44 +406,19 @@ body{
     margin-top: 4.132503vh;
 }
 
-/*.leh-image {
-    background-image: url(./assests/leh.jpg);
-    margin-top: 10.666666666666666vh;
-    margin-left: 5.333333vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-}*/
-
 .Top-place-to-visit-text {
     font-size: 5.333333333333333vw;
     position: absolute;
-    /*text-align: left;*/
     top: 29vw;
     left: 21vw;
-    /*padding-top: -77.1px;*/
-    /* padding-bottom: 258.9px; */
-    /*text-align: center;*/
     color: #ffffff;
-
-
-    /*font-size: 5.333333333333333vw;
-    position: absolute;
-    text-align: left;
-    padding-top: 258.9px;
-    padding-bottom: 258.9px;
-    text-align: center;
-    color: #ffffff;*/
 }
 
 .Top-place-to-visit-text2 {
     font-size: 5.333333333333333vw;
     position: absolute;
-    /*text-align: left;*/
     top: 89vw;
     left: 16vw;
-    /*padding-top: -77.1px;*/
-    /* padding-bottom: 258.9px; */
-    /*text-align: center;*/
     color: #ffffff;
 }
 
@@ -483,24 +426,16 @@ body{
 .Top-place-to-visit-text3 {
     font-size: 5.333333333333333vw;
     position: absolute;
-    /*text-align: left;*/
     top: 29vw;
     left: 61vw;
-    /*padding-top: -77.1px;*/
-    /* padding-bottom: 258.9px; */
-    /*text-align: center;*/
     color: #ffffff;
 }
 
 .Top-place-to-visit-text4 {
     font-size: 5.333333333333333vw;
     position: absolute;
-    /*text-align: left;*/
     top: 89vw;
     left: 69vw;
-    /*padding-top: -77.1px;*/
-    /* padding-bottom: 258.9px; */
-    /*text-align: center;*/
     color: #ffffff;
 }
 
@@ -512,19 +447,13 @@ body{
 
 
 .gallery {
-        position: relative;
+    position: relative;
        margin-left: 0.2vw;
-        /*background-color: rgba(232, 232, 232, 0.5);*/
-        /*color: #000000;*/
-        /*opacity: 0.5;*/
-        /*border: 1px solid #ddd;*/
         text-align: center;
-        /*min-height: 40px;*/
         margin-top: 0;
-        /*margin-left: 26px;*/
        width: 100vw !important;
-    height: 122vw !important;
-    margin-top: 8vw;
+       height: 122vw !important;
+       margin-top: 8vw;
     }
 
     .slide-entity{
@@ -533,17 +462,6 @@ body{
         margin-top: 3vw;
        margin-left: 3vw;
     }
-
-   /* .slide-entity1{
-        margin-top: 20px;
-        width:25vw !important;
-        height:30vw !important;
-    }*/
-
-   /* .slide img{
-        width: 100%;
-        height:100%;
-    }*/
 
     .image-responsive{
         width: 100%;
@@ -579,40 +497,25 @@ body{
     display: inline-block;
   }
 
-    .gallery-container{
-        /*width:92vw;*/
-        /*margin-left: 9vw;*/
-        /*background-color: none;*/
-        /*border: none;*/
-        /*border:0px solid;*/
-        /*text-align: left;*/
-        width:100%;
-    }
 
-
-
-
-
-
-
-
-
-
-/*.pangong-image {
-    background-image: url(./assests/pangong.jpg);
-    margin-top: 12px;
-    margin-left: 5.333333333333333vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-*/
 .gallery-left-arrow {
     background-image: url(./assests/back.png);
     width: 9vw;
     height: 7vh;
     position: absolute;
-    /*margin-top: -3vh;*/
     top: 55vw;
+    border-radius: 50%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*.gallery-left-arrow {
+    background-image: url(./assests/back.png);
+    width: 9vw;
+    height: 7vh;
+    position: absolute;
+    top: 64vw;
     border-radius: 50%;
     background-color: white;
     background-repeat: no-repeat;
@@ -624,7 +527,21 @@ body{
     width: 9vw;
     height: 7vh;
     position: absolute;
-    /*margin-top: -3vh;*/
+    top: 64vw;
+    left: 194vw;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
+
+.gallery-right-arrow {
+    background-image: url(./assests/next.png);
+    width: 9vw;
+    height: 7vh;
+    position: absolute;
     top: 55vw;
     left: 94vw;
     border-radius: 50%;
@@ -633,23 +550,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-/*.nubra-valley-image {
-    background-image: url(./assests/nubra-valley.jpg);
-    margin-top: 10.666666666666666vh;
-    margin-right: 6.33vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.diksit-image {
-    background-image: url(./assests/diksit.jpg);
-    margin-top: 12px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 6.33vw;
-}*/
 
 .experience-title {
     height: 4.434126vh;
@@ -687,14 +587,12 @@ body{
     margin-left: 4.533333333333333vw;
     margin-top: 0.866667vh;
     font-weight: 500;
-    /* text-align: left; */
     color: #000000;
 }
 
 .small-description {
     width: 60vw;
     font-size: 3vw;
-    font-family: BentonSans-Book;
     margin-left: 4.533333333333333vw;
     margin-top: 1vh;
     opacity: 0.5;
@@ -746,18 +644,15 @@ body{
     margin-left: 4.533333333333333vw;
     font-weight: 500;
     line-height: 1.56;
-    /* text-align: left; */
     color: #000000;
 }
 
 .newsmall-description {
     width: 60vw;
     font-size: 4vw;
-    font-family: BentonSans-Book;
     margin-left: 4.533333333333333vw;
     margin-top: 1vh;
     opacity: 0.5;
-    font-family: BentonSans-Book;
     line-height: 1.43;
     color: #000000;
 }
@@ -798,88 +693,19 @@ body{
     margin-top: 7.132503vh;
 }
 
-
-
-/*.blank-month {
-    display: inline-block;
-    width: 1.6vw;
-    height: 9.333333333333334vw;
-    border-radius: 3.3px;
-    background-color: rgba(232, 232, 232, 0.5);
-}
-
-.filed-month {
-    display: inline-block;
-    width: 15.733333333333333vw;
-    height: 9.333333333333334vw;
-    border-radius: 3.3px;
-    background-color: rgba(232, 232, 232, 0.5);
-    color: #000000;
-    font-size: 4.533333333333333vw;
-    margin-left: 2.6666666666666665vw;
-    padding-bottom: 1.6vw;
-    padding-top: 13px;
-    vertical-align: top;
-    font-family: BentonSans-Book;
-    text-align: center;
-}
-
-.filed-month-highlight {
-    display: inline-block;
-    width: 15.733333333333333vw;
-    height: 9.333333333333334vw;
-    border-radius: 3.3px;
-    background-color: #12b1bf;
-    font-size: 4.533333333333333vw;
-    margin-left: 2.6666666666666665vw;
-    text-align: center;
-    padding-bottom: 1.6vw;
-    padding-top: 13px;
-    vertical-align: top;
-    font-family: BentonSans-Book;
-}
-
-.blank-monthlast {
-    display: inline-block;
-    width: 1.6vw;
-    height: 9.333333333333334vw;
-    border-radius: 3.3px;
-    background-color: rgba(232, 232, 232, 0.5);
-    margin-left: 23px;
-}*/
-
-.Best-time-image {
-    height: 14vh;
-    margin-top: 18.4vw;
-}
-
-.Temperuture-image {
-    height: 14vh;
-    margin-top: 18.4vw;
-}
-
 .weather-image {
-    height: 14vh;
-    margin-top: 18.4vw;
-}
-
-.humidity-image {
-    height: 14vh;
+    height: 12vh;
     margin-top: 18.4vw;
 }
 
 .time-weather-text1 {
     margin-top: 40px;
-    font-family: BentonSans;
-    /*font-size: 42px;*/
     font-size: 4.8vw;
     text-align: center;
     color: #000000;
 }
 
 .time-weather-text2 {
-    font-family: BentonSans;
-    /*font-size: 48px;*/
     font-size: 5.333333333333333vw;
     font-weight: 500;
     text-align: center;
@@ -894,6 +720,11 @@ body{
     overflow-y: hidden;
     height: 67vh;
 }
+
+.Blogs-container::-webkit-scrollbar { 
+    display: none; 
+}
+
 
 .Blogs-and-articles {
     display: inline-block;
@@ -965,7 +796,6 @@ body{
 
 .private-limited {
     opacity: 0.5;
-    font-family: BentonSans;
     font-size: 41px;
     font-weight: bold;
     line-height: 1.43;
@@ -980,7 +810,7 @@ body{
     display: inline-block;
     margin-bottom: 10vh;
     height: 6.933333333333334vw;
-    width: 6.466667vw;
+    width: 7.466667vw;
 }
 
 .image-responsive{
@@ -991,15 +821,25 @@ body{
 .instagram {
     display: inline-block;
     margin-bottom: 10vh;
-    margin-left: 13.6vw;
+    margin-left: 11.6vw;
     height: 6.933333333333334vw;
-    width: 6.466667vw;
+    width: 7.466667vw;
 }
 
 .twitter {
     display: inline-block;
-    margin-left: 13.6vw;
+    margin-left: 12.6vw;
     margin-bottom: 10vh;
     height: 6.933333333333334vw;
-    width: 6.466667vw;
+    width: 7.466667vw;
+}
+
+.active{
+    background-color: #12b1bf;
+    color: white;
+}
+
+.active2{
+    background-color: rgba(232, 232, 232, 0.5);
+        color: #000000;
 }

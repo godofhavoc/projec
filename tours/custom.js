@@ -25,4 +25,14 @@ $(document).ready(function() {
   $galleryContainer.find(".gallery-right-arrow").on("click", function() {
     $galleryContainer.slick("slickNext");
   });
+
+// // $(".slide.slick-slide.slick-active").on("click" , function(evt){
+// //   $(evt.target).addClass("active");
+// //   $(evt.target).siblings().removeClass("active");
+// //   $(evt.target).siblings().addClass("active2");
+
+
+// });
+
+
 });

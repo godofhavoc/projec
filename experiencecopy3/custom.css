@@ -1,0 +1,358 @@
+@font-face {
+    font-family:BentonSans-Bold;
+    src: url(./assest/BentonSans-Bold.otf);
+}
+
+body{
+	font-family:BentonSans-Bold;
+}
+
+
+.container{
+	width:auto;
+}
+
+.image-responsive{
+	width:100%;
+	height: 100%;
+}
+
+.main-wrapper{
+	background-color: #838383;
+}
+
+.hero-title{
+        width: 93.466667vw;
+    margin-left: 3.8vw;
+    font-size: 3.7333333333333334vw;
+    margin-top: 5.066666666666666vw;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.hotel-palm-container{
+	width: 91.46666666666667vw;
+   height: 126vw;
+    margin-left: 3.5vw;
+    border-left: 6px solid #12b1bf;
+    position: absolute;
+    /*background-color: #ffffff;*/
+    margin-top: 3vw;
+    z-index: 1;
+}
+
+.dubai-image{
+	width:100%;
+	height: 49vw;
+}
+
+.hotel-palm-details-wrapper{
+	background-color: #ffffff;
+	box-shadow: 0 0 4px 0 #b2b2b2;
+}
+
+.hotel-palm-details{
+	    width: 82vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hotel-palm-title{
+	font-size: 5vw;
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    /*padding-left: 3vw;*/
+    margin-top: 3vw;
+}
+
+.star-image{
+	display: inline-block;
+    width: 12vw;
+    height: 4vw;
+    vertical-align: top;
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+
+.price-700{
+	font-size: 5vw;
+    margin-top: 3vw;
+    text-align: right;
+}
+
+.bur-dubai{
+	font-size: 4vw;
+    text-align: left;
+    opacity: 0.5;
+    margin-top: 1vw;
+}
+
+.date{
+font-size: 4vw;
+text-align: right;
+opacity: 0.5;
+margin-top: 1vw;
+}
+
+.greencircle-image{
+	display: inline-block;
+    width: 18vw;
+    height: 5vw;
+    margin-top: 1vw;
+}
+
+.review-no{
+	display: inline-block;
+    font-size: 3.5vw;
+    opacity: 0.4;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    vertical-align: bottom;
+
+}
+
+.facility-image-container{
+	    width: 19%;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.facility-image{
+	width: 50%;
+    height: 17vw;
+     margin-top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facility-text{
+    font-size: 2.1vw;
+    text-align: center;
+}
+
+.services-list{
+	margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.services{
+	font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.background-seperate-line{
+	border-right: solid 1px #979797;
+      height: 167vw;
+    width: 17vw;
+    position: relative;
+}
+
+
+.time-wrapper{
+	text-align: -webkit-center;
+    border-right: dashed 5px rgba(48, 56, 70, 0.2);
+}
+
+.actual-time{
+	margin-top: 4.533333333333333vw;
+font-size: 2.6666666666666665vw;
+ font-weight: 500;
+  letter-spacing: 0.2px;
+   color: #000000;
+}
+
+.logo4{
+    display: inline-block;
+   width: 5.6vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.section1{
+	margin-top: 4vw;
+}
+
+.bom{
+	display: inline-block;
+	font-size: 3.7333333333333334vw;
+}
+
+.cross2{
+	width: 5.933333vw;
+    height: 3.933333vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 67vw;
+    margin-top: -8vw;
+}
+
+.section2{
+	margin-top: 3.8vw;
+	font-size: 2.6666666666666665vw;
+}
+
+.text-container{
+	margin-left: 0.933333vw;
+}
+
+.text{
+	display: inline-block;
+    width: 10vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+}
+
+.text1{
+	display: inline-block;
+    width: 13vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+}
+
+.text2{
+display: inline-block;
+opacity: 0.5;
+	 font-weight: 500;
+  text-align: left;
+  color: #000000;
+}
+
+.section3{
+	margin-top: 3.4vw;
+}
+
+.shared{
+	display: inline-block;
+    width: 8.5vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    color: #000000;
+}
+
+.part1{
+	margin-top: 3vw;
+}
+
+.part2{
+	font-size: 2.6666666666666665vw;
+}
+
+.review{
+	display: inline-block;
+  color: #006699;
+  letter-spacing: 0.3px;
+}
+
+.circle-image{
+display: inline-block;
+    width: 11vw;
+    height: 2.5vw;
+}
+
+.part3{
+	margin-top: 2.8vw;
+}
+.hotel{
+	font-size: 3.466666666666667vw;
+}
+
+.ruppee3{
+ width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 58vw;
+    vertical-align: top;
+    margin-top: -1.5vw;  
+}
+
+.part3-price{
+    display: inline-block;
+	font-size: 3.2vw;
+	font-weight: 500;
+    color: #000000;
+}
+
+.activities{
+	    font-size: 2.6666666666666665vw;
+    margin-left: 56vw;
+    margin-top: -1vw;
+}
+
+.box4{
+	width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+   margin-left: 3.8vw;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 142vw;
+    border-left: 6px solid #12b1bf;
+}
+
+.box4-review{
+	display: inline-block;
+  color: #006699;
+  letter-spacing: 0.3px;
+}
+
+.box4-part3{
+ font-size: 2.6666666666666665vw;
+}
+
+.Shared-Transfer{
+	    width: 18vw;
+    display: inline-block;
+    border-right: 2px solid black;
+    opacity: 0.5;
+        margin-top: 1vw;
+}
+
+.dinner{
+display: inline-block;
+opacity: 0.5;
+}
+
+.pick-up{
+	margin-top: 3.5vw;
+	display: inline-block;
+}
+
+.Gold-Souk-pick-up{
+    margin-top: 8.5vw;
+    display: inline-block;
+}
+
+.box4-part4{
+font-size: 2.6666666666666665vw;
+}
+
+.ruppee4{
+    width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 58vw;
+    vertical-align: top;
+    margin-top: -5.5vw;
+}
+
+.box4-part4-price{
+	display: inline-block;
+    font-size: 3.2vw;
+    font-weight: 500;
+    vertical-align: top;
+    margin-top: -4vw;
+}
+
+
+
+
+
