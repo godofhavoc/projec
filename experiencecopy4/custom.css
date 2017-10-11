@@ -1,0 +1,300 @@
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+.container{
+	width:auto;
+}
+
+.image-responsive{
+	width:100%;
+	height: 100%;
+}
+
+.header-image{
+	width: 100%;
+    height: 28vh;
+    position: relative;
+}
+
+.cross{
+	    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 2vh;
+    right: 5vw;
+}
+
+.text-container{
+	width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hotel-palm-title{
+	font-size: 4.5vw;
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    /* padding-left: 3vw; */
+    margin-top: 5vw;
+    font-family: BentonSans-Medium;
+}
+
+.star-image{
+	display: inline-block;
+    width: 12vw;
+    height: 4vw;
+    vertical-align: top;
+    margin-top: 6vw;
+    margin-left: 1vw;
+}
+
+.price-700{
+	font-size: 5vw;
+    margin-top: 5vw;
+    text-align: right;
+    font-family: BentonSans-Medium;
+}
+
+.hotel-address{
+	font-size: 3.5vw;
+    text-align: left;
+    opacity: 0.5;
+    margin-top: 1vw;
+    font-family:BentonSans-Regular;
+}
+
+.date{
+font-size: 3.5vw;
+text-align: right;
+opacity: 0.5;
+margin-top: 1vw;
+font-family:BentonSans-Regular;
+}
+
+.binocular-image{
+display: inline-block;
+    width: 10vw;
+    height: 5vw;
+    margin-top: 1vh;
+}
+
+.header-circle-image{
+display: inline-block;
+    width: 14vw;
+     margin-top: 1vh;
+    height: 4vw;
+}
+
+.header-review{
+	display: inline-block;
+    font-size: 3.5vw;
+    opacity: 0.5;
+    margin-top: 1vw;
+    vertical-align: middle;
+    margin-left: 2vw;
+    font-family: BentonSans-Regular;
+}
+
+hr {
+    margin-top: 37px !important;
+    margin-bottom: 37px !important;
+    border: 0;
+    border-top: 5px solid #eee;
+}
+
+.title{
+	font-size: 4vw;
+	 font-family: BentonSans-Regular;
+   /*margin-bottom: 2vw;*/
+}
+
+.facility-image-container{
+	    width: 19%;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.facility-image{
+	width: 50%;
+    height: 17vw;
+     /*margin-top: 3vw;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facility-text{
+    font-size: 2.1vw;
+    text-align: center;
+    font-family:BentonSans-Regular;
+}
+
+.Overview-text{
+   font-size: 3.5vw;
+    margin-top: 4vw;
+     font-family: BentonSans-Regular;
+     opacity: 0.5;
+}
+
+.Overview-text span{
+	margin-left: 2vw;
+	color: #12b1bf;
+}
+
+.room-type-wrapper{
+	margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.room-feature{
+	font-size: 3.5vw;
+	 font-family: BentonSans-Regular;
+}
+
+.board-type{
+		font-size: 3.5vw;
+		 font-family: BentonSans-Regular;
+		 opacity: 0.5;
+}
+
+.price-wrapper{
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    text-align: right;
+}
+
+.room-price{
+font-size: 3.5vw;
+ font-family: BentonSans-Regular;
+}
+
+.refund-status{
+	color:green;
+	border: 1px solid green;
+	font-size: 2.9vw;
+	 font-family: BentonSans-Regular;
+}
+
+.Hotel-Amenities-text{
+margin-top: 3vh;
+}
+
+.Amenities-values{
+	font-size: 3.5vw;
+	margin-bottom: 1vh;
+	 font-family: BentonSans-Regular;
+	 opacity: 0.5;
+}
+
+.overall-rating{
+font-size: 3.3vw;
+margin-top: 3vh;
+margin-bottom: 1.5vh;
+ font-family: BentonSans-Regular;
+ opacity: 0.5;
+}
+
+.review-image1{
+	width: 19vw;
+    height: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+}
+
+.review-image2{
+	display: inline-block;
+	width: 14vw;
+    height: 4vw;
+    /*margin-top: 3vh;*/
+    margin-bottom: 1.5vh;
+}
+
+.review-text{
+	display: inline-block;
+   font-size: 3.2vw;
+    vertical-align: middle;
+    margin-left: 2vw;
+     font-family: BentonSans-Regular;
+     opacity: 0.5;
+}
+
+.comment-title{
+  display: inline-block;
+  font-size: 3.4vw;
+   font-family: BentonSans-Regular;
+}
+
+.comment-image{
+	width: 14vw;
+    height: 4vw;
+    text-align: right;
+    margin-left: auto;
+}
+
+.person-commented{
+	font-size: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+     font-family: BentonSans-Regular;
+     opacity: 0.5;
+}
+
+.comment-text{
+	font-size: 3.2vw;
+	 font-family: BentonSans-Regular;
+	 opacity: 0.5;
+}
+
+.comment-text span{
+margin-left: 17vw;
+    color: #12b1bf;
+}
+
+.more-comment-text{
+	text-align: right;
+	margin-top: 3vh;
+	 font-family: BentonSans-Regular;
+	 opacity: 0.5;
+}
+
+.write-review{
+ display: inline-block;
+ border-right: 1px solid black;
+ font-size: 3vw;
+}
+
+.see-review{
+ display: inline-block;
+ font-size: 3vw;
+}
+
+.right-arrow{
+	display: inline-block;
+    width: 3vw;
+    height: 3vw;
+    vertical-align: super;
+}
+
+.map-image{
+	width: 100%;
+    height: 25vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.button{
+	font-size: 3.7333333333333334vw;
+    background-color: #f5b303;
+    color: white;
+    text-align: center;
+    height: 12.266666666666667vw;
+    padding-top: 4vw;
+     font-family:BentonSans-Medium;
+}

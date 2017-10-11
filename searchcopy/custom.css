@@ -2,12 +2,12 @@
 	width:auto;
 }
 @font-face {
-    font-family: BentonSans-Bold;
-    src: url(./assest/BentonSans-Bold.otf);
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
 }
 
 body{
-  font-family:BentonSans-Bold;
+  font-family:BentonSans-Regular;
 }
 
 

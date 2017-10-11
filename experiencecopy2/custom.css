@@ -1,11 +1,12 @@
 
 @font-face {
-    font-family:BentonSans-Bold;
-    src: url(./assest/BentonSans-Bold.otf);
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
 }
 
-body{
-	font-family:BentonSans-Bold;
+@font-face {
+    font-family:BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
 }
 
 .container{
@@ -24,6 +25,8 @@ body{
     margin-top: 5.066666666666666vw;
     font-weight: 500;
     opacity: 0.7;
+    font-family:BentonSans-Regular;
+
 }
 
 .background-seperate-line{
@@ -52,11 +55,13 @@ body{
 }
 
 .actual-time{
-	margin-top: 4.533333333333333vw;
+	margin-top: 4vw;
 font-size: 2.6666666666666665vw;
  font-weight: 500;
   letter-spacing: 0.2px;
    color: #000000;
+   font-family:BentonSans-Medium;
+
 }
 
 .cross{
@@ -64,8 +69,8 @@ font-size: 2.6666666666666665vw;
     height: 3.933333vw;
     display: inline-block;
     vertical-align: top;
-    margin-left: 28vw;
-    margin-top: -3vw;
+    margin-left: 66vw;
+    margin-top: -8vw;
 }
 
 
@@ -93,7 +98,7 @@ font-size: 2.6666666666666665vw;
 
 .logo4{
     display: inline-block;
-   width: 5.6vw;
+   width: 4.6vw;
     display: inline-block;
     height: 5.266667vw;
     margin-top: 3.533333vw;
@@ -106,6 +111,7 @@ font-size: 2.6666666666666665vw;
 .bom{
 	display: inline-block;
 	font-size: 3.7333333333333334vw;
+    font-family:BentonSans-Medium;
 }
 
 .star-image{
@@ -125,6 +131,7 @@ font-size:3.466666666666667vw;
 margin-left: 8.533333333333333vw;
  opacity: 0.5;
   color: #000000;
+   font-family:BentonSans-Regular;
 }
 
 .cross2{
@@ -132,7 +139,7 @@ margin-left: 8.533333333333333vw;
     height: 3.933333vw;
     display: inline-block;
     vertical-align: top;
-    margin-left: 67vw;
+    margin-left: 66vw;
     margin-top: -8vw;
 }
 
@@ -147,22 +154,24 @@ margin-left: 8.533333333333333vw;
 
 .text{
 	display: inline-block;
-    width: 10vw;
+   width: 12vw;
     border-right: 2px solid black;
     opacity: 0.5;
     font-weight: 500;
     text-align: center;
     color: #000000;
+    font-family:BentonSans-Medium;
 }
 
 .text1{
 	display: inline-block;
-    width: 13vw;
+   width: 15vw;
     border-right: 2px solid black;
     opacity: 0.5;
     font-weight: 500;
     text-align: center;
     color: #000000;
+    font-family:BentonSans-Medium;
 }
 
 .text2{
@@ -171,10 +180,11 @@ opacity: 0.5;
 	 font-weight: 500;
   text-align: left;
   color: #000000;
+  font-family:BentonSans-Medium;
 }
 
 .section3{
-	margin-top: 3.4vw;
+	margin-top: 2.4vw;
 }
 
 
@@ -184,6 +194,7 @@ display: inline-block;
 	font-weight: 500;
   text-align: center;
   color: #000000;
+  font-family:BentonSans-Medium;
 }
 
 .Denpasar-Indonesia{
@@ -192,13 +203,14 @@ font-size:3.466666666666667vw;
 margin-left: 8.533333333333333vw;
  opacity: 0.5;
   color: #000000;
+   font-family:BentonSans-Regular;
 }
 
 .ruppee{
    width: 4vw;
     display: inline-block;
     height: 6vw;
-    margin-left: 12vw;
+  margin-left: 6vw;
     vertical-align: top;
     margin-top: -1vw;
 }
@@ -208,6 +220,7 @@ margin-left: 8.533333333333333vw;
 	font-size:  3.2vw;
 	font-weight: 500;
   color: #000000;
+  font-family:BentonSans-Medium;
 }
 
 .box1{
@@ -224,18 +237,19 @@ margin-left: 8.533333333333333vw;
 
 .shared{
 	display: inline-block;
-    width: 8.5vw;
+    width: 10.5vw;
     border-right: 2px solid black;
     opacity: 0.5;
     font-weight: 500;
     color: #000000;
+    font-family:BentonSans-Medium;
 }
 
 .ruppee2{
    width: 4vw;
     display: inline-block;
     height: 6vw;
-   margin-left: 16vw;
+    margin-left: 11vw;
     vertical-align: top;
     margin-top: -1vw;
 }
@@ -247,6 +261,7 @@ margin-left: 8.533333333333333vw;
 	font-weight: 500;
   /*text-align: right;*/
   color: #000000;
+  font-family:BentonSans-Medium;
 }
 
 .box2{
@@ -288,15 +303,16 @@ display: inline-block;
 }
 .hotel{
 	font-size: 3.466666666666667vw;
+     font-family:BentonSans-Regular;
 }
 
 .ruppee3{
  width: 4vw;
     display: inline-block;
     height: 6vw;
-    margin-left: 58vw;
+    margin-left: 57vw;
     vertical-align: top;
-    margin-top: -1.5vw;  
+    margin-top: -1.5vw;
 }
 
 .part3-price{
@@ -306,6 +322,8 @@ display: inline-block;
 	font-weight: 500;
     /*text-align: right;*/
     color: #000000;
+    font-family:BentonSans-Medium;
+
 }
 
 .box3{
@@ -326,6 +344,7 @@ font-size: 3.466666666666667vw;
 margin-top: 12vw;
 color: #000000;
 display: inline-block;
+ font-family:BentonSans-Regular;
 }
 .add-button{
 	width: 12.8vw;
@@ -349,6 +368,7 @@ display: inline-block;
 	    font-size: 2.6666666666666665vw;
     margin-left: 56vw;
     margin-top: -1vw;
+     font-family:BentonSans-Regular;
 }
 
 .box4{
@@ -374,11 +394,11 @@ display: inline-block;
 }
 
 .Shared-Transfer{
-	    width: 18vw;
+	 width: 20vw;
     display: inline-block;
     border-right: 2px solid black;
     opacity: 0.5;
-        margin-top: 1vw;
+    margin-top: 1vw;
 }
 
 .dinner{
@@ -387,13 +407,15 @@ opacity: 0.5;
 }
 
 .pick-up{
-	margin-top: 3.5vw;
+	margin-top: 2.5vw;
 	display: inline-block;
+     font-family:BentonSans-Regular;
 }
 
 .Gold-Souk-pick-up{
-    margin-top: 8.5vw;
+   margin-top: 7.5vw;
     display: inline-block;
+     font-family:BentonSans-Regular;
 }
 
 .box4-part4{
@@ -404,7 +426,7 @@ font-size: 2.6666666666666665vw;
     width: 4vw;
     display: inline-block;
     height: 6vw;
-    margin-left: 58vw;
+    margin-left: 56vw;
     vertical-align: top;
     margin-top: -5.5vw;
 }
@@ -416,6 +438,7 @@ font-size: 2.6666666666666665vw;
     font-weight: 500;
     vertical-align: top;
     margin-top: -4vw;
+    font-family:BentonSans-Medium;
 }
 
 .box5{
@@ -460,7 +483,7 @@ font-size: 2.6666666666666665vw;
     text-align: center;
      color: #0ab21b;
     border-radius: 2px;
-    margin-left: 23vw;
+   margin-left: 19vw;
   background-color: #ffffff;
   border: solid 1px #0ab21b;
   margin-top: 6vw;

@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: BentonSans-Bold;
-    src: url(./assest/BentonSans-Bold.otf);
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
 }
 
-body{
-	font-family:BentonSans-Bold;
-}
+/*body{
+  font-family:BentonSans-Regular;
+}*/
 
 .hero-title{
 	font-size: 4.266666666666667vw;
@@ -80,5 +80,6 @@ body{
 	text-align: left;
 	margin-left: 7vw;
   color: #000000;
-	/*margin-top: 12.266666666666667vw;*/
+  font-family:BentonSans-Regular;
+
 }

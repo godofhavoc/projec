@@ -1,11 +1,16 @@
 @font-face {
-    font-family:BentonSans-Bold;
-    src: url(./assest/BentonSans-Bold.otf);
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
 }
 
-body{
-	font-family:BentonSans-Bold;
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
 }
+
+/*body{
+	font-family:BentonSans-Bold;
+}*/
 
 
 .container{
@@ -28,6 +33,7 @@ body{
     margin-top: 5.066666666666666vw;
     font-weight: 500;
     opacity: 0.7;
+     font-family: BentonSans-Regular;
 }
 
 .hotel-palm-container{
@@ -64,6 +70,7 @@ body{
     font-weight: 500;
     /*padding-left: 3vw;*/
     margin-top: 3vw;
+     font-family:BentonSans-Medium;
 }
 
 .star-image{
@@ -72,13 +79,14 @@ body{
     height: 4vw;
     vertical-align: top;
     margin-top: 5vw;
-    margin-left: 3vw;
+   margin-left: 1vw;
 }
 
 .price-700{
 	font-size: 5vw;
     margin-top: 3vw;
     text-align: right;
+     font-family:BentonSans-Medium;
 }
 
 .bur-dubai{
@@ -86,6 +94,7 @@ body{
     text-align: left;
     opacity: 0.5;
     margin-top: 1vw;
+    font-family:BentonSans-Regular;
 }
 
 .date{
@@ -93,6 +102,7 @@ font-size: 4vw;
 text-align: right;
 opacity: 0.5;
 margin-top: 1vw;
+font-family:BentonSans-Regular;
 }
 
 .greencircle-image{
@@ -109,6 +119,7 @@ margin-top: 1vw;
     margin-left: 4vw;
     margin-top: 2vw;
     vertical-align: bottom;
+    font-family:BentonSans-Regular;
 
 }
 
@@ -129,6 +140,7 @@ margin-top: 1vw;
 .facility-text{
     font-size: 2.1vw;
     text-align: center;
+    font-family:BentonSans-Regular;
 }
 
 .services-list{
@@ -139,7 +151,17 @@ margin-top: 1vw;
 .services{
 	font-size: 3vw;
     margin-bottom: 1vw;
+    /*margin-left: 1vw;*/
+     font-family:BentonSans-Medium;
 }
+
+.services2{
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    /*margin-left: 1vw;*/
+     
+}
+
 
 .background-seperate-line{
 	border-right: solid 1px #979797;
@@ -164,7 +186,7 @@ font-size: 2.6666666666666665vw;
 
 .logo4{
     display: inline-block;
-   width: 5.6vw;
+   width: 4.6vw;
     display: inline-block;
     height: 5.266667vw;
     margin-top: 3.533333vw;
@@ -309,7 +331,7 @@ display: inline-block;
 }
 
 .Shared-Transfer{
-	    width: 18vw;
+	    width: 20vw;
     display: inline-block;
     border-right: 2px solid black;
     opacity: 0.5;

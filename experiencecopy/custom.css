@@ -3,13 +3,17 @@
 }
 
 @font-face {
-    font-family: BentonSans-Bold;
-    src: url(./assest/BentonSans-Bold.otf);
+    font-family: BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
 }
 
-body{
-  font-family:BentonSans-Bold;
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
 }
+/*body{
+  font-family:BentonSans-Bold;
+}*/
 
 .main-wrapper{
 	 background-color: rgba(0, 0, 0, 0.3);
@@ -23,6 +27,7 @@ body{
     margin-top: 5.066666666666666vw;
     font-weight: 500;
     opacity: 0.7;
+     font-family: BentonSans-Regular;
 }
 
 .details-wrapper{
@@ -54,6 +59,7 @@ body{
   letter-spacing: 0.3px;
   text-align: left;
   color: #000000;
+   font-family: BentonSans-Medium;
 }
 
 .date{
@@ -61,6 +67,7 @@ font-size: 2.6666666666666665vw;
  opacity: 0.5;
   text-align: left;
   color: #000000;
+   font-family: BentonSans-Regular;
 }
 
 .place{
@@ -68,11 +75,14 @@ font-size: 2.6666666666666665vw;
 	 font-weight: 500;
   /*text-align: left;*/
   color: #000000;
+   font-family: BentonSans-Medium;
+
 }
 
 .airport{
 	font-size:  3.2vw;
 	width:49.06666666666667vw;
+   font-family: BentonSans-Regular;
 }
 
 .place-airport-wrapper{
@@ -97,7 +107,8 @@ font-size: 2.6666666666666665vw;
 }
 
 .flight-no{
-  font-size: 2.1vw;;
+  font-size: 2.1vw;
+   font-family: BentonSans-Regular;
 }
 
 .black-plane{
@@ -134,6 +145,7 @@ margin-left: 8.8vw;
 	 font-weight: 500;
      color: #000000;
          padding-top: 1.2vw;
+          font-family: BentonSans-Regular;
 }
 
 .text2{
@@ -141,6 +153,7 @@ margin-left: 8.8vw;
 	 color: #000000;
 	  font-weight: 500;
 	  opacity: 0.5;
+     font-family: BentonSans-Medium;
 }
 
 .ruppe-icon{
@@ -160,6 +173,7 @@ margin-left: 8.8vw;
 	font-weight: 500;
 	color: #12b1bf;
 	text-align: right;
+  font-family: BentonSans-Medium;
 }
 
 .gap-line{
@@ -176,6 +190,7 @@ margin-left: 8.8vw;
 	  color: #000000;
 	  margin-top: 3.466666666666667vw;
 	  margin-left: 1.933333vw;
+     font-family: BentonSans-Regular;
 }
 
 .change-flight-button{
@@ -191,6 +206,7 @@ margin-left: 8.8vw;
     margin-bottom: 4vw;
     padding-top: 4.533333333333333vw;
     padding-bottom: 4.533333333333333vw;
+    font-family: BentonSans-Medium;
 }
 
 .back-button{
@@ -206,6 +222,7 @@ margin-left: 8.8vw;
     margin-bottom: 4vw;
     padding-top: 4.533333333333333vw;
     padding-bottom: 4.533333333333333vw;
+    font-family: BentonSans-Medium;
 }
 
 .box3{
@@ -228,6 +245,7 @@ margin-left: 8.8vw;
     font-weight: 500;
     letter-spacing: 0.2px;
     color: #000000;
+     font-family: BentonSans-Medium;
 }
 
 .Leisure {
@@ -235,6 +253,7 @@ margin-left: 8.8vw;
    margin-top: 4vw;
     color: #000000;
     display: inline-block;
+     font-family: BentonSans-Regular;
 }
 
 .add-button {
