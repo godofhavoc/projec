@@ -181,17 +181,18 @@ padding-left: 1.5vw;
 
 .facility-image{
 	display: inline-block;
-    width: 7vw;
+    width: 5.8vw;
     height: 2.5vh;
     margin-top: 1vh;
 }
 
 .hotel-price{
 	display: inline-block;
-    font-size: 4vw;
+    font-size: 3.5vw;
     vertical-align: bottom;
-    margin-left: 3vw;
+    /*margin-left: 1.8vw;*/
      font-family:BentonSans-Medium;
+     margin-top: 1vh;
 }
 
 .separate-line{
@@ -200,4 +201,33 @@ padding-left: 1.5vw;
     margin-bottom: 2vh;
     border-top: 1px solid black;
     opacity: 0.5;
+}
+
+.hotel-image-last{
+   width: 100%;
+    height: 10vh;
+    position: relative;
+}
+
+.back{
+    width:100%;
+    font-size: 3.7333333333333334vw;
+     background-color: #f5b303;
+     color: white;
+     text-align: center;
+     height: 12.266666666666667vw;
+         padding-top: 4vw;
+        position: absolute;
+        top: -27px;
+}
+.book{
+     width:100%;
+    font-size: 3.7333333333333334vw;
+    background-color: #12b1bf;
+     color: white;
+     text-align: center;
+     height: 12.266666666666667vw;
+         padding-top: 4vw;
+        position: absolute;
+        top: -27px;
 }
