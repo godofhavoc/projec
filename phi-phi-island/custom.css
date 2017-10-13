@@ -74,14 +74,93 @@
     margin-top: 3vh;
     margin-bottom: 4vh;
     border-top: 1px solid black;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 }
 
-.highlight-option-text{
+.highlight-option-title{
 	font-size: 5vw;
 	  font-family:BentonSans-Regular;
 	  color:black;
 	  opacity: 0.7;
 	  margin-left: 3vw;
 	  margin-bottom: 3vh;
+}
+
+.highlight-option-text ul{
+padding: 0;
+}
+
+.highlight-option-text{
+    font-size: 3.8vw;
+    margin-left: 6vw;
+    color: black;
+    opacity: 0.7;
+      font-family:BentonSans-Regular;
+
+}
+
+.option-title{
+	font-size: 5vw;
+    font-family: BentonSans-Medium;
+   margin-left: 3vw;
+    color: black;
+    margin-bottom: 3vh;
+}
+
+.total-cost-text{
+    margin-left: 3vw;
+	font-size: 3.9vw;
+   font-family:BentonSans-Regular;
+   margin-bottom: 3vh;
+}
+
+.total-cost-price{
+	font-size: 3.9vw;
+	  font-family: BentonSans-Medium;
+	  text-align: right;
+}
+
+.inclusion-text{
+	 margin-left: 3vw;
+	font-size: 4.9vw;
+   font-family:BentonSans-Regular;
+    margin-bottom: 2vh;
+}
+
+.select-time-transfer-text{
+	font-size: 4vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
+    color: black;
+}
+
+.select-time-box{
+	width: 67vw;
+    height: 6vh;
+    border: 1px solid black;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+.select-time-image{
+	display: inline-block;
+	    width: 9vw;
+    height: 5vh;
+    padding-left: 4vw;
+    padding-top: 1vh;
+}
+
+.select-time-text{
+	    display: inline-block;
+    font-size: 3.5vw;
+    vertical-align: middle;
+    margin-left: 2vw;
+}
+
+.select-time-arrow{
+	display: inline-block;
+    width: 3vw;
+    height: 3vh;
+   margin-left: 18vw;
+    vertical-align: bottom;
 }
