@@ -1,0 +1,203 @@
+.container{
+	width:auto;
+}
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family:BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.image-responsive{
+	width:100%;
+	height:100%;
+}
+
+.dubai-hotels{
+	background-color: #12b1bf;
+}
+
+.arrow-image{
+	width: 7vw;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0vh;
+}
+
+.dubai-hotel-text{
+   font-size: 4.3vw;
+    padding-top: 3vw;
+    color: white;
+    text-align: center;
+    font-family: BentonSans-Medium;
+}
+
+.search-icon{
+	width: 5vw;
+    height: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5vw;
+}
+
+.text-container{
+    width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-title{
+	font-size: 3.7vw;
+    padding-left: 1vw;
+    padding-top: 2.5vh;
+     font-family:BentonSans-Medium;
+}
+
+.sort-filter-wrapper{
+   width: 18vw;
+    height: 5vh;
+    border: 2px solid #12b1bf;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.sort-fliter-text{
+display: inline-block;
+font-size: 3.5vw;
+color:#12b1bf;
+padding-left: 1.5vw;
+    padding-top: 1vh;
+     font-family:BentonSans-Regular;
+
+}
+
+.sort-fliter-image{
+	display: inline-block;
+}
+
+.three-star-wrapper{
+	width: 17vw;
+    height: 4.5vh;
+	border: 2px solid green;
+	border-radius: 2px;
+}
+
+.cross-image{
+	display: inline-block;
+    width: 4vw;
+    height: 1.5vh;
+    margin-left: 1vw;
+    vertical-align: text-bottom;
+}
+
+.cancel-text{
+	display: inline-block;
+    font-size: 3.5vw;
+    color: green;
+    padding-top: 0.8vh;
+    padding-right: 0.5vw;
+}
+    
+.cancel-price-wrapper{
+	width: 43vw;
+    height: 4.5vh;
+    border: 2px solid green;
+    border-radius: 2px;
+  
+}    
+
+.wifi-wrapper{
+	width: 15vw;
+    height: 4.5vh;
+	border: 2px solid green;
+	border-radius: 2px;
+}
+
+.bur-dubai-wrapper{
+   width: 25vw;
+    height: 4.5vh;
+	border: 2px solid green;
+	border-radius: 2px;
+	margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.breakfast-wrapper{
+   width: 25vw;
+    height: 4.5vh;
+	border: 2px solid green;
+	border-radius: 2px;
+	margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.hotel-image{
+	width:100%;
+	height:15vh;
+}
+
+.actual-hotel-name{
+	font-size: 3.8vw;
+	 font-family:BentonSans-Medium;
+}
+
+.actual-hotel-subname{
+	font-size: 2.8vw;
+	opacity: 0.5;
+}
+
+.yellow-star{
+	    width: 14vw;
+    height: 2.5vh;
+    margin-top: 0.5vh;
+}
+
+.green-circle{
+	display: inline-block;
+	   width: 12vw;
+    height: 2vh;
+}
+
+.review-no{
+	display: inline-block;
+    font-size: 3vw;
+    opacity: 0.5;
+    vertical-align: top;
+    position: relative;
+}
+
+.right-arrow{
+	display: inline-block;
+    width: 5vw;
+    height: 2.5vh;
+    position: absolute;
+    left: 40vw;
+    top: -18px;
+}
+
+.facility-image{
+	display: inline-block;
+    width: 7vw;
+    height: 2.5vh;
+    margin-top: 1vh;
+}
+
+.hotel-price{
+	display: inline-block;
+    font-size: 4vw;
+    vertical-align: bottom;
+    margin-left: 3vw;
+     font-family:BentonSans-Medium;
+}
+
+.separate-line{
+	width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-top: 1px solid black;
+    opacity: 0.5;
+}
