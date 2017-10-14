@@ -74,7 +74,6 @@
     margin-top: 3vh;
     margin-bottom: 4vh;
     border-top: 1px solid black;
-    /*opacity: 0.5;*/
 }
 
 .highlight-option-title{
@@ -83,7 +82,7 @@
 	  color:black;
 	  opacity: 0.7;
 	  margin-left: 3vw;
-	  margin-bottom: 3vh;
+	 margin-bottom: 2vh;
 }
 
 .highlight-option-text ul{
@@ -93,31 +92,48 @@ padding: 0;
 .highlight-option-text{
     font-size: 3.8vw;
     margin-left: 6vw;
+    margin-right: 5vw;
     color: black;
     opacity: 0.7;
-      font-family:BentonSans-Regular;
+    font-family: BentonSans-Regular;
+}
 
+.body-images{
+	width: 86vw;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-top: 2.5vh;
 }
 
 .option-title{
-	font-size: 5vw;
+	font-size: 4.7vw;
     font-family: BentonSans-Medium;
-   margin-left: 3vw;
+    margin-left: 3vw;
     color: black;
     margin-bottom: 3vh;
+    margin-top: 2vh;
+}
+
+.option-title-arrow{
+	width: 4vw;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-left: 6vw;
 }
 
 .total-cost-text{
-    margin-left: 3vw;
-	font-size: 3.9vw;
-   font-family:BentonSans-Regular;
-   margin-bottom: 3vh;
+   margin-left: 3vw;
+    font-size: 4.5vw;
+    font-family: BentonSans-Regular;
+    margin-bottom: 3vh;
 }
 
 .total-cost-price{
-	font-size: 3.9vw;
-	  font-family: BentonSans-Medium;
-	  text-align: right;
+	font-size: 4.8vw;
+	  font-family: BentonSans-Regular;
+    /* font-family: BentonSans-Medium; */
+    text-align: right;
+    margin-right: 3vw;
 }
 
 .inclusion-text{
@@ -127,40 +143,274 @@ padding: 0;
     margin-bottom: 2vh;
 }
 
+.option-container{
+	background-color: #ffffff;
+    box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.5);
+}
+
+
 .select-time-transfer-text{
 	font-size: 4vw;
-    margin-left: 10vw;
-    margin-top: 1vh;
+    margin-left: 4vw;
+    margin-top: 3vh;
     color: black;
 }
 
 .select-time-box{
-	width: 67vw;
-    height: 6vh;
+	width: 86vw;
+    height: 7vh;
     border: 1px solid black;
-    margin-left: 10vw;
-    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
 }
 
 .select-time-image{
 	display: inline-block;
-	    width: 9vw;
-    height: 5vh;
+    width: 9vw;
+    height: 7vh;
     padding-left: 4vw;
-    padding-top: 1vh;
 }
 
 .select-time-text{
-	    display: inline-block;
-    font-size: 3.5vw;
+	  display: inline-block;
+    font-size: 4vw;
     vertical-align: middle;
-    margin-left: 2vw;
+    margin-left: 5vw;
+     font-family:BentonSans-Regular;
 }
 
 .select-time-arrow{
+    width: 3.5vw;
+    height: 3vh;
+    margin-left: 13vw;
+    margin-top: 2.2vh;
+}
+
+.remove-button{
+	width: 85.5vw;
+    font-size: 4.8vw;
+    background-color: #12b1bf;
+    color: white;
+    text-align: center;
+    height: 12.266666666666667vw;
+    padding-top: 3.1vw;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+    margin-left: 4vw;
+    border-radius: 6px;
+}
+
+.package-image-container{
+	background-color: #ffffff;
+    box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 5vh;
+}
+
+
+
+
+
+hr {
+    margin-top: 67px !important;
+    margin-bottom: 52px !important;
+    border: 0;
+    border-top: 5px solid #eee;
+}
+
+.title{
+	font-size: 5vw;
+	 font-family: BentonSans-Regular;
+	 margin-left: 1vw;
+   /*margin-bottom: 2vw;*/
+}
+
+.facility-image-container{
+	    width: 19%;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.facility-image{
+	width: 50%;
+    height: 17vw;
+     /*margin-top: 3vw;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facility-text{
+    font-size: 2.1vw;
+    text-align: center;
+    font-family:BentonSans-Regular;
+}
+
+.Overview-text{
+   font-size: 3.5vw;
+    margin-top: 4vw;
+     font-family: BentonSans-Regular;
+     opacity: 0.5;
+}
+
+.Overview-text span{
+	margin-left: 2vw;
+	color: #12b1bf;
+}
+
+.room-type-wrapper{
+	margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.room-feature{
+	font-size: 3.5vw;
+	 font-family: BentonSans-Regular;
+}
+
+.board-type{
+		font-size: 3.5vw;
+		 font-family: BentonSans-Regular;
+		 opacity: 0.5;
+}
+
+.price-wrapper{
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    text-align: right;
+}
+
+.room-price{
+font-size: 3.5vw;
+ font-family: BentonSans-Regular;
+}
+
+.refund-status{
+	color:green;
+	border: 1px solid green;
+	font-size: 2.9vw;
+	 font-family: BentonSans-Regular;
+}
+
+.Hotel-Amenities-text{
+margin-top: 3vh;
+}
+
+.Amenities-values{
+	font-size: 3.5vw;
+	margin-bottom: 1vh;
+	 font-family: BentonSans-Regular;
+	 opacity: 0.5;
+}
+
+.overall-rating{
+font-size: 3.5vw;
+margin-top: 3vh;
+margin-bottom: 1.5vh;
+ font-family: BentonSans-Regular;
+ opacity: 0.5;
+}
+
+.review-image1{
+	width: 19vw;
+    height: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+   margin-left: 0.4vw;
+}
+
+.review-image2{
+	display: inline-block;
+	width: 14vw;
+    height: 4vw;
+   margin-left: 0.5vw;
+    margin-bottom: 1.5vh;
+}
+
+.review-text{
+	display: inline-block;
+   font-size: 3.5vw;
+    vertical-align: middle;
+    margin-left: 2vw;
+     font-family: BentonSans-Regular;
+     opacity: 0.5;
+}
+
+.comment-title{
+ display: inline-block;
+    font-size: 4.3vw;
+    font-family: BentonSans-Regular;
+    margin-left: 1vw;
+}
+
+.comment-image{
+	width: 14vw;
+    height: 4vw;
+    text-align: right;
+    margin-left: auto;
+}
+
+.person-commented{
+	font-size: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: BentonSans-Regular;
+    opacity: 0.5;
+    margin-left: 1vw;
+}
+
+.comment-text{
+	font-size: 3.2vw;
+	 font-family: BentonSans-Regular;
+	 opacity: 0.5;
+	 margin-left: 1vw;
+}
+
+.comment-text span{
+margin-left: 17vw;
+    color: #12b1bf;
+}
+
+.more-comment-text{
+	text-align: right;
+	margin-top: 3vh;
+	 font-family: BentonSans-Regular;
+	 opacity: 0.5;
+}
+
+.write-review{
+ display: inline-block;
+    border-right: 1px solid black;
+    font-size: 3vw;
+    width: 21vw;
+    text-align: left;
+}
+
+.see-review{
+ display: inline-block;
+    font-size: 3vw;
+    width: 26.5vw;
+}
+
+.right-arrow{
 	display: inline-block;
     width: 3vw;
-    height: 3vh;
-   margin-left: 18vw;
-    vertical-align: bottom;
+    height: 3vw;
+    vertical-align: super;
+}
+
+.map-image{
+	width: 100%;
+    height: 25vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.button{
+	font-size: 3.9vw;
+    background-color: #f5b303;
+    color: white;
+    text-align: center;
+    height: 12.266666666666667vw;
+    padding-top: 4vw;
+     font-family:BentonSans-Medium;
+     margin-top: 4vh;
 }

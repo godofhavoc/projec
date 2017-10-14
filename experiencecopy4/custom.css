@@ -42,7 +42,6 @@
     display: inline-block;
     color: black;
     font-weight: 500;
-    /* padding-left: 3vw; */
     margin-top: 5vw;
     font-family: BentonSans-Medium;
 }
@@ -71,6 +70,10 @@
     font-family:BentonSans-Regular;
 }
 
+.hotel-address span{
+    color: #12b1bf;
+}
+
 .date{
 font-size: 3.5vw;
 text-align: right;
@@ -81,7 +84,7 @@ font-family:BentonSans-Regular;
 
 .binocular-image{
 display: inline-block;
-    width: 10vw;
+   width: 7vw;
     height: 5vw;
     margin-top: 1vh;
 }
@@ -111,9 +114,14 @@ hr {
 }
 
 .title{
-	font-size: 4vw;
+	font-size: 5vw;
 	 font-family: BentonSans-Regular;
-   /*margin-bottom: 2vw;*/
+}
+
+.room-type-container{
+    background-color: #ffffff;
+    box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.5);
+   margin-top: 4vh;
 }
 
 .facility-image-container{
@@ -154,14 +162,17 @@ hr {
 }
 
 .room-feature{
-	font-size: 3.5vw;
-	 font-family: BentonSans-Regular;
+	font-size: 3.8vw;
+    font-family: BentonSans-Regular;
+    margin-left: 2vw;
 }
 
 .board-type{
 		font-size: 3.5vw;
-		 font-family: BentonSans-Regular;
-		 opacity: 0.5;
+    font-family: BentonSans-Regular;
+    opacity: 0.5;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
 }
 
 .price-wrapper{
@@ -171,15 +182,47 @@ hr {
 }
 
 .room-price{
-font-size: 3.5vw;
- font-family: BentonSans-Regular;
+    font-size: 3.5vw;
+    font-family: BentonSans-Regular;
+    margin-right: 2.5vw;
 }
 
-.refund-status{
-	color:green;
-	border: 1px solid green;
-	font-size: 2.9vw;
-	 font-family: BentonSans-Regular;
+.refundable{
+	color:#12b1bf;
+    border: 1px solid #12b1bf;
+    font-size: 2.9vw;
+    font-family: BentonSans-Regular;
+    margin-top: 1.5vh;
+    width: 23vw;
+    margin-left: 3vw;
+    text-align: center;
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+}
+
+.non-refundable{
+    color: #f5b303;
+    border: 1px solid #f5b303;
+    font-size: 2.9vw;
+    font-family: BentonSans-Regular;
+    margin-right: 2vw;
+    margin-top: 1.5vh;
+    width: 27vw;
+     padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+}
+
+.remove-button {
+   width: 82.5vw;
+    font-size: 4.5vw;
+    background-color: #12b1bf;
+    color: white;
+    text-align: center;
+    height: 10.266667vw;
+    padding-top: 2vw;
+    margin-bottom: 1.5vh;
+    margin-left: 4vw;
+    border-radius: 6px;
 }
 
 .Hotel-Amenities-text{
@@ -212,7 +255,6 @@ margin-bottom: 1.5vh;
 	display: inline-block;
 	width: 14vw;
     height: 4vw;
-    /*margin-top: 3vh;*/
     margin-bottom: 1.5vh;
 }
 
@@ -227,8 +269,9 @@ margin-bottom: 1.5vh;
 
 .comment-title{
   display: inline-block;
-  font-size: 3.4vw;
-   font-family: BentonSans-Regular;
+    font-size: 4.2vw;
+    font-family: BentonSans-Regular;
+    margin-left: 1vw;
 }
 
 .comment-image{
@@ -247,13 +290,14 @@ margin-bottom: 1.5vh;
 }
 
 .comment-text{
-	font-size: 3.2vw;
-	 font-family: BentonSans-Regular;
-	 opacity: 0.5;
+	   font-size: 3.2vw;
+    font-family: BentonSans-Regular;
+    opacity: 0.5;
+    margin-left: 1vw;
 }
 
 .comment-text span{
-margin-left: 17vw;
+margin-left: 14vw;
     color: #12b1bf;
 }
 
@@ -266,8 +310,10 @@ margin-left: 17vw;
 
 .write-review{
  display: inline-block;
- border-right: 1px solid black;
- font-size: 3vw;
+    border-right: 1px solid black;
+    font-size: 3vw;
+    width: 21vw;
+    text-align: center;
 }
 
 .see-review{
