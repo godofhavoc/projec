@@ -1,0 +1,928 @@
+
+@font-face {
+    font-family: BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.container{
+  width:auto;
+}
+
+body section{
+  overflow-x: hidden;
+}
+
+.image-responsive{
+  width:100%;
+  height:100%;
+}
+
+.dropdown-container{
+   display: inline-block;
+    width: 9.4vw;
+    height: 6.4vw;
+    margin-top: 5.2vw;
+    margin-left: 3vw;
+}
+
+
+.image-container{
+	background-image:url("./assests/mountain.jpg");
+  width:100vw;
+  height:100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.title{
+        width: 23.2vw;
+    display: inline-block;
+    height: 5.066666666666666vw;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 5.333333vw;
+   margin-left: 24.266667vw;
+    margin-top: 4.266667vw;
+    vertical-align: sub;
+     font-family: BentonSans-Medium;
+
+}
+
+.search{
+    display: inline-block;
+    position: absolute;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-left: 27.8vw;
+    margin-top: 5vw;
+}
+
+.first-line{
+    width: 100vw;
+    margin-top: 2.3952095808383236vh;
+    height: 0.16vh;
+    background-color: #ffffff;
+}
+
+.-off-on-all-tours{
+  width: 44.8vw;
+   font-family: BentonSans-Regular;
+  font-size: 5.333333333333333vw;
+  height:11.227544910179642vh;
+  text-align: left;
+  color: #ffffff;
+  margin-left:4.533333333333333vw;
+  margin-top:30.38922155688623vh; 
+  opacity:0.7;
+}
+
+.Discover-all-thats{
+    width: 72.8vw;
+      font-family: BentonSans-Medium;
+    font-size: 8.533333333333333vw;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top:4.041916167664671vh;
+   margin-left:4.533333333333333vw;
+}
+
+.line{
+   	    margin-top: 3.5928143712574854vh;
+    height: 0.3vw;
+    margin-left: 3.7333333333333334vw;
+    width: 73.33333333333333vw;
+    background-color: #ffffff;
+}
+
+.VIEW-TOURS {
+    width: 26.4vw;
+    display: inline-block;
+    height: 3.5928143712574854vh;
+    font-family: BentonSans-Regular;
+    font-size: 4.266666666666667vw;
+    text-align: left;
+    color: #ffffff;
+    margin-top:3.8922155688622757vh;
+    margin-left: 8.533333333333333vw; 
+    opacity:0.7;
+}
+
+.right-arrow{
+    display: inline-block;
+    margin-left: 0.666667vw;
+    margin-top: 4.3vh;
+    width: 4.133333vw;
+    height: 2.3vh;
+    color: #ffffff;
+    vertical-align: top;
+}
+
+.path-container{
+   width:100vw;
+}
+
+.how-it-works{
+    /*height: 0.43412608531521324vh;*/
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 7.132503vh;
+       font-family: BentonSans-Medium;
+}
+
+.path-image{
+    background-image: url(./assests/path.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 41% 83%;
+    background-position: 48% 54%;
+    margin-top: 8vh;
+    height: 173vw;
+    position: relative;
+}
+
+.path-destinations{
+   top: 0vh;
+   width:37.06666666666667vw;
+    height:24vw;
+    position: absolute;
+   left: 3.933333vw;
+}
+
+.path-destinations-text1{
+  position: absolute;
+    top: 15vh;
+}
+
+.num1{
+   display: inline-block;
+   width:4.533333333333333vw;
+   height: 4.533333333333333vw;
+      left: 5.933333vw;
+    position: absolute;
+}
+
+.pick{
+ display: inline-block;
+    font-size: 4.266666666666667vw;
+    width: 34vw;
+  left: 12vw;
+    position: absolute;
+      font-family: BentonSans-Regular;
+}
+
+.choose{
+   width: 37.06666666666667vw;
+    height: 24vw;
+    position: absolute;
+    top: 16vh;
+       left: 58vw;
+}
+
+.path-destinations-text2{
+  position: absolute;
+    top: 30vh;
+}
+
+.num2{
+   display: inline-block;
+    width: 4.533333333333333vw;
+    height: 4.533333333333333vw;
+    position: absolute;
+   left: 58.066667vw;
+}
+
+.choose-text{
+  display: inline-block;
+    position: absolute;
+    font-size: 4.266666666666667vw;
+   left: 65vw;
+    width: 33vw;
+      font-family: BentonSans-Regular;
+}
+
+
+.flights{
+    width: 37.06666666666667vw;
+    height: 24vw;
+    position: absolute;
+    top: 30vh;
+   left: 3.933333vw;
+}
+
+.path-destinations-text3{
+  position: absolute;
+    top: 46vh;
+}
+
+.num3{
+    display: inline-block;
+    width: 4.533333333333333vw;
+    height: 4.533333333333333vw;
+       left: 5.933333vw;
+    position: absolute;
+}
+
+.add-flights{
+  display: inline-block;
+    position: absolute;
+    font-size: 4.266666666666667vw;
+  left: 12vw;
+    width: 22vw;
+}
+
+.hotel{
+    width: 37.06666666666667vw;
+    height: 24vw;
+    position: absolute;
+    top: 46vh;
+        left: 58vw;
+}
+
+.path-destinations-text4{
+      position: absolute;
+    top: 60vh;
+}
+
+.num4{
+    display: inline-block;
+    width:4.533333333333333vw;
+   height: 4.533333333333333vw;
+    position: absolute;
+  left: 58.066667vw;
+}
+
+.select-hotel{
+  display: inline-block;
+  width: 27vw;
+  position: absolute;
+left: 65vw;
+  font-size: 4.266666666666667vw;
+}
+
+.activities{
+    width: 37.06666666666667vw;
+    height: 24vw;
+    top: 60vh;
+    position: absolute;
+      left: 3.933333vw;
+}
+
+.path-destinations-text5{
+  position: absolute;
+    top: 75vh;
+}
+
+.num5{
+    display: inline-block;
+     width:4.533333333333333vw;
+   height: 4.533333333333333vw;
+       left: 5.933333vw;
+    position: absolute;
+}
+
+.pick-activities{
+  display: inline-block;
+    width: 28vw;
+    font-size: 4.266666666666667vw;
+   left: 12vw;
+    position: absolute;
+}
+
+.pack{
+    width: 37.06666666666667vw;
+    height: 24vw;
+    position: absolute;
+    top: 78vh;
+    left: 58vw;
+}
+
+.path-destinations-text6{
+   position: absolute;
+    top: 92vh;
+}
+
+.num6{
+    display: inline-block;
+     width:4.533333333333333vw;
+   height: 4.533333333333333vw;
+    position: absolute;
+   left: 58.066667vw;
+}
+
+
+.pack-travel{
+  display: inline-block;
+  position: absolute;
+   font-size: 4.266666666666667vw;
+  left: 65vw;
+}
+
+.diff{
+    width:  53.333333333333336vw;
+    height: 0.03775009437523594vh;
+         margin-top: 20vw;
+    margin-left:23.2vw;
+    border: solid 0.6px #dddddd;
+}
+
+.image-wrapper{
+      width: 49%;
+    float: left;
+    padding-left: 4vw;
+}
+
+.image-wrapper1{
+    width: 49%;
+    float: left;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+  .popular-title{
+   text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 8.132503vh;
+    margin-bottom: 6vh;
+    font-family: BentonSans-Regular;
+  }
+
+  .popular-destination-image{
+  width: 100%;
+    height: 32.933333vh;
+    position: relative;
+    margin-bottom: 2vh;
+  }
+
+   
+  .popular-destination-title{
+   
+    height: 4vw;
+    font-size: 4vw;
+    text-align: left;
+    position: absolute;
+    top: 20.133333vh;
+    left: 2.6666666666666665vw;
+    color: #ffffff;
+     font-family: BentonSans-Regular;
+        
+  }
+
+   .popular-destination-line{
+ width: 36.53333333333333vw;
+   height: 0.3vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 24.466667vh;
+    left: 2.6666666666666665vw;
+    position: absolute;
+   }
+
+   .popular-destination-subtitle1{
+  
+    top: 25vh;
+    left: 2.6666666666666665vw;
+    font-size: 3.2vw;
+    text-align: left;
+    position: absolute;
+    color: #ffffff;
+    opacity: 0.6;
+    font-family: BentonSans-Regular;
+   }
+
+   .popular-destination-subtitle2{
+      /*height: 2.933333333333333vw;*/
+    top: 27.333333vh;
+    left: 2.6666666666666665vw;
+    position: absolute;
+    color: #ffffff;
+    font-size: 3.2vw;
+    opacity: 0.6;
+    font-family: BentonSans-Regular;
+   }
+
+   
+
+
+
+
+.customizable-title {
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+   margin-top: 64px;
+     font-family: BentonSans-Regular;
+}
+
+
+.customisable-tours {
+    width: 100vw;
+}
+
+
+.Customisable-Tours-title {
+    font-size: 6.4vw;
+    height: 6.133333333333334vw;
+    text-align: center;
+}
+
+.customizable-image {
+    width: 89.6vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 46.666666666666664vw;
+    position: relative;
+    margin-top: 14.933333vw;
+    text-align: center;
+}
+
+.customizable-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.itinerary{
+        margin-top: -63vw;
+    width: 6vw;
+    display: inline-block;
+    margin-left: 21vw;
+}
+
+
+.trip-plan {
+   font-size: 3.2vw;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: -42vw;
+    text-align: right;
+    margin-right: 22px;
+    font-family: BentonSans-Regular;
+}
+
+.pic-text {
+    font-size: 5.333333333333333vw;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 25px;
+    font-family: BentonSans-Medium;
+
+}
+
+.pic-text2 {
+       font-size: 3.7333333333333334vw;
+    margin-top: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: BentonSans-Medium;
+}
+
+.star-box {
+    display: inline-block;
+    height: 8vw;
+    margin-top: -2vh;
+    left: 9vw;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.star-holder {
+   display: inline-block;
+    padding-left: 6px;
+    vertical-align: top;
+    padding-top: 3px;
+    padding-bottom: 1.8px;
+    padding-right: 6.2px;
+    border: solid 1px #f5b303;
+}
+
+.star-holder2 {
+    display: inline-block;
+    padding-left: -5px;
+    vertical-align: top;
+    padding-bottom: 0.8px;
+    padding-right: 4.2px;
+    padding-top: 0.6vh;
+    width: 19vw;
+    height: 6.5vw;
+    margin-left: 1vw;
+}
+
+.star-holder3 {
+        display: inline-block;
+    padding-left: -5px;
+    vertical-align: top;
+    padding-bottom: 0.8px;
+    padding-right: 4.2px;
+    padding-top: 0.9vh;
+    width: 22vw;
+    height: 6.6vw;
+    margin-left: 1vw;
+}
+
+.star {
+    background-image: url("./assests/star.png");
+    background-size: cover;
+    display: inline-block;
+    width: 4vw;
+    height: 3.7333333333333334vw;
+}
+
+
+
+.price3000 {
+        margin-left: 1.733333vw;
+    display: inline-block;
+    font-size: 3.2vw;
+    vertical-align: top;
+    padding-top: 6px;
+    color: #000000;
+    font-family: BentonSans-Medium;
+}
+
+.roundi{
+    display: inline-block;
+    width: 5vw;
+    padding-right: 2vw;
+}
+
+.rectangle2 {
+    position: relative;
+    width: 89.6vw;
+    height: 50.733333vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.5);
+}
+
+.gold {
+    font-size: 3.2vw;
+    height: 5.333333333333333vw;
+    margin-top: 8.8vw;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
+    color: #000000;
+    margin-left: 6vw;
+    display: inline-block;
+     font-family: BentonSans-Medium;
+}
+
+.gold span {
+    color: #f5b303;
+}
+
+.borders {
+    display: inline-block;
+    width: 0.5333333333333333vw;
+    margin-top: 8.8vw;
+    height: 3.2vw;
+    border: solid 1px #b0b0b0;
+    margin-left: 1.666667vw;
+}
+
+.sydney {
+    font-size: 3.2vw;
+    height: 5.333333333333333vw;
+    margin-top: 8.8vw;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
+    color: #000000;
+    margin-left: 2vw;
+    display: inline-block;
+     font-family: BentonSans-Medium;
+}
+
+.sydney span {
+    color: #f5b303;
+}
+
+.perth {
+    font-size: 3.2vw;
+    height: 5.333333333333333vw;
+    margin-top: 8.8vw;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
+    color: #000000;
+    margin-left: 3vw;
+    display: inline-block;
+     font-family: BentonSans-Medium;
+}
+
+.perth span {
+    color: #f5b303;
+}
+
+.mel {
+    font-size: 3.2vw;
+    height: 5.333333333333333vw;
+    margin-top: 1.3333333333333333vw;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
+    color: #000000;
+    margin-left: 6vw;
+     font-family: BentonSans-Medium;
+}
+
+.mel span {
+    color: #f5b303;
+}
+
+.rectangle-image {
+    width: 6vw;
+    height: 3vh;
+    background-size: cover;
+    margin-left: 6vw;
+    margin-top: 1.5vh;
+    background-image: url("./assests/aeroplane.png");
+    display: inline-block;
+}
+
+
+.two-flights {
+    display: inline-block;
+    margin-top: 2vh;
+    font-size: 4vw;
+    margin-left: 1vw;
+     font-family: BentonSans-Regular;
+}
+
+.rectangle-image2 {
+    width: 6vw;
+    height: 3vh;
+    background-size: cover;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    background-image: url("./assests/car.png");
+    display: inline-block;
+}
+
+.rectangle-image3 {
+    width: 6vw;
+    height: 3vh;
+    background-size: cover;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    background-image: url("./assests/hotel2.png");
+    display: inline-block;
+}
+
+.rectangle-image4 {
+    width: 6vw;
+    height: 3vh;
+    background-size: cover;
+    margin-left: 7vw;
+    margin-top: 2vh;
+    background-image: url("./assests/breakfast.png");
+    display: inline-block;
+}
+
+
+.rectangle-image5 {
+    width: 6vw;
+    height: 3vh;
+    background-size: cover;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    background-image: url("./assests/paratrooper.png");
+    display: inline-block;
+}
+
+.blue-button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-text {
+     font-size: 3.2vw;
+    width: 43.666667vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    line-height: 1.67;
+    color: #ffffff;
+    padding: 9px 34px 9px 39px;
+    border-radius: 2px;
+    background-color: #12b1bf;
+    font-family: BentonSans-Medium;
+}
+
+  .book-with-us-title{
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+   margin-top: 9.132503vh;
+    font-family: BentonSans-Regular;
+  }
+
+  .personal-holiday{
+    background-image: url("./assests/personal-travel.png");
+    width:34.4vw;
+    height:18.666666666666668vw;
+    background-repeat: no-repeat;
+    margin-top:16vw;
+    margin-left: 10.666666666666666vw;
+    display: inline-block;
+  }
+  .better-deals{
+   background-image: url("./assests/better-deals.png");
+    width:34.4vw;
+    height:18.666666666666668vw;
+    background-repeat: no-repeat;
+    margin-top:16vw;
+     margin-left:10.133333333333333vw;
+     display: inline-block;
+
+}
+.Personalized-holiday{
+font-size: 3.7333333333333334vw;
+margin-left: 11.2vw;
+display: inline-block;
+font-family: BentonSans-Regular;
+
+}
+.Better-deals1{
+font-size: 3.7333333333333334vw;
+display: inline-block;
+margin-left: 11.2vw;
+}
+
+.trans-holiday{
+background-image: url("./assests/trans.png");
+    width:34.4vw;
+    height:18.666666666666668vw;
+    background-repeat: no-repeat;
+    margin-top:16vw;
+    margin-left: 10.666666666666666vw;
+    display: inline-block;
+}
+
+.travel-expert{
+   background-image: url("./assests/travel-expert.png");
+    width:34.4vw;
+    height:18.666666666666668vw;
+    background-repeat: no-repeat;
+    margin-top:16vw;
+     margin-left:10.133333333333333vw;
+     display: inline-block;
+}
+
+.multiple{
+background-image: url("./assests/multiple.png");
+    width:34.4vw;
+    height:18.666666666666668vw;
+    background-repeat: no-repeat;
+    margin-top:16vw;
+    margin-left: 10.666666666666666vw;
+    display: inline-block;
+}
+
+.quality{
+  background-image: url("./assests/quality.png");
+    width:34.4vw;
+    height:18.666666666666668vw;
+    background-repeat: no-repeat;
+    margin-top:16vw;
+    margin-left: 10.666666666666666vw;
+    display: inline-block;
+}
+
+.Blogs-container::-webkit-scrollbar { 
+    display: none; 
+}
+
+.Blogs-container{
+
+  overflow-x: scroll;
+  width:100vw;
+   white-space: nowrap;
+   overflow-y: hidden;
+   height: 67vh;
+}
+.Blogs-and-articles{
+  display: inline-block;
+   white-space: normal;
+}
+
+.Blogs-and-articles-title{
+    text-align: center;
+    font-size: 6.4vw;
+    color: #000000;
+    margin-top: 8.132503vh;
+     font-family: BentonSans-Regular;
+}
+
+.blog-mountain{
+ background-image: url("./assests/mountain2.jpg");
+ width:80.8vw;
+ height: 48vw;
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-left: 5.066666666666666vw;
+ margin-top: 10.666666666666666vw;
+}
+
+.rectangle-blog{
+  width:80.8vw;
+ height: 48vw;
+ margin-left: 5.066666666666666vw;
+ background-color: #ffffff;
+  box-shadow: 1px 1px 16px 0 rgba(194, 194, 194, 0.5);
+}
+
+.las-vegas{
+ font-size:5.333333333333333vw;
+  margin-left: 4.533333333333333vw;
+ padding-top: 4.066667vw;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+   font-family: BentonSans-Medium;
+}
+ 
+ .rect-text{
+  width: 69.933333vw;
+  margin-top: 2.933333333333333vw;
+  font-size:  4.266666666666667vw;
+  margin-left: 4.533333333333333vw;
+  opacity: 0.4;
+  color: #000000;
+   font-family: BentonSans-Regular;
+ }
+
+
+.text1 {
+    font-size: 5.866666666666666vw;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #12b1bf;
+   margin-top: 4vh;
+      font-family: BentonSans-Regular;
+}
+
+.text {
+    font-size: 3.466666666666667vw;
+    font-weight: bold;
+    margin-top: 16.2px;
+    margin-bottom: 9.2px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #000000;
+    font-family: BentonSans-Medium;
+}
+
+.private-limited {
+    opacity: 0.5;
+    font-size: 41px;
+    font-weight: bold;
+    line-height: 1.43;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #000000;
+    margin-top: 49px;
+    margin-bottom: 98px;
+     font-family: BentonSans-Regular;
+}
+
+.facebook {
+    display: inline-block;
+    margin-bottom: 10vh;
+    height: 6.933333333333334vw;
+    width: 7.466667vw;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+
+.instagram {
+    display: inline-block;
+    margin-bottom: 10vh;
+    margin-left: 11.6vw;
+    height: 6.933333333333334vw;
+    width: 7.466667vw;
+    margin-top: 4vh;
+}
+
+.twitter {
+    display: inline-block;
+    margin-left: 12.6vw;
+    margin-bottom: 10vh;
+    height: 6.933333333333334vw;
+    width: 7.466667vw;
+    margin-top: 4vh;
+}
