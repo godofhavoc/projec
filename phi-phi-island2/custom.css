@@ -1,0 +1,193 @@
+.container{
+	width:auto;
+}
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family:BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.image-responsive{
+	width:100%;
+	height:100%;
+}
+
+.hero-title{
+        width: 93.466667vw;
+    margin-left: 3.8vw;
+    font-size: 3.7333333333333334vw;
+    margin-top: 5.066666666666666vw;
+    font-weight: 500;
+     font-family: BentonSans-Regular;
+}
+
+.details-wrapper{
+	width: 91.46666666666667vw;
+    margin-top: 5.866666666666666vw;
+    padding-bottom: 5.066666666666666vw;
+    margin-left: 4.8vw;
+    border-radius: 3px;
+    border-left: 7px solid #12b1bf;
+}
+
+.header-image{
+	height: 49vw;
+}
+
+.header-title{
+font-size: 4.7vw;
+    font-family: BentonSans-Medium;
+    margin-left: 3vw;
+    color: black;
+   margin-bottom: 1.5vh;
+    margin-top: 2vh;
+}
+
+.price{
+   font-size: 4.5vw;
+    font-family: BentonSans-Medium;
+    text-align: right;
+    margin-right: 3vw;
+     margin-top: 2vh;
+}
+
+.green-circle{
+	display: inline-block;
+    width: 15vw;
+    height: 4vw;
+  margin-left: 3vw;
+    margin-bottom: 1.5vh;
+}
+
+.reviews{
+	display: inline-block;
+    font-size: 3.2vw;
+    opacity: 0.5;
+    vertical-align: top;
+    margin-left: 1vw;
+    margin-top: 0.3vw;
+      font-family: BentonSans-Regular;
+}
+
+.option{
+	 font-size: 3.2vw;
+    margin-right: 3vw;
+    color: #12b1bf;
+    margin-top: 0.5vw;
+    text-align: right;
+      font-family: BentonSans-Regular;
+}
+
+.sub-title-container{
+margin-left: 3vw;
+}
+
+.sub-titleone{
+	font-size: 2.5vw;
+    margin-top: 2vw;
+    border: 1px solid green;
+    display: inline-block;
+    padding: 3px 8px 1px 7px;
+    color: green;
+      font-family: BentonSans-Regular;
+}
+
+.sub-title{
+	font-size: 2.5vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: 1px solid green;
+    display: inline-block;
+    padding: 3px 8px 1px 7px;
+    color: green;
+      font-family: BentonSans-Regular;
+}
+
+.separate-line{
+	height: 0.3vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    border-top: 2px solid;
+    opacity: 0.6;
+       margin-left: 3vw;
+         margin-right: 3vw;
+}
+
+.inclusion-text{
+	 margin-left: 3vw;
+    font-size: 4.9vw;
+    font-family: BentonSans-Regular;
+    margin-bottom: 2vh;
+    opacity: 0.8;
+}
+
+.highlight-option-text ul{
+padding: 0;
+}
+
+.highlight-option-text{
+    font-size: 3.8vw;
+    margin-left: 6vw;
+    margin-right: 5vw;
+    color: black;
+    opacity: 0.7;
+    font-family: BentonSans-Regular;
+}
+
+.select-time-transfer-text{
+	font-size: 4vw;
+    margin-left: 4vw;
+    margin-top: 3vh;
+    color: black;
+}
+
+.select-time-box{
+	width: 86vw;
+    height: 7vh;
+    border: 3px solid black;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    opacity: 0.5;
+}
+
+.select-time-image{
+	display: inline-block;
+    width: 11vw;
+    height: 4vh;
+    padding-left: 4vw;
+    margin-top: 3vw;
+}
+
+.select-time-text{
+	     display: inline-block;
+    font-size: 4vw;
+    vertical-align: top;
+    margin-top: 3.3vw;
+    margin-left: 5vw;
+    font-family: BentonSans-Regular;
+      /*margin-top: 3vw;*/
+}
+
+.select-time-arrow{
+    width: 3.5vw;
+    height: 3vh;
+    margin-left: 13vw;
+    margin-top: 2.2vh;
+}
+
+.button{
+	font-size: 3.9vw;
+    background-color: #f5b303;
+    color: white;
+    text-align: center;
+    height: 12.266666666666667vw;
+    padding-top: 4vw;
+    font-family: BentonSans-Medium;
+    margin-bottom: 11vw;
+    /* margin-top: 0vh; */
+    /*margin-left: 5vw;*/
+}

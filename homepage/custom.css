@@ -132,7 +132,7 @@ body section{
     font-size: 6.4vw;
     color: #000000;
     margin-top: 7.132503vh;
-       font-family: BentonSans-Medium;
+       font-family: BentonSans-Regular;
 }
 
 .path-image{
@@ -234,6 +234,7 @@ body section{
     font-size: 4.266666666666667vw;
   left: 12vw;
     width: 22vw;
+     font-family: BentonSans-Regular;
 }
 
 .hotel{
@@ -263,6 +264,7 @@ body section{
   position: absolute;
 left: 65vw;
   font-size: 4.266666666666667vw;
+   font-family: BentonSans-Regular;
 }
 
 .activities{
@@ -292,6 +294,7 @@ left: 65vw;
     font-size: 4.266666666666667vw;
    left: 12vw;
     position: absolute;
+     font-family: BentonSans-Regular;
 }
 
 .pack{
@@ -321,6 +324,7 @@ left: 65vw;
   position: absolute;
    font-size: 4.266666666666667vw;
   left: 65vw;
+   font-family: BentonSans-Regular;
 }
 
 .diff{
@@ -448,10 +452,12 @@ left: 65vw;
 }
 
 .itinerary{
-        margin-top: -63vw;
+        /*margin-top: -63vw;*/
+        margin-top: -44vw;
     width: 6vw;
+    height: 6vw;
     display: inline-block;
-    margin-left: 21vw;
+       margin-left: 25vw;
 }
 
 
@@ -462,7 +468,7 @@ left: 65vw;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-top: -42vw;
     text-align: right;
-    margin-right: 22px;
+   margin-right: 17px;
     font-family: BentonSans-Regular;
 }
 
@@ -500,7 +506,7 @@ left: 65vw;
    display: inline-block;
     padding-left: 6px;
     vertical-align: top;
-    padding-top: 3px;
+    padding-top: 3.5px;
     padding-bottom: 1.8px;
     padding-right: 6.2px;
     border: solid 1px #f5b303;
@@ -515,7 +521,7 @@ left: 65vw;
     padding-top: 0.6vh;
     width: 19vw;
     height: 6.5vw;
-    margin-left: 1vw;
+    /*margin-left: 1vw;*/
 }
 
 .star-holder3 {
@@ -554,6 +560,8 @@ left: 65vw;
     display: inline-block;
     width: 5vw;
     padding-right: 2vw;
+    vertical-align: top;
+    margin-top: -0.3vw;
 }
 
 .rectangle2 {
@@ -709,13 +717,13 @@ left: 65vw;
 
 .button-text {
      font-size: 3.2vw;
-    width: 43.666667vw;
+    width: 45.666667vw;
     margin-left: auto;
     margin-right: auto;
     font-weight: 500;
     line-height: 1.67;
     color: #ffffff;
-    padding: 9px 34px 9px 39px;
+    padding: 12px 34px 9px 39px;
     border-radius: 2px;
     background-color: #12b1bf;
     font-family: BentonSans-Medium;
