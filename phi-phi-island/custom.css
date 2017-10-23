@@ -47,10 +47,10 @@
 
 .binoculars{
 	display: inline-block;
-    width: 5vw;
-    height: 3vh;
-       margin-top: 1vh;
-       margin-left: 20vw;
+    width: 7vw;
+    height: 4vh;
+    margin-top: 1vh;
+    margin-left: 19vw;
 }
 
 .header-circle{
@@ -73,7 +73,8 @@
 	width: 100%;
     margin-top: 3vh;
     margin-bottom: 4vh;
-    border-top: 1px solid black;
+    border-top: 3px solid black;
+    opacity: 0.5;
 }
 
 .highlight-option-title{
@@ -159,9 +160,10 @@ padding: 0;
 .select-time-box{
 	width: 86vw;
     height: 7vh;
-    border: 1px solid black;
+    border: 3px solid black;
     margin-left: 5vw;
     margin-top: 3vh;
+    opacity: 0.5;
 }
 
 .select-time-image{

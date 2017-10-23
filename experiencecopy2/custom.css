@@ -30,9 +30,9 @@
 }
 
 .background-seperate-line{
-	border-right: solid 1px #979797;
+	border-right: solid 3px #979797;
         height: 183vw;
-    width: 17vw;
+    width: 17.3vw;
     position: relative;
 }
 
@@ -347,9 +347,9 @@ display: inline-block;
  font-family:BentonSans-Regular;
 }
 .add-button{
-	width: 12.8vw;
+	    width: 12.8vw;
     height: 4vw;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 500;
     letter-spacing: 0.3px;
     text-align: center;
@@ -361,7 +361,7 @@ display: inline-block;
     margin-left: 46vw;
     vertical-align: top;
     margin-top: 10vw;
-    padding-top: 0.7vw;
+    padding-top: 0.3vw;
 }
 
 .activities{
@@ -474,20 +474,21 @@ font-size: 2.6666666666666665vw;
 }
 
 .free{
-	display: inline-block;
+	    display: inline-block;
     width: 12.8vw;
     height: 4.266666666666667vw;
-    font-size: 2.666667vw;
+    font-size: 2.5vw;
     font-weight: 500;
     letter-spacing: 0.3px;
     text-align: center;
-     color: #0ab21b;
+    color: #0ab21b;
     border-radius: 2px;
-   margin-left: 19vw;
-  background-color: #ffffff;
-  border: solid 1px #0ab21b;
-  margin-top: 6vw;
+    margin-left: 19vw;
+    background-color: #ffffff;
+    border: solid 1px #0ab21b;
+    margin-top: 6vw;
     vertical-align: top;
+    padding-top: 0.3vw;
 }
 
 .MODIFY-TOUR{

@@ -77,6 +77,11 @@ padding-left: 1.5vw;
 
 .sort-fliter-image{
 	display: inline-block;
+    width: 6vw;
+    height: 4vw;
+    vertical-align: top;
+    margin-top: 2vw;
+    margin-left: 1vw;
 }
 
 .three-star-wrapper{
@@ -138,6 +143,21 @@ padding-left: 1.5vw;
 .hotel-image{
 	width:100%;
 	height:15vh;
+    position: relative;
+}
+
+.selected-text{
+   display: inline-block;
+    font-size: 3vw;
+    background-color: #f5b303;
+    color: white;
+    border: 1px solid #f5b303;
+    margin-top: -7vw;
+    margin-left: 26.7vw;
+    font-family: BentonSans-Regular;
+    padding-right: 1vw;
+    padding-left: 1.2vw;
+    padding-top: 0.2vw;
 }
 
 .actual-hotel-name{
@@ -199,8 +219,8 @@ padding-left: 1.5vw;
 	width: 100%;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    border-top: 1px solid black;
-    opacity: 0.5;
+    border-top: 3px solid black;
+    opacity: 0.3;
 }
 
 .hotel-image-last{
