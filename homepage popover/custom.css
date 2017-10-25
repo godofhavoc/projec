@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.container{
+  width:auto;
+}
+
+body section{
+  overflow-x: hidden;
+}
+
+.image-responsive{
+  width:100%;
+  height:100%;
+}
+
+.dropdown-icon{
+   display: inline-block;
+    width: 9.4vw;
+    height: 6.4vw;
+    margin-top: 5.2vw;
+    margin-left: 3vw;
+}
+
+
+.image-container{
+	background-image:url("./assests/mountain.jpg");
+  width:100vw;
+  height:100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+  position: relative;
+}
+
+.title{
+        width: 23.2vw;
+    display: inline-block;
+    height: 5.066666666666666vw;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 5.333333vw;
+   margin-left: 24.266667vw;
+    margin-top: 4.266667vw;
+    vertical-align: sub;
+     font-family: BentonSans-Medium;
+
+}
+
+.search{
+    display: inline-block;
+    position: absolute;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-left: 27.8vw;
+    margin-top: 5vw;
+}
+
+.first-line{
+    width: 100vw;
+    margin-top: 2.3952095808383236vh;
+    height: 0.16vh;
+    background-color: #ffffff;
+}
+
+.-off-on-all-tours{
+  width: 44.8vw;
+   font-family: BentonSans-Regular;
+  font-size: 5.333333333333333vw;
+  height:11.227544910179642vh;
+  text-align: left;
+  color: #ffffff;
+  margin-left:4.533333333333333vw;
+  margin-top:30.38922155688623vh; 
+  opacity:0.7;
+}
+
+.Discover-all-thats{
+    width: 72.8vw;
+      font-family: BentonSans-Medium;
+    font-size: 8.533333333333333vw;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top:4.041916167664671vh;
+   margin-left:4.533333333333333vw;
+}
+
+.line{
+   	    margin-top: 3.5928143712574854vh;
+    height: 0.3vw;
+    margin-left: 3.7333333333333334vw;
+    width: 73.33333333333333vw;
+    background-color: #ffffff;
+}
+
+.VIEW-TOURS {
+    width: 26.4vw;
+    display: inline-block;
+    height: 3.5928143712574854vh;
+    font-family: BentonSans-Regular;
+    font-size: 4.266666666666667vw;
+    text-align: left;
+    color: #ffffff;
+    margin-top:3.8922155688622757vh;
+    margin-left: 8.533333333333333vw; 
+    opacity:0.7;
+}
+
+.right-arrow{
+    display: inline-block;
+    margin-left: 0.666667vw;
+    margin-top: 4.3vh;
+    width: 4.133333vw;
+    height: 2.3vh;
+    color: #ffffff;
+    vertical-align: top;
+}
+
+.dropdown-container{
+  position: absolute;
+  background-color: white;
+  width:75vw;
+  height:100vh;
+  top:0;
+}
+
+.dropdown-entities{
+      width: 73vw;
+    height: 100vh;
+      margin-left: 1vw;
+}
+
+.cross-icon{
+  width: 4.5vw;
+    height: 6vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.dropdown-text{
+    margin-bottom: 8vw;
+    font-size: 4.5vw;
+    color: black;
+    opacity: 0.7;
+    font-family: BentonSans-Regular;
+}
+
+.down-arrow{
+  width: 4vw;
+  height:4vw;
+  margin-left: 11vw;
+}
+

@@ -1,0 +1,264 @@
+.container{
+	width:auto;
+}
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family:BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.image-responsive{
+	width:100%;
+	height:100%;
+}
+
+.dubai-hotels{
+	background-color: #12b1bf;
+}
+
+.arrow-image{
+	width: 7vw;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0vh;
+}
+
+.dubai-hotel-text{
+   font-size: 3.9vw;
+    /*padding-top: 3vw;*/
+    color: white;
+    text-align: center;
+    font-family: BentonSans-Regular;
+}
+
+.text-container{
+    width: 92vw;
+    margin-left: 5.9vw;
+    /*margin-right: auto;*/
+}
+
+.sub-title{
+	font-size: 3.7vw;
+    padding-left: 1vw;
+    padding-top: 2.5vh;
+     font-family:BentonSans-Medium;
+}
+
+.sort-filter-wrapper{
+      width: 18vw;
+    height: 4.5vh;
+    border: 2px solid #12b1bf;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
+
+.sort-fliter-text{
+    display: inline-block;
+    font-size: 3.5vw;
+    color: #12b1bf;
+    padding-left: 1.5vw;
+    padding-top: 0.7vh;
+    font-family: BentonSans-Regular;
+
+}
+
+.sort-fliter-image{
+	display: inline-block;
+    width: 6vw;
+    height: 4vw;
+    vertical-align: top;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.sub-text{
+    font-size: 3.5vw;
+    display: inline-block;
+     font-family:BentonSans-Regular;
+}
+
+.plane-logo{
+      width: 6vw;
+    height: 5.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+}
+
+.plane-no{
+   font-size: 3vw;
+    margin-top: 1vw;
+     font-family:BentonSans-Regular;
+     opacity: 0.7;
+}
+
+.departure-time{
+display: inline-block;
+    font-size: 4vw;
+    font-family: BentonSans-Medium;
+    margin-left: 3vw;
+}
+
+.total-time{
+   display: inline-block;
+    font-size: 3vw;
+    font-family: BentonSans-Regular;
+    margin-left: 8vw;
+    opacity: 0.5;
+}
+
+.arrival-time{
+    display: inline-block;
+    font-size: 4vw;
+    font-family: BentonSans-Medium;
+    margin-left: 8vw;
+    margin-top: 3vw;
+}
+
+.route-line{
+    width: 38vw;
+    height: 1vw;
+    border-top: 2px solid black;
+    opacity: 0.5;
+    margin-left: 7vw;
+    margin-top: 1.5vw;
+    position: relative;
+}
+
+.greyball1{
+   width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: -1.7vw;
+}
+.greyball2{
+   width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: -1.7vw;
+    left:36vw;
+}
+
+.whiteball{
+     width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -1.7vw;
+    left:18vw;
+    z-index: 1;
+    border: 3px solid grey;
+}
+
+.whiteball1{
+     width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -1.7vw;
+    left:11vw;
+    z-index: 1;
+    border: 3px solid grey;
+}
+
+.whiteball2{
+     width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -1.7vw;
+    left:25vw;
+    z-index: 1;
+    border: 3px solid grey;
+}
+
+.no-of-stops{
+    font-size: 3vw;
+    opacity: 0.5;
+    text-align: center;
+        margin-top: 1.2vw;
+         font-family: BentonSans-Regular;
+}
+
+.stops{
+   width: 11vw;
+    border-right: 2px solid black;
+    display: inline-block;
+}
+
+.amd{
+    width: 8vw;
+    /*border-right: 2px solid black;*/
+    display: inline-block;
+}
+
+.del{
+    display: inline-block;
+}
+
+
+.separation-line{
+       width: 90vw;
+    border-top: 1px solid black;
+   margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+.price-selected{
+   width: 18vw;
+    height: 7.5vw;
+    border-radius: 8px;
+    /*background-color: #12b1bf;*/
+    margin-top: 6vw;
+}
+
+.rupee-icon{
+         width: 4vw;
+    height: 4vw;
+    display: inline-block;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+
+.value{
+       display: inline-block;
+    font-size: 4vw;
+    vertical-align: middle;
+      font-family: BentonSans-Regular;
+}
+
+.back{
+    width:100%;
+    font-size: 3.7333333333333334vw;
+     background-color: #f5b303;
+     color: white;
+     text-align: center;
+     height: 12.266666666666667vw;
+         padding-top: 4vw;
+         margin-top: 13vw;
+        
+}
+
+.book{
+     width:100%;
+    font-size: 3.7333333333333334vw;
+    background-color: #12b1bf;
+     color: white;
+     text-align: center;
+     height: 12.266666666666667vw;
+         padding-top: 4vw;
+       margin-top: 13vw;
+}

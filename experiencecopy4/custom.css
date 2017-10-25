@@ -197,7 +197,7 @@ hr {
     margin-left: 3vw;
     text-align: center;
     padding-top: 0.3vh;
-    padding-bottom: 0.3vh;
+    padding-bottom: 0.2vh;
 }
 
 .non-refundable{
@@ -209,7 +209,8 @@ hr {
     margin-top: 1.5vh;
     width: 27vw;
      padding-top: 0.3vh;
-    padding-bottom: 0.3vh;
+    /*padding-bottom: 0.3vh;*/
+    padding-bottom: 0.1vh;
 }
 
 .remove-button {
