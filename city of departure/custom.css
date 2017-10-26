@@ -1,0 +1,112 @@
+.container{
+	width:auto;
+}
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family:BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.image-responsive{
+	width:100%;
+	height:100%;
+}
+
+.bar-wrapper{
+     width: 100vw;
+    position: relative;
+    height: 6vw;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.bar{
+    display: inline-block;
+    position: absolute;
+   width: 19vw;
+    height: 6vw;
+}
+
+.text-container{
+    width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cross-image{
+	width: 8vw;
+    height: 8vw;
+    margin-left: 79vw;
+    margin-top: 13vw;
+    opacity: 0.4;
+}
+
+.departure-title{
+	font-size: 5vw;
+    font-family: BentonSans-Regular;
+    margin-top: 2vw;
+        margin-bottom: 7vw;
+}
+
+.search-text{
+   font-size: 4.3vw;
+    font-family: BentonSans-Regular;
+    margin-top: 2vw;
+    opacity: 0.4;
+    margin-bottom: 3vw;
+}
+
+.separate-line{
+    width: 86vw;
+    border-top: 1px solid black;
+    margin-bottom: 9vw;
+}
+
+.city-text{
+   font-size: 4.2vw;
+    font-family: BentonSans-Regular;
+    text-align: center;
+}
+
+.city-nickname{
+   font-size: 4vw;
+    font-family: BentonSans-Medium;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 8vw;
+}
+
+.back-arrow-image{
+    display: inline-block;
+    width: 6vw;
+    height: 5vw;
+    margin-top: 37vw;
+}
+
+.back-text{
+   display: inline-block;
+    font-size: 4vw;
+    font-family: BentonSans-Medium;
+    vertical-align: middle;
+    margin-left: 3vw;
+    opacity: 0.8;
+}
+
+.skip-button{
+    width: 26vw;
+    height: 12vw;
+    font-size: 4vw;
+    font-family: BentonSans-Medium;
+    color: white;
+    text-align: center;
+    background-color: #F5B303;
+    padding-top: 3vw;
+    border-radius: 11px;
+    margin-top: 34vw;
+    margin-left: 15vw;
+
+}

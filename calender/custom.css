@@ -1,0 +1,128 @@
+.container{
+	width:auto;
+}
+@font-face {
+    font-family:BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family:BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.image-responsive{
+	width:100%;
+	height:100%;
+}
+
+.bar-wrapper{
+     width: 100vw;
+    position: relative;
+    height: 6vw;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.bar{
+    display: inline-block;
+    position: absolute;
+   width: 19vw;
+    height: 6vw;
+}
+
+.text-container{
+    width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cross-image{
+	width: 8vw;
+    height: 8vw;
+    margin-left: 79vw;
+    margin-top: 13vw;
+    opacity: 0.4;
+}
+
+.departure-title{
+	font-size: 5vw;
+    font-family: BentonSans-Regular;
+    margin-top: 2vw;
+        margin-bottom: 7vw;
+}
+
+.month-name-wrapper{
+	width: 12vw;
+    height: 6vw;
+    font-size: 2vw;
+    color: white;
+    background-color: #12B1BF;
+    border-radius: 7px;
+    margin-bottom: 7vw;
+    font-family: BentonSans-Regular;
+}
+
+.month-name{
+	font-size: 3vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1vw;
+}
+
+.arrow{
+	display: inline-block;
+    width: 4vw;
+    height: 3vw;
+    margin-top: 1.4vw;
+}
+
+.month-name-middle{
+	   font-size: 3.5vw;
+    text-align: center;
+    font-family: BentonSans-Medium;
+    margin-top: 1vw;
+}
+
+.week-day{
+	 display: inline-block;
+    font-family: BentonSans-Regular;
+    font-size: 3.5vw;
+    margin-left: 3vw;
+        width: 7vw;
+        opacity: 0.5;
+}
+
+.date{
+	display: inline-block;
+    font-family: BentonSans-Regular;
+    font-size: 4vw;
+    margin-left: 3vw;
+    width: 7vw;
+    text-align: center;
+}
+
+.highlight-date{
+	display: inline-block;
+    width: 7vw;
+    margin-left: 3vw;
+    height: 5.5vw;
+    background-color: #F5B303;
+    color: white;
+        border-radius: 7px;
+}
+
+.arrow-button-wrapper{
+   width: 13vw;
+    height: 13vw;
+    background-color: #4B4B4B;
+    border-radius: 50%;
+    margin-top: 45vw;
+    margin-left: 28vw;
+}
+
+.arrow-button{
+    width: 12vw;
+    height: 10vw;
+    padding-top: 3vw;
+}

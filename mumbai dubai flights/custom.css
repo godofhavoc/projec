@@ -46,8 +46,9 @@ padding-bottom: 1vh;
 font-size: 3.5vw;
     padding-top: 2.5vh;
     color: white;
-     font-family:BentonSans-Medium;
+    font-family:BentonSans-Regular;
 }
+
 .text-container{
     width: 92vw;
     margin-left: auto;
@@ -86,11 +87,12 @@ font-size: 3.5vw;
 }
 
 .price-button{
-	position: absolute;
+	    position: absolute;
     width: 4vw;
     height: 2.5vh;
     top: -1.4vh;
-    left: 3.3vw;
+    left: 3.9vw;
+    z-index: 1;
 }
 
 .price-button-line2{
@@ -98,7 +100,6 @@ font-size: 3.5vw;
 	position: relative;
 width: 38vw;
 border-top:3px solid #12b1bf;
-/*background-color: #12b1bf;*/
 }
 
 .price-button2{
@@ -107,6 +108,7 @@ border-top:3px solid #12b1bf;
     height: 2.5vh;
     top: -1.4vh;
     left: 36.3vw;
+    z-index: 1;
 }
 
 .price-button-line3{
@@ -123,21 +125,6 @@ hr {
     border-top: 5px solid #eee;
 }
 
-.hotel-button{
-	display: inline-block;
-    width: 4vw;
-    height: 2.5vh;
-}
-
-.hotel-category{
-	display: inline-block;
-    font-size: 4vw;
-    vertical-align: middle;
-    margin-left: 2vw;
-      font-family:BentonSans-Regular;
-    opacity: 0.7;
-}
-
 .right-mark-image{
    width: 6vw;
     height: 3vh;
@@ -146,7 +133,6 @@ hr {
     margin-top: 1.1vh;
     border: 1px solid black;
    border-radius: 2px;
-    /*opacity: 0.5;*/
 }
 
 .right-mark-highlight-image{
@@ -172,8 +158,40 @@ font-size: 3.9vw;
     font-family:BentonSans-Regular;
 }
 
+.timing-subtitle{
+	 font-size: 4vw;
+	 margin-bottom: 3vw;
+	  font-family:BentonSans-Regular;
+}
+
+.subtitle-no{
+	width: 7vw;
+    height: 6vw;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 4vw;
+    opacity: 0.5;
+    margin-bottom: 6vw;
+    font-family: BentonSans-Regular;
+}
+
+.timing-line{
+	border-top: 6px solid #12b1bf;
+    opacity: 0.7;
+    margin-bottom: 7vw;
+    position: relative;
+}
+
+.timing-button{
+     width: 4vw;
+    height: 2.5vh;
+    top: -1.4vh;
+    position: absolute;
+
+}
+
 .apply-button{
-	 font-size: 4.3vw;
+	    font-size: 4.3vw;
     background-color: #12b1bf;
     color: white;
     text-align: center;
