@@ -41,7 +41,7 @@
 	width: 8vw;
     height: 8vw;
     margin-left: 79vw;
-    margin-top: 13vw;
+    margin-top: 5vw;
     opacity: 0.4;
 }
 
@@ -96,17 +96,29 @@
     opacity: 0.8;
 }
 
-.skip-button{
-    width: 26vw;
-    height: 12vw;
-    font-size: 4vw;
-    font-family: BentonSans-Medium;
-    color: white;
-    text-align: center;
+.arrow-button-wrapper{
+      width: 36vw;
+    height: 13vw;
     background-color: #F5B303;
-    padding-top: 3vw;
-    border-radius: 11px;
-    margin-top: 34vw;
-    margin-left: 15vw;
+    border-radius: 14px;
+    margin-top: 32vw;
+    margin-left: 9vw;
+    margin-bottom: 5vw;
+}
 
+.arrow-button-text{
+    display: inline-block;
+    font-size: 4.5vw;
+    font-family: BentonSans-Regular;
+    color: white;
+    padding-top: 4vw;
+    padding-left: 5vw;
+}
+
+.arrow-button{
+    display: inline-block;
+    width: 12vw;
+    height: 6vw;
+    vertical-align: bottom;
+    margin-left: 8vw;
 }
