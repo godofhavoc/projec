@@ -16,20 +16,7 @@
 	height:100%;
 }
 
-.bar-wrapper{
-     width: 100vw;
-    position: relative;
-    height: 6vw;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-}
 
-.bar{
-    display: inline-block;
-    position: absolute;
-   width: 19vw;
-    height: 6vw;
-}
 
 .text-container{
     width: 92vw;
@@ -37,20 +24,75 @@
     margin-right: auto;
 }
 
-.cross-image{
-	width: 8vw;
-    height: 8vw;
-    margin-left: 79vw;
+
+.left-arrow{
+   width: 5vw;
+    height: 4.5vw;
+    opacity: 0.5;
+    margin-top: 5.2vw;
+     margin-left: 5vw;
+}
+
+.hero-title{
+   font-size: 4vw;
+    font-family: BentonSans-Medium;
     margin-top: 5vw;
-    opacity: 0.4;
+}
+
+.steps-container{
+     position: relative;
+    margin-top: 7vw;
+    width: 88vw;
+    border-top: 3px solid black;
+    margin-left: 6vw;
+}
+
+.steps-wrapper{
+  display: inline-block;
+    width: 15.5vw;
+    height: 10vw;
+    z-index: 1;
+    margin-bottom: 5vw;
+    text-align: center;
+}
+
+.steps{
+   position: absolute;
+    width: 3vw;
+    height: 3vw;
+    margin-top: -1.7vw;
+    z-index: 1;
+}
+
+.route-text{
+    display: inline-block;
+    font-family: BentonSans-Regular;
+    font-size: 2.8vw;
+   margin-left: -1vw;
+    margin-top: 4vw;
+    margin-bottom: 8vw;
+}
+
+.visited{
+opacity: 0.8;
+width: 15.5vw;
+}
+
+.active{
+opacity: 1;
+}
+
+.not-visited{
+opacity: 0.5;
+width: 15.5vw;
 }
 
 .departure-title{
-	font-size: 4.5vw;
-    font-family: BentonSans-Regular;
+    font-size: 4.3vw;
+    font-family: BentonSans-Medium;
     margin-top: 2vw;
     margin-bottom: 6vw;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .big-box{
@@ -107,44 +149,15 @@ display: inline-block;
     margin-left: 2vw;
 }
 
-.back-arrow-image{
-    display: inline-block;
-    width: 6vw;
-    height: 5vw;
-       margin-top: 11vw;
-}
-
-.back-text{
-   display: inline-block;
+.next-cancel-button{
+  width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vw;
+    height: 15vw;
     font-size: 4vw;
-    font-family: BentonSans-Medium;
-    vertical-align: middle;
-    margin-left: 3vw;
-    opacity: 0.8;
-}
-
-.arrow-button-wrapper{
-          width: 45vw;
-    height: 13vw;
-    background-color: #7C7C7C;
-    border-radius: 14px;
-    margin-top: 6vw;
-    margin-bottom: 5vw;
-}
-
-.arrow-button-text{
-    display: inline-block;
-    font-size: 4.5vw;
     font-family: BentonSans-Regular;
-    color: white;
-    padding-top: 4vw;
-    padding-left: 5vw;
-}
-
-.arrow-button{
-    display: inline-block;
-    width: 12vw;
-    height: 6vw;
-    vertical-align: bottom;
-    margin-left: 8vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    border-radius: 5px;
 }
