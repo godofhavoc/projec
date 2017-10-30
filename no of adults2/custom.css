@@ -132,3 +132,10 @@ width: 15.5vw;
     margin-bottom: 2vw;
     border-radius: 5px;
 }
+
+.selected-button{
+    background-color: #12B1BF;
+    color: white;
+    font-size: 4.5vw;
+    margin-top: 15vw;
+}

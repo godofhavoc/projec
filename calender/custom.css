@@ -135,7 +135,7 @@ width: 15.5vw;
         opacity: 0.5;
 }
 
-.date{
+.normal-button{
 	display: inline-block;
     font-family: BentonSans-Regular;
     font-size: 4vw;
@@ -144,14 +144,16 @@ width: 15.5vw;
     text-align: center;
 }
 
-.highlight-date{
+.highlight-button{
 	display: inline-block;
     width: 7vw;
     margin-left: 3vw;
+    padding-left: 1vw;
     height: 5.5vw;
     background-color: #F5B303;
     color: white;
-        border-radius: 7px;
+    border-radius: 7px;
+     font-size: 4vw;
 }
 
 .arrow-button-wrapper{
@@ -191,4 +193,11 @@ width: 15.5vw;
     text-align: center;
     margin-bottom: 2vw;
     border-radius: 5px;
+}
+
+.selected-button{
+    background-color: #12B1BF;
+    color: white;
+    font-size: 4.5vw;
+    margin-top: 17vw;
 }
