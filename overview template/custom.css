@@ -1,0 +1,638 @@
+@font-face {
+    font-family: BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.container{
+  width:auto;
+}
+
+.image-responsive{
+  width:100%;
+  height:100%;
+}
+
+.dropdown-icon{
+  display: inline-block;
+    width: 9.4vw;
+    height: 6.4vw;
+    margin-top: 4.2vw;
+    margin-left: 3vw;
+    vertical-align: top;
+}
+
+
+.header-wrapper{
+ background-color:#12B1BF;
+  width:100vw;
+  height:8vh;
+}
+
+.header-image{
+  background-image: url(./assests/dubai.jpg);
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    margin-top: 3vw;
+}
+
+.heart-image{
+    width: 7vw;
+    height: 10vw;
+    margin-left: 89vw;
+    padding-top: 5vw;
+}
+
+.header-title{
+     font-size: 5vw;
+    font-family: BentonSans-Regular;
+    color: white;
+    text-align: center;
+    padding-top: 12vw;
+}
+
+.title{
+        width: 23.2vw;
+    display: inline-block;
+    height: 5.066666666666666vw;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 5.333333vw;
+   margin-left: 24.266667vw;
+    margin-top: 3.5vw;
+    vertical-align: sub;
+     font-family: BentonSans-Medium;
+
+}
+
+.search{
+    display: inline-block;
+    position: absolute;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-left: 27.8vw;
+    margin-top: 4vw;
+}
+
+.overview-wrapper{
+    width: 88vw;
+    height: 75vw;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+.body-title{
+  font-family: BentonSans-Regular;
+    font-size: 5vw;
+    color: black;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
+    padding-top: 4vw;
+}
+
+.title-underline{
+    width: 13vw;
+    margin-left: 4vw;
+    margin-bottom: 7vw;
+    border-top: 6px solid #12B1BF;
+}
+
+.icon{
+    display: inline-block;
+    width: 4.5vw;
+    height: 7vw;
+    opacity: 0.7;
+    margin-left: 8vw;
+}
+
+.icon-title{
+    display: inline-block;
+    font-size: 3.2vw;
+    font-family: BentonSans-Medium;
+    opacity: 0.7;
+    margin-left: 1.5vw;
+     vertical-align: middle;
+}
+
+.icon-text{
+  font-size: 3.5vw;
+    font-family: BentonSans-Medium;
+    margin-bottom: 7vw;
+    opacity:0.9;
+        margin-left: 8vw;
+}
+
+.modify-button{
+    width: 23vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9vw;
+    font-size: 4vw;
+    background-color: #F5B303;
+    color: white;
+    font-family: BentonSans-Regular;
+    text-align: center;
+    padding-top: 2vw;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+.hero-title{
+        width: 93.466667vw;
+    margin-left: 3.8vw;
+    font-size: 3.7333333333333334vw;
+       margin-top: 4.066667vw;
+    font-weight: 500;
+    /*opacity: 0.7;*/
+    font-family:BentonSans-Regular;
+}
+
+.Itinerary-no{
+  display: inline-block;
+    width: 3.5vw;
+    height: 4vw;
+}
+
+.Itinerary-subtitle{
+display: inline-block;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Itinerary-date{
+  display: inline-block;
+  width:3vw;
+  height:3vw;
+  margin-left: 10vw;
+}
+
+.background-seperate-line{
+  border-right: solid 3px #979797;
+        height: 183vw;
+    width: 17.3vw;
+    position: relative;
+}
+
+.box{
+    width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+   top: 203.06vw;
+    border-left:6px solid #f5b303;
+}
+
+.time-wrapper{
+  text-align: -webkit-center;
+    border-right: dashed 5px rgba(48, 56, 70, 0.2);
+}
+
+.actual-time{
+  margin-top: 4vw;
+font-size: 2.6666666666666665vw;
+ font-weight: 500;
+  letter-spacing: 0.2px;
+   color: #000000;
+   font-family:BentonSans-Medium;
+
+}
+
+.cross{
+  width: 5.933333vw;
+    height: 3.933333vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 66vw;
+    margin-top: -8vw;
+}
+
+
+
+.logo{
+  width: 5vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.logo2{
+    width: 6vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.logo3{
+    width: 9vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.logo4{
+    display: inline-block;
+   width: 4.6vw;
+    display: inline-block;
+    height: 5.266667vw;
+    margin-top: 3.533333vw;
+}
+
+.section1{
+  margin-top: 4vw;
+}
+
+.bom{
+  display: inline-block;
+  font-size: 3.7333333333333334vw;
+    font-family:BentonSans-Medium;
+}
+
+.star-image{
+    display: inline-block;
+    width: 8vw;
+    height: 3vw;
+    vertical-align: top;
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+
+}
+
+
+.mumbai-india{
+  display: inline-block;
+font-size:3.466666666666667vw;
+margin-left: 8.533333333333333vw;
+ opacity: 0.5;
+  color: #000000;
+   font-family:BentonSans-Regular;
+}
+
+.cross2{
+  width: 5.933333vw;
+    height: 3.933333vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 66vw;
+    margin-top: -8vw;
+}
+
+.section2{
+  margin-top: 3.8vw;
+  font-size: 2.6666666666666665vw;
+}
+
+.text-container{
+  margin-left: 0.933333vw;
+}
+
+.text{
+  display: inline-block;
+   width: 12vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    font-family:BentonSans-Medium;
+}
+
+.text1{
+  display: inline-block;
+   width: 15vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    font-family:BentonSans-Medium;
+}
+
+.text2{
+display: inline-block;
+opacity: 0.5;
+   font-weight: 500;
+  text-align: left;
+  color: #000000;
+  font-family:BentonSans-Medium;
+}
+
+.section3{
+  margin-top: 2.4vw;
+}
+
+
+.dps{
+display: inline-block;
+  font-size: 3.7333333333333334vw;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  font-family:BentonSans-Medium;
+}
+
+.Denpasar-Indonesia{
+display: inline-block;
+font-size:3.466666666666667vw;
+margin-left: 8.533333333333333vw;
+ opacity: 0.5;
+  color: #000000;
+   font-family:BentonSans-Regular;
+}
+
+.ruppee{
+   width: 4vw;
+    display: inline-block;
+    height: 6vw;
+  margin-left: 6vw;
+    vertical-align: top;
+    margin-top: -1vw;
+}
+
+.section3-price{
+  display: inline-block;
+  font-size:  3.2vw;
+  font-weight: 500;
+  color: #000000;
+  font-family:BentonSans-Medium;
+}
+
+.box1{
+  width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 233vw;
+    border-left: 6px solid #12b1bf;
+}
+
+.shared{
+  display: inline-block;
+    width: 10.5vw;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    font-weight: 500;
+    color: #000000;
+    font-family:BentonSans-Medium;
+}
+
+.ruppee2{
+   width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 11vw;
+    vertical-align: top;
+    margin-top: -1vw;
+}
+
+.box2-section3-price{
+  display: inline-block;
+  font-size:  3.2vw;
+  font-weight: 500;
+  color: #000000;
+  font-family:BentonSans-Medium;
+}
+
+.box2{
+  width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 263vw;
+    border-left: 6px solid #7f7f7f;
+}
+
+.part1{
+  margin-top: 4vw;
+}
+
+.part2{
+  font-size: 2.6666666666666665vw;
+}
+
+.review{
+  display: inline-block;
+  color: #006699;
+  letter-spacing: 0.3px;
+}
+
+
+
+.circle-image{
+display: inline-block;
+    width: 11vw;
+    height: 2.5vw;
+}
+
+.part3{
+  margin-top: 2.8vw;
+}
+.hotel{
+  font-size: 3.466666666666667vw;
+     font-family:BentonSans-Regular;
+}
+
+.ruppee3{
+ width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 57vw;
+    vertical-align: top;
+    margin-top: -1.5vw;
+}
+
+.part3-price{
+    display: inline-block;
+    font-size: 3.2vw;
+    font-weight: 500;
+    color: #000000;
+    font-family:BentonSans-Medium;
+
+}
+
+.box3{
+  width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 293vw;
+    border-left: 6px solid #f5b303;
+
+}
+
+.Leisure{
+font-size: 3.466666666666667vw;
+margin-top: 12vw;
+color: #000000;
+display: inline-block;
+ font-family:BentonSans-Regular;
+}
+.add-button{
+      width: 12.8vw;
+    height: 4vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #12b1bf;
+    border: solid 1px #12b1bf;
+    display: inline-block;
+    margin-left: 46vw;
+    vertical-align: top;
+    margin-top: 10vw;
+    padding-top: 0.3vw;
+}
+
+.activities{
+      font-size: 2.6666666666666665vw;
+    margin-left: 56vw;
+    margin-top: -1vw;
+     font-family:BentonSans-Regular;
+}
+
+.box4{
+  width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+    top: 323vw;
+    border-left: 6px solid #12b1bf;
+}
+
+.box4-review{
+  display: inline-block;
+  color: #006699;
+  letter-spacing: 0.3px;
+}
+
+.box4-part3{
+ font-size: 2.6666666666666665vw;
+}
+
+.Shared-Transfer{
+   width: 20vw;
+    display: inline-block;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    margin-top: 1vw;
+}
+
+.dinner{
+display: inline-block;
+opacity: 0.5;
+}
+
+.pick-up{
+  margin-top: 2.5vw;
+  display: inline-block;
+     font-family:BentonSans-Regular;
+}
+
+.Gold-Souk-pick-up{
+   margin-top: 7.5vw;
+    display: inline-block;
+     font-family:BentonSans-Regular;
+}
+
+.box4-part4{
+font-size: 2.6666666666666665vw;
+}
+
+.ruppee4{
+    width: 4vw;
+    display: inline-block;
+    height: 6vw;
+    margin-left: 56vw;
+    vertical-align: top;
+    margin-top: -5.5vw;
+}
+
+.box4-part4-price{
+   display: inline-block;
+    font-size: 3.2vw;
+    font-weight: 500;
+    vertical-align: top;
+    margin-top: -4vw;
+    font-family:BentonSans-Medium;
+}
+
+.box5{
+  width: 91.46666666666667vw;
+    height: 27.2vw;
+    border-radius: 3px;
+    margin-left: 4.8vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 #b2b2b2;
+    position: absolute;
+        top: 353vw;
+    border-left: 6px solid #7f7f7f;
+}
+
+.box5-part4-price{
+  width: 12.8vw;
+    height: 4.266666666666667vw;
+    font-size: 2.6666666666666665vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #12b1bf;
+    border: solid 1px #12b1bf;
+    display: inline-block;
+    margin-left: 44vw;
+    vertical-align: top;
+    margin-top: 10vw;
+}
+.box5-part4{
+font-size: 2.6666666666666665vw;
+}
+
+.free{
+      display: inline-block;
+    width: 12.8vw;
+    height: 4.266666666666667vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #0ab21b;
+    border-radius: 2px;
+    margin-left: 19vw;
+    background-color: #ffffff;
+    border: solid 1px #0ab21b;
+    margin-top: 6vw;
+    vertical-align: top;
+    padding-top: 0.3vw;
+}
