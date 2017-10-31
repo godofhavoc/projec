@@ -215,13 +215,13 @@ font-size: 2.6666666666666665vw;
 
 }
 
-.cross{
-  width: 5.933333vw;
+.down-arrow{
+      width: 5.933333vw;
     height: 3.933333vw;
     display: inline-block;
-    vertical-align: top;
-    margin-left: 66vw;
-    margin-top: -8vw;
+    vertical-align: super;
+    margin-left: 14vw;
+    opacity: 0.5;
 }
 
 
@@ -233,27 +233,6 @@ font-size: 2.6666666666666665vw;
     margin-top: 3.533333vw;
 }
 
-.logo2{
-    width: 6vw;
-    display: inline-block;
-    height: 5.266667vw;
-    margin-top: 3.533333vw;
-}
-
-.logo3{
-    width: 9vw;
-    display: inline-block;
-    height: 5.266667vw;
-    margin-top: 3.533333vw;
-}
-
-.logo4{
-    display: inline-block;
-   width: 4.6vw;
-    display: inline-block;
-    height: 5.266667vw;
-    margin-top: 3.533333vw;
-}
 
 .section1{
   margin-top: 4vw;
@@ -279,7 +258,7 @@ font-size: 2.6666666666666665vw;
 .mumbai-india{
   display: inline-block;
 font-size:3.466666666666667vw;
-margin-left: 8.533333333333333vw;
+margin-left: 6.533333vw;
  opacity: 0.5;
   color: #000000;
    font-family:BentonSans-Regular;
@@ -361,12 +340,12 @@ margin-left: 8.533333333333333vw;
    width: 4vw;
     display: inline-block;
     height: 6vw;
-  margin-left: 6vw;
+  margin-left: 16vw;
     vertical-align: top;
     margin-top: -1vw;
 }
 
-.section3-price{
+.price{
   display: inline-block;
   font-size:  3.2vw;
   font-weight: 500;
@@ -396,22 +375,6 @@ margin-left: 8.533333333333333vw;
     font-family:BentonSans-Medium;
 }
 
-.ruppee2{
-   width: 4vw;
-    display: inline-block;
-    height: 6vw;
-    margin-left: 11vw;
-    vertical-align: top;
-    margin-top: -1vw;
-}
-
-.box2-section3-price{
-  display: inline-block;
-  font-size:  3.2vw;
-  font-weight: 500;
-  color: #000000;
-  font-family:BentonSans-Medium;
-}
 
 .box2{
   width: 91.46666666666667vw;
@@ -450,28 +413,12 @@ display: inline-block;
 .part3{
   margin-top: 2.8vw;
 }
+
 .hotel{
   font-size: 3.466666666666667vw;
      font-family:BentonSans-Regular;
 }
 
-.ruppee3{
- width: 4vw;
-    display: inline-block;
-    height: 6vw;
-    margin-left: 57vw;
-    vertical-align: top;
-    margin-top: -1.5vw;
-}
-
-.part3-price{
-    display: inline-block;
-    font-size: 3.2vw;
-    font-weight: 500;
-    color: #000000;
-    font-family:BentonSans-Medium;
-
-}
 
 .box3{
   width: 91.46666666666667vw;
@@ -493,6 +440,7 @@ color: #000000;
 display: inline-block;
  font-family:BentonSans-Regular;
 }
+
 .add-button{
       width: 12.8vw;
     height: 4vw;
@@ -569,24 +517,6 @@ opacity: 0.5;
 font-size: 2.6666666666666665vw;
 }
 
-.ruppee4{
-    width: 4vw;
-    display: inline-block;
-    height: 6vw;
-    margin-left: 56vw;
-    vertical-align: top;
-    margin-top: -5.5vw;
-}
-
-.box4-part4-price{
-   display: inline-block;
-    font-size: 3.2vw;
-    font-weight: 500;
-    vertical-align: top;
-    margin-top: -4vw;
-    font-family:BentonSans-Medium;
-}
-
 .box5{
   width: 91.46666666666667vw;
     height: 27.2vw;
@@ -599,40 +529,8 @@ font-size: 2.6666666666666665vw;
     border-left: 6px solid #7f7f7f;
 }
 
-.box5-part4-price{
-  width: 12.8vw;
-    height: 4.266666666666667vw;
-    font-size: 2.6666666666666665vw;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 2px;
-    background-color: #12b1bf;
-    border: solid 1px #12b1bf;
-    display: inline-block;
-    margin-left: 44vw;
-    vertical-align: top;
-    margin-top: 10vw;
-}
 .box5-part4{
 font-size: 2.6666666666666665vw;
 }
 
-.free{
-      display: inline-block;
-    width: 12.8vw;
-    height: 4.266666666666667vw;
-    font-size: 2.5vw;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #0ab21b;
-    border-radius: 2px;
-    margin-left: 19vw;
-    background-color: #ffffff;
-    border: solid 1px #0ab21b;
-    margin-top: 6vw;
-    vertical-align: top;
-    padding-top: 0.3vw;
-}
+
