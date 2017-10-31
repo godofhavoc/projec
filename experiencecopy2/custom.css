@@ -22,15 +22,33 @@
         width: 93.466667vw;
     margin-left: 3.8vw;
     font-size: 3.7333333333333334vw;
-    margin-top: 5.066666666666666vw;
+       margin-top: 4.066667vw;
     font-weight: 500;
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     font-family:BentonSans-Regular;
+}
 
+.Itinerary-no{
+  display: inline-block;
+    width: 3.5vw;
+    height: 4vw;
+}
+
+.Itinerary-subtitle{
+display: inline-block;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Itinerary-date{
+  display: inline-block;
+  width:3vw;
+  height:3vw;
+  margin-left: 10vw;
 }
 
 .background-seperate-line{
-	border-right: solid 3px #979797;
+  border-right: solid 3px #979797;
         height: 183vw;
     width: 17.3vw;
     position: relative;
@@ -44,18 +62,17 @@
     background-color: #ffffff;
     box-shadow: 0 0 4px 0 #b2b2b2;
     position: absolute;
-    top: 13.06vw;
+   top: 13vw;
     border-left:6px solid #f5b303;
 }
 
 .time-wrapper{
-	text-align: -webkit-center;
-    /* border-right: 4px dashed black; */
+  text-align: -webkit-center;
     border-right: dashed 5px rgba(48, 56, 70, 0.2);
 }
 
 .actual-time{
-	margin-top: 4vw;
+  margin-top: 4vw;
 font-size: 2.6666666666666665vw;
  font-weight: 500;
   letter-spacing: 0.2px;
@@ -64,53 +81,32 @@ font-size: 2.6666666666666665vw;
 
 }
 
-.cross{
-	width: 5.933333vw;
+.down-arrow{
+      width: 5.933333vw;
     height: 3.933333vw;
     display: inline-block;
-    vertical-align: top;
-    margin-left: 66vw;
-    margin-top: -8vw;
+    vertical-align: super;
+    margin-left: 14vw;
+    opacity: 0.5;
 }
 
 
 
 .logo{
-	width: 5vw;
+  width: 5vw;
     display: inline-block;
     height: 5.266667vw;
     margin-top: 3.533333vw;
 }
 
-.logo2{
-    width: 6vw;
-    display: inline-block;
-    height: 5.266667vw;
-    margin-top: 3.533333vw;
-}
-
-.logo3{
-    width: 9vw;
-    display: inline-block;
-    height: 5.266667vw;
-    margin-top: 3.533333vw;
-}
-
-.logo4{
-    display: inline-block;
-   width: 4.6vw;
-    display: inline-block;
-    height: 5.266667vw;
-    margin-top: 3.533333vw;
-}
 
 .section1{
-	margin-top: 4vw;
+  margin-top: 4vw;
 }
 
 .bom{
-	display: inline-block;
-	font-size: 3.7333333333333334vw;
+  display: inline-block;
+  font-size: 3.7333333333333334vw;
     font-family:BentonSans-Medium;
 }
 
@@ -126,16 +122,16 @@ font-size: 2.6666666666666665vw;
 
 
 .mumbai-india{
-	display: inline-block;
+  display: inline-block;
 font-size:3.466666666666667vw;
-margin-left: 8.533333333333333vw;
+margin-left: 6.533333vw;
  opacity: 0.5;
   color: #000000;
    font-family:BentonSans-Regular;
 }
 
 .cross2{
-	width: 5.933333vw;
+  width: 5.933333vw;
     height: 3.933333vw;
     display: inline-block;
     vertical-align: top;
@@ -144,16 +140,16 @@ margin-left: 8.533333333333333vw;
 }
 
 .section2{
-	margin-top: 3.8vw;
-	font-size: 2.6666666666666665vw;
+  margin-top: 3.8vw;
+  font-size: 2.6666666666666665vw;
 }
 
 .text-container{
-	margin-left: 0.933333vw;
+  margin-left: 0.933333vw;
 }
 
 .text{
-	display: inline-block;
+  display: inline-block;
    width: 12vw;
     border-right: 2px solid black;
     opacity: 0.5;
@@ -164,7 +160,7 @@ margin-left: 8.533333333333333vw;
 }
 
 .text1{
-	display: inline-block;
+  display: inline-block;
    width: 15vw;
     border-right: 2px solid black;
     opacity: 0.5;
@@ -177,21 +173,21 @@ margin-left: 8.533333333333333vw;
 .text2{
 display: inline-block;
 opacity: 0.5;
-	 font-weight: 500;
+   font-weight: 500;
   text-align: left;
   color: #000000;
   font-family:BentonSans-Medium;
 }
 
 .section3{
-	margin-top: 2.4vw;
+  margin-top: 2.4vw;
 }
 
 
 .dps{
 display: inline-block;
-	font-size: 3.7333333333333334vw;
-	font-weight: 500;
+  font-size: 3.7333333333333334vw;
+  font-weight: 500;
   text-align: center;
   color: #000000;
   font-family:BentonSans-Medium;
@@ -210,33 +206,33 @@ margin-left: 8.533333333333333vw;
    width: 4vw;
     display: inline-block;
     height: 6vw;
-  margin-left: 6vw;
+  margin-left: 16vw;
     vertical-align: top;
     margin-top: -1vw;
 }
 
-.section3-price{
-	display: inline-block;
-	font-size:  3.2vw;
-	font-weight: 500;
+.price{
+  display: inline-block;
+  font-size:  3.2vw;
+  font-weight: 500;
   color: #000000;
   font-family:BentonSans-Medium;
 }
 
 .box1{
-	width: 91.46666666666667vw;
+  width: 91.46666666666667vw;
     height: 27.2vw;
     border-radius: 3px;
     margin-left: 4.8vw;
     background-color: #ffffff;
     box-shadow: 0 0 4px 0 #b2b2b2;
     position: absolute;
-    top: 43.0vw;
+    top: 43vw;
     border-left: 6px solid #12b1bf;
 }
 
 .shared{
-	display: inline-block;
+  display: inline-block;
     width: 10.5vw;
     border-right: 2px solid black;
     opacity: 0.5;
@@ -245,27 +241,9 @@ margin-left: 8.533333333333333vw;
     font-family:BentonSans-Medium;
 }
 
-.ruppee2{
-   width: 4vw;
-    display: inline-block;
-    height: 6vw;
-    margin-left: 11vw;
-    vertical-align: top;
-    margin-top: -1vw;
-}
-
-.box2-section3-price{
-	display: inline-block;
-	font-size:  3.2vw;
-	/*margin-left: 20vw;*/
-	font-weight: 500;
-  /*text-align: right;*/
-  color: #000000;
-  font-family:BentonSans-Medium;
-}
 
 .box2{
-	width: 91.46666666666667vw;
+  width: 91.46666666666667vw;
     height: 27.2vw;
     border-radius: 3px;
     margin-left: 4.8vw;
@@ -277,15 +255,15 @@ margin-left: 8.533333333333333vw;
 }
 
 .part1{
-	margin-top: 4vw;
+  margin-top: 4vw;
 }
 
 .part2{
-	font-size: 2.6666666666666665vw;
+  font-size: 2.6666666666666665vw;
 }
 
 .review{
-	display: inline-block;
+  display: inline-block;
   color: #006699;
   letter-spacing: 0.3px;
 }
@@ -299,35 +277,17 @@ display: inline-block;
 }
 
 .part3{
-	margin-top: 2.8vw;
+  margin-top: 2.8vw;
 }
+
 .hotel{
-	font-size: 3.466666666666667vw;
+  font-size: 3.466666666666667vw;
      font-family:BentonSans-Regular;
 }
 
-.ruppee3{
- width: 4vw;
-    display: inline-block;
-    height: 6vw;
-    margin-left: 57vw;
-    vertical-align: top;
-    margin-top: -1.5vw;
-}
-
-.part3-price{
-    display: inline-block;
-	    /*margin-left: 63vw;*/
-	font-size: 3.2vw;
-	font-weight: 500;
-    /*text-align: right;*/
-    color: #000000;
-    font-family:BentonSans-Medium;
-
-}
 
 .box3{
-	width: 91.46666666666667vw;
+  width: 91.46666666666667vw;
     height: 27.2vw;
     border-radius: 3px;
     margin-left: 4.8vw;
@@ -346,8 +306,9 @@ color: #000000;
 display: inline-block;
  font-family:BentonSans-Regular;
 }
+
 .add-button{
-	    width: 12.8vw;
+      width: 12.8vw;
     height: 4vw;
     font-size: 2.5vw;
     font-weight: 500;
@@ -365,26 +326,26 @@ display: inline-block;
 }
 
 .activities{
-	    font-size: 2.6666666666666665vw;
+      font-size: 2.6666666666666665vw;
     margin-left: 56vw;
     margin-top: -1vw;
      font-family:BentonSans-Regular;
 }
 
 .box4{
-	width: 91.46666666666667vw;
+  width: 91.46666666666667vw;
     height: 27.2vw;
     border-radius: 3px;
     margin-left: 4.8vw;
     background-color: #ffffff;
     box-shadow: 0 0 4px 0 #b2b2b2;
     position: absolute;
-    top: 133vw;
+    top: 134vw;
     border-left: 6px solid #12b1bf;
 }
 
 .box4-review{
-	display: inline-block;
+  display: inline-block;
   color: #006699;
   letter-spacing: 0.3px;
 }
@@ -394,7 +355,7 @@ display: inline-block;
 }
 
 .Shared-Transfer{
-	 width: 20vw;
+   width: 20vw;
     display: inline-block;
     border-right: 2px solid black;
     opacity: 0.5;
@@ -407,8 +368,8 @@ opacity: 0.5;
 }
 
 .pick-up{
-	margin-top: 2.5vw;
-	display: inline-block;
+  margin-top: 2.5vw;
+  display: inline-block;
      font-family:BentonSans-Regular;
 }
 
@@ -422,73 +383,20 @@ opacity: 0.5;
 font-size: 2.6666666666666665vw;
 }
 
-.ruppee4{
-    width: 4vw;
-    display: inline-block;
-    height: 6vw;
-    margin-left: 56vw;
-    vertical-align: top;
-    margin-top: -5.5vw;
-}
-
-.box4-part4-price{
-	display: inline-block;
-    /* margin-left: 32vw; */
-    font-size: 3.2vw;
-    font-weight: 500;
-    vertical-align: top;
-    margin-top: -4vw;
-    font-family:BentonSans-Medium;
-}
-
 .box5{
-	width: 91.46666666666667vw;
+  width: 91.46666666666667vw;
     height: 27.2vw;
     border-radius: 3px;
     margin-left: 4.8vw;
     background-color: #ffffff;
     box-shadow: 0 0 4px 0 #b2b2b2;
     position: absolute;
-        top: 163vw;
+        top: 164vw;
     border-left: 6px solid #7f7f7f;
 }
 
-.box5-part4-price{
-	width: 12.8vw;
-    height: 4.266666666666667vw;
-    font-size: 2.6666666666666665vw;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 2px;
-    background-color: #12b1bf;
-    border: solid 1px #12b1bf;
-    display: inline-block;
-    margin-left: 44vw;
-    vertical-align: top;
-    margin-top: 10vw;
-}
 .box5-part4{
 font-size: 2.6666666666666665vw;
-}
-
-.free{
-	    display: inline-block;
-    width: 12.8vw;
-    height: 4.266666666666667vw;
-    font-size: 2.5vw;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-align: center;
-    color: #0ab21b;
-    border-radius: 2px;
-    margin-left: 19vw;
-    background-color: #ffffff;
-    border: solid 1px #0ab21b;
-    margin-top: 6vw;
-    vertical-align: top;
-    padding-top: 0.3vw;
 }
 
 .MODIFY-TOUR{

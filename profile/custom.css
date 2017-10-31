@@ -1,0 +1,170 @@
+@font-face {
+    font-family: BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.container{
+  width:auto;
+}
+
+.image-responsive{
+  width:100%;
+  height:100%;
+}
+
+.dropdown-icon{
+  display: inline-block;
+    width: 9.4vw;
+    height: 6.4vw;
+    margin-top: 4.2vw;
+    margin-left: 3vw;
+    vertical-align: top;
+}
+
+.header-wrapper{
+ background-color:#12B1BF;
+  width:100vw;
+  height:8vh;
+}
+
+.title{
+        width: 23.2vw;
+    display: inline-block;
+    height: 5.066666666666666vw;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 5.333333vw;
+   margin-left: 24.266667vw;
+    margin-top: 3.5vw;
+    vertical-align: sub;
+     font-family: BentonSans-Medium;
+}
+
+.search{
+    display: inline-block;
+    position: absolute;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-left: 27.8vw;
+    margin-top: 4vw;
+}
+
+.body-title{
+  font-family: BentonSans-Regular;
+    font-size: 5vw;
+    color: black;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
+    padding-top: 7vw;
+}
+
+.title-underline{
+    width: 13vw;
+    margin-left: 4vw;
+    margin-bottom: 7vw;
+    border-top: 6px solid #12B1BF;
+}
+
+.text-container{
+    width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.departure-title{
+    font-size: 4.3vw;
+    font-family: BentonSans-Medium;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+    opacity: 0.6;
+}
+
+.big-box{
+        width: 87vw;
+    height: 11vw;
+     border: 2px solid rgba(0,0,0,0.5);
+    margin-bottom: 6vw;
+    border-radius: 9px;
+}
+
+.big-box-text{
+   font-size: 4vw;
+    font-family: BentonSans-Regular;
+    margin-top: 2.5vw;
+    margin-left: 3vw;
+    opacity: 0.5;
+}
+
+
+
+.small-box{
+       display: inline-block;
+    width: 17vw;
+    height: 11vw;
+    border: 2px solid rgba(0,0,0,0.5);
+    margin-bottom: 6vw;
+    border-radius: 9px;
+    vertical-align: bottom;
+}
+
+.small-box1{
+       display: inline-block;
+   width: 64vw;
+    height: 11vw;
+    border: 2px solid rgba(0,0,0,0.5);
+    margin-bottom: 6vw;
+    border-radius: 9px;
+    vertical-align: bottom;
+}
+
+.small-box-text{
+    display: inline-block;
+    font-size: 4vw;
+    font-family: BentonSans-Regular;
+    margin-top: 2.5vw;
+    margin-left: 3vw;
+    opacity: 0.5;
+}
+
+.small-box-arrow{
+   display: inline-block;
+    width: 3vw;
+    height: 3vw;
+    vertical-align: super;
+    margin-left: 1vw;
+}
+
+.attach{
+    width: 27vw;
+    padding-top: 2vw;
+    height: 9vw;
+    font-size: 4vw;
+    font-family: BentonSans-Regular;
+    text-align: center;
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    background-color: #12B1BF;
+    color: white;
+}
+
+.save-button{
+      width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.5vw;
+    height: 12vw;
+    font-size: 4vw;
+    font-family: BentonSans-Regular;
+    text-align: center;
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    background-color: #12B1BF;
+    color: white;
+    margin-top: 7vw;
+}
+

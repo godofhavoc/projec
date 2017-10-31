@@ -1,0 +1,212 @@
+@font-face {
+    font-family: BentonSans-Medium;
+    src: url("./assests/BentonSans-Medium.otf");
+}
+
+@font-face {
+    font-family: BentonSans-Regular;
+    src: url("./assests/BentonSans-Regular.otf");
+}
+
+.container{
+  width:auto;
+}
+
+.image-responsive{
+  width:100%;
+  height:100%;
+}
+
+.dropdown-icon{
+  display: inline-block;
+    width: 9.4vw;
+    height: 6.4vw;
+    margin-top: 4.2vw;
+    margin-left: 3vw;
+    vertical-align: top;
+}
+
+.header-wrapper{
+ background-color:#12B1BF;
+  width:100vw;
+  height:8vh;
+}
+
+.title{
+        width: 23.2vw;
+    display: inline-block;
+    height: 5.066666666666666vw;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 5.333333vw;
+   margin-left: 24.266667vw;
+    margin-top: 3.5vw;
+    vertical-align: sub;
+     font-family: BentonSans-Medium;
+}
+
+.search{
+    display: inline-block;
+    position: absolute;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin-left: 27.8vw;
+    margin-top: 4vw;
+}
+
+.body-title{
+  font-family: BentonSans-Regular;
+    font-size: 5vw;
+    color: black;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
+    padding-top: 7vw;
+}
+
+.title-underline{
+    width: 13vw;
+    margin-left: 4vw;
+    margin-bottom: 7vw;
+    border-top: 6px solid #12B1BF;
+}
+
+.text-container{
+    width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-image{
+  background-image: url(./assests/dubai.jpg);
+    width: 89vw;
+    height: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3vw;
+    position: relative;
+}
+
+.header-title{
+     font-size: 5vw;
+    font-family: BentonSans-Regular;
+    color: white;
+    text-align: center;
+    padding-top: 22vw;
+}
+
+.price-wrapper{
+ background-color: rgba(0,0,0,0.3);
+    width: 25vw;
+    position: absolute;
+    top: 7vw;
+    /*left: 2vw;*/
+}
+
+.header-price-icon{
+   display: inline-block;
+    width: 5vw;
+    height: 4vw;
+    padding-left: 2vw;
+}
+
+.header-price{
+ display: inline-block;
+  font-family: BentonSans-Regular;
+ font-size: 4vw;
+ color: white;
+ vertical-align: middle;
+}
+
+.details-wrapper{
+    width: 88vw;
+    height: 87vw;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+.body-title{
+  font-family: BentonSans-Regular;
+    font-size: 5vw;
+    color: black;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
+    padding-top: 4vw;
+}
+
+.title-underline{
+    width: 13vw;
+    margin-left: 4vw;
+    margin-bottom: 7vw;
+    border-top: 6px solid #12B1BF;
+}
+
+.icon{
+    display: inline-block;
+    width: 4.5vw;
+    height: 7vw;
+    opacity: 0.7;
+    margin-left: 8vw;
+}
+
+.icon-title{
+    font-size: 3.2vw;
+    font-family: BentonSans-Medium;
+    opacity: 0.7;
+    margin-left: 3.5vw;
+    margin-bottom: 2vw;
+     vertical-align: middle;
+}
+
+.icon-text{
+ font-size: 3.6vw;
+    font-family: BentonSans-Medium;
+    margin-bottom: 1.3vw;
+    opacity: 0.9;
+}
+
+.ruppe-icon{
+    display: inline-block;
+    width:3vw;
+    height:3vw;
+}
+
+.save-button{
+      width: 79vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.5vw;
+    height: 12vw;
+    font-size: 3.5vw;
+    font-family: BentonSans-Regular;
+    /*text-align: center;*/
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    background-color: #12B1BF;
+    color: white;
+    margin-top: 7vw;
+}
+
+.normal-button{
+      width: 79vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.5vw;
+    height: 12vw;
+    font-size: 3.5vw;
+    font-family: BentonSans-Regular;
+    /*text-align: center;*/
+    margin-bottom: 2vw;
+    border-radius: 5px;
+    /*background-color: #12B1BF;*/
+    color:  #12B1BF;
+    margin-top: 7vw;
+    border:2px solid  #12B1BF;
+}
+
+.pay-now{
+    display: inline-block;
+    margin-left: 21vw;
+}
