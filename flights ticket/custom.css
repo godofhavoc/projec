@@ -38,7 +38,6 @@
 .text-container{
     width: 92vw;
     margin-left: 5.9vw;
-    /*margin-right: auto;*/
 }
 
 .sub-title{
@@ -219,16 +218,26 @@ display: inline-block;
    width: 18vw;
     height: 7.5vw;
     border-radius: 8px;
-    /*background-color: #12b1bf;*/
     margin-top: 6vw;
+    background-color: #12b1bf;
+    color: white;
+}
+
+.price-not-selected{
+   width: 18vw;
+    height: 7.5vw;
+    border-radius: 8px;
+    margin-top: 6vw;
+    border: 2px solid #12b1bf;
+    color: #12b1bf;
 }
 
 .rupee-icon{
          width: 4vw;
     height: 4vw;
     display: inline-block;
-    margin-top: 2vw;
-    margin-left: 1vw;
+    margin-top: 1.5vw;
+    /*margin-left: 1vw;*/
 }
 
 
